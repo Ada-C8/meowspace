@@ -77,7 +77,7 @@ main {
 
 .posts {
   padding: 2rem 10%;
-  background-color: #b8c8c7;
+  background-color: #918f90;
 }
 
 .posts h2 {
@@ -120,6 +120,10 @@ a.learn-more {
   text-transform: uppercase;
   background-color: #3d4d6a;
   color: white;
+}
+
+a.learn-more:hover {
+  background-color: #a3b4d2;
 }
 
 .left {
