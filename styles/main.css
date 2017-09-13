@@ -16,25 +16,41 @@ p {
 }
 
 header {
-  width: 100%;
   background-color: #303036;
   display: flex;
   height: 4rem;
   position: fixed;
+  width: 100%;
   z-index: 999;
 }
 
 header a {
+  color: #30BCED;
   text-decoration: none;
+}
+
+header a[href="#signup"] {
   color: #30BCED;
 }
 
 header h2 {
-  top: .4rem;
-  position: relative;
-  margin: auto 0 auto 3rem;
-  font-size: 2rem;
   font-family: 'Baloo Tammudu', cursive;
+  font-size: 2rem;
+  margin: auto 0 auto 3rem;
+  position: relative;
+  top: .4rem;
+}
+
+header li {
+  font-family: 'Josefin sans', sans-serif;
+  font-weight: normal;
+  margin: .5rem;
+}
+
+header li a {
+  color: #FFFAFF;
+  margin: 0 1rem;
+  text-decoration: none;
 }
 
 header nav {
@@ -42,37 +58,21 @@ header nav {
 }
 
 header ul {
-  float: right;
-  padding: 0 2rem;
-  list-style: none;
   display: flex;
-}
-
-header li {
-  margin: .5rem;
-  font-family: 'Josefin sans', sans-serif;
-  font-weight: normal;
-}
-
-header li a {
-  color: #FFFAFF;
-  text-decoration: none;
-  margin: 0 1rem;
-}
-
-header a[href="#signup"] {
-  color: #30BCED;
+  float: right;
+  list-style: none;
+  padding: 0 2rem;
 }
 
 footer {
   display: flex;
-  width: 70%;
   margin: 1rem auto;
+  width: 70%;
 }
 
 footer div {
-  width: 50%;
   font-size: .75rem;
+  width: 50%;
 }
 
 footer h4, footer p {
@@ -81,82 +81,92 @@ footer h4, footer p {
 
 .textpic {
   background-position: center center;
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: 100%;
   min-width: 48rem;
 }
 
 .textpic h1 {
-  display: block;
-  position: relative;
-  margin: auto;
-  font-size: 6rem;
   color: #FFFAFF;
-  top: 40%;
+  display: block;
   font-family: 'Baloo Tammudu', cursive;
+  font-size: 6rem;
+  margin: auto;
+  position: relative;
+  top: 40%;
 }
 
 #hero {
-  height: 30rem;
   background-image: url(../assets/hero.jpg);
-  top: 4rem;
-  position: relative;
+  height: 30rem;
   margin: 0 0 4rem 0;
+  position: relative;
   text-align: center;
+  top: 4rem;
 }
 
 #posts {
-  width: 80%;
-  max-width: 50rem;
   display: flex;
-  margin: 5rem auto;
   flex-flow: row wrap;
+  margin: 5rem auto;
+  max-width: 50rem;
   text-align: center;
+  width: 80%;
+}
+
+#posts article {
+  background-color: #FFFAFF;
+  border: 2px solid #303036;
+  border-radius: 1.5rem;
+  box-shadow: 3px 2px 0 #BABAC4;
+  display: inline-block;
+  height: 21rem;
+  margin: 1rem 1rem 2rem 1rem;
+  width: 14rem;
 }
 
 #posts h2 {
   color: #30BCED;
-  font-family: 'Baloo Tammudu', cursive;
   display: block;
+  font-family: 'Baloo Tammudu', cursive;
+  font-size: 3rem;
   margin: 2rem auto 1rem auto;
   padding: 1rem 1rem 0 1rem;
   width: 100%;
-  font-size: 3rem;
-}
-
-#posts article {
-  border: 2px solid #303036;
-  background-color: #FFFAFF;
-  border-radius: 1.5rem;
-  display: inline-block;
-  width: 14rem;
-  height: 21rem;
-  margin: 1rem 1rem 2rem 1rem;
-  box-shadow: 3px 2px 0 #BABAC4;
 }
 
 .post-title {
   background-color: #FC5130;
-  padding: 1px;
-  margin: 0;
-  height: 6rem;
   border-top-left-radius: 1.38rem;
   border-top-right-radius: 1.38rem;
+  height: 6rem;
+  margin: 0;
+  padding: 1px;
 }
 
 .post-title h3 {
-  font-size: 1.5rem;
-  font-family: 'Josefin sans', sans-serif;
   color: #FFFAFF;
-  padding: 1rem;
+  font-family: 'Josefin sans', sans-serif;
+  font-size: 1.5rem;
   margin: auto;
+  padding: 1rem;
   position: relative;
   top: .5rem;
 }
 
+#posts a {
+  background-color: #30BCED;
+  border-radius: 1rem;
+  color: #FFFAFF;
+  font-family: sans-serif;
+  padding: .5rem 1rem;
+  position: relative;
+  text-decoration: none;
+}
+
 #posts p {
-  margin: 1rem;
   height: 10.5rem;
+  margin: 1rem;
   /*text-align: justify;*/
 }
 
@@ -164,21 +174,11 @@ footer h4, footer p {
   text-align: justify;
 }
 
-#posts a {
-  color: #FFFAFF;
-  background-color: #30BCED;
-  padding: .5rem 1rem;
-  border-radius: 1rem;
-  position: relative;
-  text-decoration: none;
-  font-family: sans-serif;
-}
-
 #join {
-  border-top: 2px solid #BABAC4;
   border-bottom: 2px solid #BABAC4;
-  padding: 2rem;
+  border-top: 2px solid #BABAC4;
   margin: 0;
+  padding: 2rem;
 }
 
 #join .container {
@@ -187,9 +187,9 @@ footer h4, footer p {
 }
 
 #join div {
+  margin: auto;
   text-align: center;
   width: 40%;
-  margin: auto;
 }
 
 #join h2 {
@@ -200,20 +200,20 @@ footer h4, footer p {
 }
 
 #join p {
-  font-size: 1.25rem;
   color: #79797F;
+  font-size: 1.25rem;
 }
 
 #join img {
-  width: 50%;
-  height: 50%;
-  min-width: 24rem;
   margin: auto 1rem;
+  min-width: 24rem;
+  height: 50%;
+  width: 50%;
 }
 
 #tail {
-  height: 30rem;
   background-image: url(../assets/everybody.jpg);
+  height: 30rem;
   text-align: center;
 }
 
