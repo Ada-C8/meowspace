@@ -1,0 +1,188 @@
+body {
+  background-color: #FFFAFF;
+}
+
+p {
+  color: #303036;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: #303036;
+  display: flex;
+  height: 4rem;
+  display: flex;
+  position: fixed;
+  z-index: 999;
+}
+
+header a {
+  color: #30BCED;
+  text-decoration: none;
+}
+
+header h2 {
+  top: .4rem;
+  position: relative;
+  margin: auto 0 auto 3rem;
+  font-size: 2rem;
+  font-family: 'Baloo Tammudu', cursive;
+}
+
+footer {
+  display: flex;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+footer > div {
+  width: 50%;
+  font-size: .75rem;
+}
+
+footer h4, footer p {
+  display: inline;
+}
+
+header nav ul {
+  display: inline;
+  list-style: none;
+  display: flex;
+  float: right;
+}
+
+header nav li {
+  margin: .5rem;
+  font-family: 'Josefin sans', sans-serif;
+  font-weight: normal;
+}
+
+header nav li a {
+  color: #FFFAFF;
+  text-decoration: none;
+}
+
+.textpic {
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.textpic h1 {
+  display: block;
+  position: relative;
+  margin: auto;
+  font-size: 6rem;
+  color: #FFFAFF;
+  top: 45%;
+  font-family: 'Baloo Tammudu', cursive;
+}
+
+#intro {
+  height: 30rem;
+  background-image: url(../assets/hero.jpg);
+  top: 4rem;
+  text-align: center;
+}
+
+#intro h1 {
+}
+
+#posts {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+#posts h2 {
+  color: #30BCED;
+  font-family: 'Baloo Tammudu', cursive;
+  display: block;
+  margin: auto;
+  padding: 2rem 1rem 0 1rem;
+  width: 100%;
+  font-size: 2.5rem;
+}
+
+#posts article {
+  border: 5px solid lightgrey;
+  border-radius: 5%;
+  display: inline-block;
+  width: 14rem;
+  height: 22rem;
+  margin: 1rem 1rem 2rem 1rem;
+}
+
+#posts h3 {
+  background-color: #FC5130;
+  color: #FFFAFF;
+  margin: 0;
+  height: 4em;
+  font-family: sans-serif;
+}
+
+#posts article p {
+  margin: 1rem;
+}
+
+#posts article a {
+  color: #FFFAFF;
+  background-color: #30BCED;
+  padding: .5rem 1rem;
+  border-radius: 5%;
+  position: relative;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+#join {
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  padding: 2rem;
+  margin: 0;
+}
+
+#join .container {
+  display: flex;
+  width: 80%;
+}
+
+#join div {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+}
+
+#join h2 {
+  color: #FC5130;
+  font-family: 'Baloo Tammudu', cursive;
+  font-size: 3rem;
+  margin: inherit inherit 0 inherit;
+}
+
+#join p {
+  font-size: 1.125rem;
+  color: #303036;
+}
+
+#join img {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+#tail {
+  height: 30rem;
+  background-image: url(../assets/everybody.jpg);
+  text-align: center;
+}
+
+/*Colors:*/
+/*light blue: #30BCED
+charcoal: #303036
+white: #FFFAFF
+orange: #FC5130
+black: #050401*/
