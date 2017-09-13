@@ -16,8 +16,8 @@ h1 {
   animation: fadein 2s;
 }
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 header {
@@ -26,7 +26,6 @@ header {
   width: 100%;
   background: #fff;
   height: 5rem;
-  /*padding: 14px 0 0;*/
   border-bottom: 1px solid #b7b7b7;
   z-index: 1000;
 }
@@ -35,7 +34,6 @@ header {
   display: inline-block;
   width: 49%;
   padding-left: 2rem;
-  font-family: Satisfy;
 }
 
 #header-nav {
@@ -82,7 +80,14 @@ main {
 
 .posts h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow:
+  3px 3px 0 #40313d,
+  -1px -1px 0 #40313d,
+  1px -1px 0 #40313d,
+  -1px 1px 0 #40313d,
+  1px 1px 0 #40313d;
 }
 
 .post {
@@ -107,6 +112,7 @@ main {
   padding: 0 1rem 0.5rem 1rem;
   text-align: center;
   border-bottom: 1px solid;
+
 }
 
 a.learn-more {
