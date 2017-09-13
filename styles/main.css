@@ -36,15 +36,10 @@ header {
   padding-left: 2rem;
 }
 
-/*#header-logo a {
-  color: white;
-  text-shadow:
-  3px 3px 0 #40313d,
-  -1px -1px 0 #40313d,
-  1px -1px 0 #40313d,
-  -1px 1px 0 #40313d,
-  1px 1px 0 #40313d;
-}*/
+#header-logo a {
+  font-family: Satisfy;
+  font-size: 2.5rem;
+}
 
 #header-nav {
   display: inline-block;
