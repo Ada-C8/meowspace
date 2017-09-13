@@ -1,10 +1,18 @@
+* {
+  /*border: 1px solid lawngreen;*/
+}
+
 body {
   background-color: #FFFAFF;
 }
 
+/*main {
+}*/
+
 p {
   color: #303036;
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
 }
 
 header {
@@ -18,8 +26,8 @@ header {
 }
 
 header a {
-  color: #30BCED;
   text-decoration: none;
+  color: #30BCED;
 }
 
 header h2 {
@@ -30,37 +38,47 @@ header h2 {
   font-family: 'Baloo Tammudu', cursive;
 }
 
+header nav {
+  width: 75%;
+}
+
+header ul {
+  float: right;
+  padding: 0 2rem;
+  display: inline;
+  list-style: none;
+  display: flex;
+}
+
+header li {
+  margin: .5rem;
+  font-family: 'Josefin sans', sans-serif;
+  font-weight: normal;
+}
+
+header li a {
+  color: #FFFAFF;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+header a[href="#signup"] {
+  color: #30BCED;
+}
+
 footer {
   display: flex;
   width: 70%;
   margin: 1rem auto;
 }
 
-footer > div {
+footer div {
   width: 50%;
   font-size: .75rem;
 }
 
 footer h4, footer p {
   display: inline;
-}
-
-header nav ul {
-  display: inline;
-  list-style: none;
-  display: flex;
-  float: right;
-}
-
-header nav li {
-  margin: .5rem;
-  font-family: 'Josefin sans', sans-serif;
-  font-weight: normal;
-}
-
-header nav li a {
-  color: #FFFAFF;
-  text-decoration: none;
 }
 
 .textpic {
@@ -75,24 +93,28 @@ header nav li a {
   margin: auto;
   font-size: 6rem;
   color: #FFFAFF;
-  top: 45%;
+  top: 40%;
   font-family: 'Baloo Tammudu', cursive;
 }
 
-#intro {
+#hero {
   height: 30rem;
   background-image: url(../assets/hero.jpg);
   top: 4rem;
+  position: relative;
+  margin: 0 0 4rem 0;
   text-align: center;
+  min-width: 42rem;
 }
 
-#intro h1 {
+#hero h1 {
 }
 
 #posts {
   width: 80%;
+  max-width: 50rem;
   display: flex;
-  margin: auto;
+  margin: 5rem auto;
   flex-flow: row wrap;
   text-align: center;
 }
@@ -101,46 +123,63 @@ header nav li a {
   color: #30BCED;
   font-family: 'Baloo Tammudu', cursive;
   display: block;
-  margin: auto;
-  padding: 2rem 1rem 0 1rem;
+  margin: 2rem auto 1rem auto;
+  padding: 1rem 1rem 0 1rem;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 #posts article {
-  border: 5px solid lightgrey;
-  border-radius: 5%;
+  border: 5px solid #BABAC4;
+  border-radius: 1.5rem;
   display: inline-block;
   width: 14rem;
-  height: 22rem;
+  height: 21rem;
   margin: 1rem 1rem 2rem 1rem;
 }
 
-#posts h3 {
+.post-title {
   background-color: #FC5130;
-  color: #FFFAFF;
+  padding: 1px;
   margin: 0;
-  height: 4em;
-  font-family: sans-serif;
+  height: 6rem;
+  border-top-left-radius: 1.18rem;
+  border-top-right-radius: 1.18rem;
 }
 
-#posts article p {
+.post-title h3 {
+  font-size: 1.5rem;
+  font-family: 'Josefin sans', sans-serif;
+  color: #FFFAFF;
+  padding: 1rem;
+  margin: auto;
+  position: relative;
+  top: .5rem;
+}
+
+#posts p {
   margin: 1rem;
+  height: 10.5rem;
+  /*text-align: justify;*/
 }
 
-#posts article a {
+#posts p:first-of-type {
+  text-align: justify;
+}
+
+#posts a {
   color: #FFFAFF;
   background-color: #30BCED;
   padding: .5rem 1rem;
-  border-radius: 5%;
+  border-radius: 1rem;
   position: relative;
   text-decoration: none;
   font-family: sans-serif;
 }
 
 #join {
-  border-top: 2px solid lightgrey;
-  border-bottom: 2px solid lightgrey;
+  border-top: 2px solid #BABAC4;
+  border-bottom: 2px solid #BABAC4;
   padding: 2rem;
   margin: 0;
 }
@@ -152,37 +191,42 @@ header nav li a {
 
 #join div {
   text-align: center;
-  width: 30%;
+  width: 40%;
   margin: auto;
 }
 
 #join h2 {
   color: #FC5130;
   font-family: 'Baloo Tammudu', cursive;
-  font-size: 3rem;
-  margin: inherit inherit 0 inherit;
+  font-size: 4rem;
+  margin: 0;
 }
 
 #join p {
-  font-size: 1.125rem;
-  color: #303036;
+  font-size: 1.25rem;
+  color: #79797F;
 }
 
 #join img {
   margin: auto;
   width: 50%;
   height: 50%;
+  min-width: 24rem;
+  margin: auto 1rem;
 }
 
 #tail {
   height: 30rem;
   background-image: url(../assets/everybody.jpg);
   text-align: center;
+  min-width: 48rem;
 }
 
 /*Colors:*/
 /*light blue: #30BCED
 charcoal: #303036
+lighter charcoal: #79797F
+light grey: #BABAC4
 white: #FFFAFF
 orange: #FC5130
 black: #050401*/
