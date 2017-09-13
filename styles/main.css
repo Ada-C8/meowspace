@@ -1,0 +1,69 @@
+body header h2 {
+/*
+    border:1px solid black;
+    clear:left;
+    position: relative;
+*/
+    float: left;
+    max-width: 60%
+}
+
+
+header nav ul {
+    float: right;
+    margin: 0 0 10px 10px;
+    list-style: none;
+}
+
+header li::first-of-type{
+    position: absolute;
+}
+
+
+main section:first-child {
+/*    background: url(../photos/lotsodogs.jpg) no-repeat center center;*/
+    padding: 0px 0px 500px 0px;
+    border:1px solid black;
+
+}
+
+
+h1 {
+    text-align: center;
+/*    position: absolute;*/
+    padding: 50px 20px 50px 20px;
+    font-family: Zilla Slab Highlight;
+    border:1px solid black;
+
+}
+
+/*--------ARTICLE SECTION---------*/
+section article {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 1px; 
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+
+section article p:last-child {
+    text-align: center;
+}
+
+
+section article p:last-child a {
+    color: black;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 2px 20px 2px 20px;
+}
+
+
+section h3 {
+    text-align: center;
+    padding: 0px 0px 17px 0px;
+    border-bottom: 1px solid #000;
+}
+/*-------------------------------*/
