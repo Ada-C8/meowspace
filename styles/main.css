@@ -1,0 +1,34 @@
+/* header */
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%
+}
+
+header h2 {
+  line-height: 45px;
+  font-size: 2rem;
+  margin: 0;
+  display:inline;
+}
+
+
+nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  float:right;
+  display:inline-block;
+}
+
+
+
+
+
+
+
+/*nav {
+  float: right;
+  color: blue;
+}*/
