@@ -1,221 +1,207 @@
 /** {
   border: 1px solid lawngreen;
 }*/
-
-body {
-  background-color: #FFFAFF;
-}
-
-/*main {
-}*/
+body {background-color: #FFFAFF;}
 
 p {
-  color: #303036;
-  font-family: 'Raleway', sans-serif;
-  font-weight: lighter;
-}
+	color: #303036;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+ }
 
 header {
-  background-color: #303036;
-  display: flex;
-  height: 4rem;
-  position: fixed;
-  width: 100%;
-  z-index: 999;
-}
+	background-color: #303036;
+	display: flex;
+	height: 4rem;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+ }
 
-header a {
-  color: #30BCED;
-  text-decoration: none;
-}
+	header a {
+		color: #30BCED;
+		text-decoration: none;
+	 }
 
-header a[href="#signup"] {
-  color: #30BCED;
-}
+	header a[href="#signup"] {color: #30BCED;}
 
-header h2 {
-  font-family: 'Baloo Tammudu', cursive;
-  font-size: 2rem;
-  margin: auto 0 auto 3rem;
-  position: relative;
-  top: .4rem;
-}
+	header h2 {
+		font-family: 'Baloo Tammudu', cursive;
+		font-size: 2rem;
+		margin: auto 0 auto 3rem;
+		position: relative;
+		top: .4rem;
+	 }
 
-header li {
-  font-family: 'Josefin sans', sans-serif;
-  font-weight: normal;
-  margin: .5rem;
-}
+	header li {
+		font-family: 'Josefin sans', sans-serif;
+		font-weight: normal;
+		margin: .5rem;
+	 }
 
-header li a {
-  color: #FFFAFF;
-  margin: 0 1rem;
-  text-decoration: none;
-}
+		header li a {
+			color: #FFFAFF;
+			margin: 0 1rem;
+			text-decoration: none;
+		 }
 
-header nav {
-  width: 75%;
-}
+	header nav {width: 75%;}
 
-header ul {
-  display: flex;
-  float: right;
-  list-style: none;
-  padding: 0 2rem;
-}
+	header ul {
+		display: flex;
+		float: right;
+		list-style: none;
+		padding: 0 2rem;
+	 }
 
 footer {
-  display: flex;
-  margin: 1rem auto;
-  width: 70%;
-}
+	display: flex;
+	margin: 1rem auto;
+	width: 70%;
+ }
 
-footer div {
-  font-size: .75rem;
-  width: 50%;
-}
+	footer div {
+		font-size: .75rem;
+		width: 50%;
+	 }
 
-footer h4, footer p {
-  display: inline;
-}
+	footer h4, footer p {display: inline;}
 
 .textpic {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  min-width: 48rem;
-}
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-width: 48rem;
+ }
 
-.textpic h1 {
-  color: #FFFAFF;
-  display: block;
-  font-family: 'Baloo Tammudu', cursive;
-  font-size: 6rem;
-  margin: auto;
-  position: relative;
-  top: 40%;
-}
+	.textpic h1 {
+		color: #FFFAFF;
+		display: block;
+		font-family: 'Baloo Tammudu', cursive;
+		font-size: 6rem;
+		margin: auto;
+		position: relative;
+		top: 40%;
+	 }
 
 #hero {
-  background-image: url(../assets/hero.jpg);
-  height: 30rem;
-  margin: 0 0 4rem 0;
-  position: relative;
-  text-align: center;
-  top: 4rem;
-}
+	background-image: url(../assets/hero.jpg);
+	height: 30rem;
+	margin: 0 0 4rem 0;
+	position: relative;
+	text-align: center;
+	top: 4rem;
+ }
 
 #posts {
-  display: flex;
-  flex-flow: row wrap;
-  margin: 5rem auto;
-  max-width: 50rem;
-  text-align: center;
-  width: 80%;
-}
+	display: flex;
+	flex-flow: row wrap;
+	margin: 5rem auto;
+	max-width: 50rem;
+	text-align: center;
+	width: 80%;
+ }
 
-#posts article {
-  background-color: #FFFAFF;
-  border: 2px solid #303036;
-  border-radius: 1.5rem;
-  box-shadow: 3px 2px 0 #BABAC4;
-  display: inline-block;
-  height: 21rem;
-  margin: 1rem 1rem 2rem 1rem;
-  width: 14rem;
-}
+	#posts article {
+		background-color: #FFFAFF;
+		border-radius: 1.5rem;
+		border: 2px solid #303036;
+		box-shadow: 3px 2px 0 #BABAC4;
+		display: inline-block;
+		height: 21rem;
+		margin: 1rem 1rem 2rem 1rem;
+		width: 14rem;
+	 }
 
-#posts h2 {
-  color: #30BCED;
-  display: block;
-  font-family: 'Baloo Tammudu', cursive;
-  font-size: 3rem;
-  margin: 2rem auto 1rem auto;
-  padding: 1rem 1rem 0 1rem;
-  width: 100%;
-}
+	#posts h2 {
+		color: #30BCED;
+		display: block;
+		font-family: 'Baloo Tammudu', cursive;
+		font-size: 3rem;
+		margin: 2rem auto 1rem auto;
+		padding: 1rem 1rem 0 1rem;
+		width: 100%;
+	 }
 
 .post-title {
-  background-color: #FC5130;
-  border-top-left-radius: 1.38rem;
-  border-top-right-radius: 1.38rem;
-  height: 6rem;
-  margin: 0;
-  padding: 1px;
-}
+	background-color: #FC5130;
+	border-top-left-radius: 1.38rem;
+	border-top-right-radius: 1.38rem;
+	height: 6rem;
+	margin: 0;
+	padding: 1px;
+ }
 
-.post-title h3 {
-  color: #FFFAFF;
-  font-family: 'Josefin sans', sans-serif;
-  font-size: 1.5rem;
-  margin: auto;
-  padding: 1rem;
-  position: relative;
-  top: .5rem;
-}
+	.post-title h3 {
+		color: #FFFAFF;
+		font-family: 'Josefin sans', sans-serif;
+		font-size: 1.5rem;
+		margin: auto;
+		padding: 1rem;
+		position: relative;
+		top: .5rem;
+	 }
 
 #posts a {
-  background-color: #30BCED;
-  border-radius: 1rem;
-  color: #FFFAFF;
-  font-family: sans-serif;
-  padding: .5rem 1rem;
-  position: relative;
-  text-decoration: none;
-}
+	background-color: #30BCED;
+	border-radius: 1rem;
+	color: #FFFAFF;
+	font-family: sans-serif;
+	padding: .5rem 1rem;
+	position: relative;
+	text-decoration: none;
+ }
 
 #posts p {
-  height: 10.5rem;
-  margin: 1rem;
-  /*text-align: justify;*/
-}
+	height: 10.5rem;
+	margin: 1rem; /*text-align: justify;*/
+ }
 
-#posts p:first-of-type {
-  text-align: justify;
-}
+	#posts p:first-of-type {text-align: justify;}
 
 #join {
-  border-bottom: 2px solid #BABAC4;
-  border-top: 2px solid #BABAC4;
-  margin: 0;
-  padding: 2rem;
-}
+	border-bottom: 2px solid #BABAC4;
+	border-top: 2px solid #BABAC4;
+	margin: 0;
+	padding: 2rem;
+ }
 
-#join .container {
-  display: flex;
-  width: 80%;
-}
+	#join .container {
+		display: flex;
+		width: 80%;
+	 }
 
-#join div {
-  margin: auto;
-  text-align: center;
-  width: 40%;
-}
+	#join div {
+		margin: auto;
+		text-align: center;
+		width: 40%;
+	 }
 
-#join h2 {
-  color: #FC5130;
-  font-family: 'Baloo Tammudu', cursive;
-  font-size: 4rem;
-  margin: 0;
-}
+	#join h2 {
+		color: #FC5130;
+		font-family: 'Baloo Tammudu', cursive;
+		font-size: 4rem;
+		margin: 0;
+	 }
 
-#join p {
-  color: #79797F;
-  font-size: 1.25rem;
-}
+	#join p {
+		color: #79797F;
+		font-size: 1.25rem;
+	 }
 
-#join img {
-  margin: auto 1rem;
-  min-width: 24rem;
-  height: 50%;
-  width: 50%;
-}
+	#join img {
+		height: 50%;
+		margin: auto 1rem;
+		min-width: 24rem;
+		width: 50%;
+	 }
 
 #tail {
-  background-image: url(../assets/everybody.jpg);
-  height: 30rem;
-  text-align: center;
-}
+	background-image: url(../assets/everybody.jpg);
+	height: 30rem;
+	text-align: center;
+ }
+
 
 /*Colors:*/
 /*light blue: #30BCED
