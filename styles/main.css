@@ -1,0 +1,170 @@
+body :not(section:first-of-type h1) {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+main {
+    margin-top: 120px;
+}
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 200px;
+    width: 100%;
+    height: 110px;
+    background-color: palegoldenrod;
+
+}
+
+header h2 {
+    position: absolute;
+    top: 20;
+    text-align: left;
+/*    display: inline-block;*/
+    width: 70%;
+    font-size: 2em;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+
+header a {
+    color: dimgray;
+}
+
+header nav {
+/*    text-decoration: none;*/
+    width: 20%;
+    display: inline-block;
+    font-size: 1.5em;
+/*    margin: 10px;*/
+}
+header li {
+    margin: 10px;
+    list-style: none;
+    position: absolute
+}
+header li:first-of-type {
+   right: 120px;
+    
+
+}
+header li:nth-of-type(2) {
+    right: 25px
+}
+
+section:first-of-type {
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 250px;
+    background-color:pink;
+}
+section:first-of-type h1 {
+    text-align: center;
+    font-size: 5em;
+    display: block;
+    padding-top: 75px;
+}
+
+/*
+section:nth-of-type(2) {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+*/
+section:nth-of-type(2) h2 {
+    text-align: center;
+    clear:both;
+    font-size: 1.5em;
+}
+
+section:nth-of-type(2) h3 {
+    border-bottom: solid;
+    text-align: center;
+    text-size: 2em;
+    text-transform: capitalize;
+}
+
+section:nth-of-type(2) article {
+    display: inline-block;
+    padding: 10px;
+    width: 25%;
+    vertical-align: top;
+    margin: 25px;
+    height: 250px;
+    min-width: 250px;
+    border: solid;
+    border-color: pink;
+    border-radius: 10%;
+    border-width: 10px;
+}
+section:nth-of-type(2) article p {
+    clear: both; 
+}
+section:nth-of-type(2) article a {
+    clear: both;
+/*    position: relative;*/
+/*    left: 100px;*/
+/*    top: 20px;*/
+    display: inline-block;
+    width: 70%;
+    margin: 1em;
+    border: solid;
+    border-color: goldenrod;
+    background-color: goldenrod;
+    border-width: medium;
+    padding: 15px;
+    border-radius: 20%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+/*section:nth-of-type(3) {*/
+/*    margin-left: 40px;*/
+/*    margin-right: 40px;*/
+/*}*/
+section:nth-of-type(3) h2::after {
+    content: "!"
+}
+
+section:nth-of-type(3) p {
+    clear: both;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 40%;
+    font-size: 1.25em;
+    line-height: 3.5em;
+}
+section:nth-of-type(3) img {
+    display: inline-block;
+    width: 40%;
+    margin-left: 15%;
+}
+section:nth-of-type(4) {
+    clear: both;
+    padding: 100px;
+    text-align: center;
+    font-size: 2em;
+    background-color: palegoldenrod
+}
+footer {
+    
+}
+#disclaimer {
+    display: inline-block;
+    width: 50%;
+    font-size: 0.75em;
+    vertical-align: top;
+}
+
+footer nav {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    margin-left: 15%;
+}
+
