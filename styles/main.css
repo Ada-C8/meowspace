@@ -33,7 +33,7 @@ header > h2 {
   margin-right: 5%;
 }
 
-nav {
+header nav {
   margin-right: 5%;
   text-align: right;
 }
@@ -120,21 +120,13 @@ main > section:nth-of-type(2n+3) {
   color: #f8f9f7;
 }
 
-footer {
-  background-color: #a3b1aa;
-}
-
-footer h4, footer p {
-  display: inline;
-}
-
 .join h2 {
   margin-left: 8%;
 }
 
 .join p {
   display: inline-block;
-  width: 50%;
+  width: 40%;
 }
 
 .join img {
@@ -142,15 +134,46 @@ footer h4, footer p {
   margin-right: 8%;
 }
 
-/*.join * {
-  margin-right: 8%;
-}*/
-
 .join p {
   margin-left: 8%;
 }
 
 .everybody {
+  background-position: center;
+  background-image: url("../assets/everybody.jpg");
+  background-size: cover;
   clear: both;
+  color: #f8f9f7;
+  display: flex;
+  justify-content: center;
+  min-height: 40em;
+  padding-top: 4em;
   text-align: center;
+}
+
+.everybody h2 {
+  font-size: 3em;
+}
+
+footer {
+  background-color: #a3b1aa;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.footer-text h4, .footer-text p {
+  display: inline;
+  font-size: 0.6rem;
+}
+
+.footer-text {
+  display: inline-block;
+  margin-left: 8%;
+  width: 40%;
+}
+
+footer nav {
+  float: right;
+  width: 50%;
+  line-height: 1.4em;
 }
