@@ -1,0 +1,104 @@
+header {
+  background-color: #9CAFB7;
+  border-bottom: solid;
+  font-family: 'Princess Sofia', cursive;
+  font-size: 2em;
+  position: fixed;
+  margin: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+main section {
+  clear: both;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white
+}
+
+ul {
+  list-style-type: none;
+}
+
+header nav li {
+  display: inline-block;
+  float: right;
+  margin: 3px;
+  margin-top: 0;
+}
+
+header h2 {
+  font-size: 1.5em;
+  display: inline-block;
+  margin: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 0;
+}
+
+h1 {
+  background-image: url('../assets/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-bottom: solid;
+  border-color: black;
+  height: 100px;
+  font-size: 6em;
+  font-family: 'Princess Sofia', cursive;
+  color: white;
+  text-align: center;
+  margin-top: 12%;
+  padding: 22%;
+}
+
+.posts div {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  font-family: 'Princess Sofia', cursive;
+  text-align: center;
+}
+
+article {
+  display: inline-block;
+  padding: 2% 2% 2% 2%;
+  height: 60%;
+  width: 25%;
+  margin: 2%;
+  border: solid;
+  border-radius: 1.2em;
+  background-color: #E6b89C;
+  font-family: 'Princess Sofia', cursive;
+}
+
+.posts h2 {
+  text-align: center;
+  font-family: 'Princess Sofia', cursive;
+  font-size: 2.5em;
+}
+
+.posts a {
+  border: solid;
+  padding: 3%;
+  border-radius: 1.2em;
+}
+
+.posts a:hover {
+  color: pink;
+}
+
+.posts h3 {
+  border-bottom: solid;
+}
