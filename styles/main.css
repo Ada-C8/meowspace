@@ -70,8 +70,9 @@ section:first-of-type h1 {
 }
 
 section:nth-of-type(2) {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
 }
 section:nth-of-type(2) h2 {
     text-align: center;
@@ -91,7 +92,8 @@ section:nth-of-type(2) article {
     padding: 10px;
     width: 25%;
     vertical-align: top;
-    margin: 25px;
+    margin: 2%;
+    margin-bottom: 30px;
     height: 250px;
     min-width: 250px;
     border: solid;
@@ -129,11 +131,14 @@ section:nth-of-type(2) article a:hover {
     color: dimgray;
 }
 section:nth-of-type(3) h2 {
-    display: flex;
+    
     position: relative;
-    font-size: 3em;
-    bottom: -30px;
+    font-size: 4em;
+    bottom: -70px;
     left: 40px;
+    max-width: 35%;
+    z-index: -5;
+    margin-left: 40px;
 }
 
 section:nth-of-type(3) h2::after {
@@ -144,19 +149,24 @@ section:nth-of-type(3) p {
     clear: both;
     display: inline-block;
     vertical-align: bottom;
-    width: 40%;
-    max-height: 20%;
+    width: 30%;
+/*    max-height: 200px;*/
+    overflow-y:hidden;
+    text-overflow: ellipsis;
+    resize: 
     font-size: 1.25em;
     line-height: 3em;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 section:nth-of-type(3) img {
     float:right;
     position: relative;
-    top: -70px;
+    top: -30px;
     width: 40%;
-/*    max-height: 20%;*/
-    margin-right: 40px;
+    max-height: 20%;
+    margin-right: 100px;
+    z-index: -5;
+    min-height: 300px;
 }
 section:nth-of-type(4) {
     clear: both;
@@ -172,7 +182,8 @@ section:nth-of-type(4) h2 {
     font-size: 2.5em;
 }
 footer {
-    
+    margin-left: 100px;
+    margin-right: 40px;
 }
 #disclaimer {
     display: inline-block;
