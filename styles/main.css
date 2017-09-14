@@ -1,0 +1,196 @@
+body {
+  margin: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+  background-color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+p {
+  padding: 5%;
+}
+
+h3 {
+  text-align: center;
+  padding: 5%;
+  border-bottom: black solid 1px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 10%;
+  background: black;
+  border: black 1px solid;
+  /*padding: 25px;*/
+  z-index: 1000;
+}
+
+header h2 {
+  position: fixed;
+  left: 12%;
+  top: 0%;
+  font-size: 2em;
+}
+
+
+header nav {
+  width: 15%;
+  position: fixed;
+  right: 12%;
+  top: 0%;
+}
+
+header ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+
+nav li {
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+/*Start Main Section */
+main {
+  position: relative;
+  padding-top: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.title {
+  background-image: url('../assets/hero.jpg');
+  background-size: 100% auto;
+  background-repeat: none;
+  height: 700px;
+}
+
+
+.title h1 {
+  text-align: center;
+  position: relative;
+  top: 0;
+  z-index: 2;
+  font-size: 8em;
+}
+
+.title img {
+  position: relative;
+  top: 10%;
+  z-index: 1;
+  width: 100%;
+}
+
+.popular_posts h2 {
+  text-align: center;
+  margin: 8%;
+  font-size: 5em;
+}
+
+.popular_posts {
+  display: inline-block;
+  border-bottom-width: 100%;
+  border-bottom: black 1px solid;
+  padding-left: 10%;
+  padding-bottom: 10%;
+}
+
+.popular_posts article{
+  border: black 1px solid;
+  border-radius: 10px;
+  /*position: relative;*/
+  display: inline-block;
+  /*top: 30px;*/
+  height: 350px;
+  width: 300px;
+  text-align: left;
+  margin: 1%;
+}
+
+.popular_posts p:nth-child(2) {
+  height: 100px;
+  text-align: left;
+}
+
+.popular_posts p:nth-child(3){
+  /*position: relative;*/
+  text-align: center;
+  padding: 5%;
+  display: inline-block;
+  margin-left: 27%;
+  border: black 1px solid;
+  border-radius: 10px;
+  z-index: -100;
+}
+
+
+
+
+/*Start JOIN THE CLUB Section*/
+#join_club {
+  margin: 10%;
+}
+
+#join_club img {
+  width: 50%;
+  float: right;
+  margin-left: 10%;
+}
+
+#join_club #right_side {
+  text-align: center;
+  float: left;
+  width: 30%;
+}
+
+main :nth-child(4){
+  clear: both;
+  text-align: center;
+  margin: 10px;
+  border: black 1px solid;
+}
+
+
+
+/*footer*/
+footer {
+  clear: both;
+  position: relative;
+  bottom: 5%;
+  height: 5%;
+  border: black 1px solid;
+  margin: 10%;
+  padding: 8%;
+}
+
+footer nav {
+  position: absolute;
+  bottom: 0px;
+  display: inline-block;
+  color: black;
+  right: 10%;
+}
+
+footer h4 {
+  display: inline-block;
+}
+
+footer ul {
+
+}
+
+footer p {
+  float: left;
+  display: inline-block;
+  width: 30%;
+}
