@@ -136,5 +136,18 @@ main section:nth-of-type(3) img{
     
 }
 
+/*EVERYBODY WANTS TO BE A CAT*/
 
+main section:last-of-type {
+  
+  margin-bottom: 12.5%;
+  padding: 10% 30% 10%;
+  font-family: 'Chalkduster';
+  font-weight: bold;
+  color: ghostwhite;
+  font-size:250%;
+    text-align: center;
+  position: relative;
+  right: 7%;
 
+}
