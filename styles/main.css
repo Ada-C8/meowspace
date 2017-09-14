@@ -2,6 +2,7 @@
 /******************/
 /*    Generic     */
 /*****************/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
   font-family: helvetica;
@@ -26,6 +27,14 @@ a:visited:hover {
 main {
   background-color: rgb(167, 164, 164);
 }
+
+.float-left {
+  float: left;
+}
+
+.inline-block {
+  display: inline-block;
+}
 /******************/
 /*    Header     */
 /*****************/
@@ -39,12 +48,14 @@ header {
 }
 
 header h2 {
-  float: left;
   margin: 2%;
 }
 
+nav {
+  margin-right: 1%;
+}
+
 nav li {
-  display: inline-block;
   float: right;
   margin: 1%;
 }
@@ -54,6 +65,9 @@ nav li {
 /*****************/
 
 main section h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 4em;
+  text-shadow: 2px 2px 5px white;
   background-image: url("../bear_hello.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,7 +92,8 @@ main section h1 {
   background-color: rgb(213, 223, 227);
   width: 30%;
   margin: 1%;
-  float: left;
+  display: inline-block;
+  vertical-align: top
 }
 
 #posts div {
@@ -97,7 +112,6 @@ main section h1 {
 #join div {
   width: 40%;
   margin: 2%;
-  float: left;
 }
 
 #join img {
@@ -105,10 +119,6 @@ main section h1 {
   margin: 0 0 0 6%;
   vertical-align: bottom;
   vertical-align: top;
-}
-
-#join div {
-
 }
 
 /******************/
@@ -134,12 +144,12 @@ footer {
 
 footer div {
   padding: 1%;
+  margin: 1%;
   display: inline-block;
-  width: 50%;
+  width: 55%;
 }
 
 footer h4 {
-  float: left;
   margin: 0 0.5% 0 0;
   font-size: 0.8em;
 }
@@ -151,10 +161,15 @@ footer h4 {
 
 #bottom-nav {
   display: inline-block;
-  width: 40%;
+  width: 20%;
+  float: right;
+  margin: 4% 2% 0 0;
+  font-size: 0.9em;
 }
 
-
+#bottom-nav li {
+  margin: 23% 2% 0 0;
+}
 /******************/
 /*    Clearfix     */
 /*****************/
