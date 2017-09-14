@@ -114,3 +114,29 @@ article {
 .club-text {
   width: 45%
 }
+
+/********EVERYONE WANTS TO BE A CAT********/
+#be-a-cat{
+  background-size: cover;
+  background-image: url("https://iheartdogs.com/wp-content/uploads/2017/04/andrew-branch-126769.jpg");
+  background-position: 50% 50%;
+  height: 360px;
+  /*margin-top: 0px;*/
+}
+div #be-a-cat {
+  position: relative;
+  width: 100%;
+}
+
+#be-a-cat h2 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-size: 5em;
+  margin-top:10% ;
+}
+
+#be-a-cat span{
+  display: block;
+}
