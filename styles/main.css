@@ -12,6 +12,14 @@
 .clearfix { display: block; }
 
 
+.float-left {
+  float: left;
+}
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /********HEADER********/
 /********HEADER********/
 header {
@@ -62,7 +70,7 @@ div #hero {
 }
 
 #hero {
-  height: 500px;
+  height: 400px;
   margin-top: 65px;
   width: 100%;
   right:0;
@@ -87,4 +95,22 @@ article {
   padding: 0 1.5%;
   background-color: grey;
   border-radius: 2%;
+  text-align: center;
+}
+
+
+/********JOIN THE CLUB********/
+.join-club {
+  border: medium dashed green;
+  padding: 2%;
+  text-align: center;
+}
+
+.join-club img {
+  width: 45%;
+  float: right;
+}
+
+.club-text {
+  width: 45%
 }
