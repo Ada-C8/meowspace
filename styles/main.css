@@ -28,6 +28,11 @@ main {
   background-color: rgb(167, 164, 164);
 }
 
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .float-left {
   float: left;
 }
@@ -116,12 +121,12 @@ main section h1 {
 }
 
 #join div {
-  width: 40%;
+  width: 55%;
   margin: 2%;
 }
 
 #join img {
-  width: 50%;
+  width: 35%;
   margin: 0 0 0 6%;
   vertical-align: bottom;
   vertical-align: top;
