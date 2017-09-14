@@ -19,6 +19,7 @@ a {
   width: 100%;
   top: 0;
   padding-bottom: 2em;
+  z-index: 1;
 }
 
 .fixed-header a[href="index.html"]{
@@ -40,30 +41,37 @@ li {
   float: left;
   margin-left: 35px;
   padding-right: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+
 
 }
 /*create a margin so header doesn't overlap page*/
 .container {
   width: 100%;
+  background-color: #6AE470;
 }
 
 /*create an image with meowcats overlaid*/
 
 .top-logo {
   width: 100%;
-  margin-top: 5%;
+  margin-top: 10%;
   /*padding-bottom: 10em;*/
   display: inline-block;
   background-color: black;
+  /*z-index: -1;*/
 }
 
-p.logo-text {
+.logo-text {
   font-family: Monoton;
   font-style: normal;
   color: white;
   font-size: 10em;
   position: absolute;
   bottom: 2px;
+  text-align: right;
+  width: 95%;
 }
 
 /*popular posts*/
@@ -74,7 +82,7 @@ p.logo-text {
 }
 
 .pop-posts-heading {
-  font-family: Monoton;
+  font-family: Bungee Shade;
   font-style: normal;
   color: black;
   text-align: center;
@@ -107,8 +115,14 @@ p.logo-text {
   text-align: left;
   border-radius: 15px 50px;
   font-size: 1.5em;
-  padding: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1.5em;
+  /*transition: linear .5s;*/
 
+}
+
+.blog-post:hover {
+  background-image: url(https://media.wired.com/photos/59268c5dcfe0d93c474309a2/master/w_2000,c_limit/BSP_054.jpg);
+  color: white;
 }
 
 .blog-post h3 {
@@ -116,38 +130,50 @@ p.logo-text {
 }
 
 
-.blog-post a {
+.blog-post p a {
   font-weight: bold;
+  background-color: #FA35EE;
   color: white;
   text-align: center;
+  /*delete this if you want them left */
+  display: inline-block;
   text-transform: uppercase;
-  margin: 0 auto;
-  position: relative;
-  width: 100%;
+  width: 40%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  padding: .5em .5em .5em .5em;
+  border-style: solid;
+  border-color: #e5e5e5;
 
 }
-
-
 
   /*join the club text and picture*/
 
   .join-the-club {
-    width: 100%;
+    width: 95%;
     height: auto;
-    display: inline-block;
+    /*display: inline-block;*/
+    display: flex;
     margin-top: 3em;
+    text-align: center;
   }
+
+  .join-the-club:hover {
+    background-image: url(https://cdn.spacetelescope.org/archives/images/screen/heic0809c.jpg);
+    color: white;
+  }
+
   .join-the-club-text {
     width: 20%;
     float: left;
     margin-left: 3em;
+    font-size: 1em;
   }
 
 .join-the-club-image{
   width: 65%;
   /*display: inline-block;*/
   float: right;
-  margin-right: 3em;
+  margin-right: 1em;
 }
 
 .everyone {
