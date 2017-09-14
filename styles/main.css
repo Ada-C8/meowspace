@@ -117,3 +117,24 @@ article p a[href*=post] {
   font-family: 'helvetica';
 }
 
+/*Join the club, yo*/
+#join_the_club {
+  display: inline-block;
+  width: 40%;
+  margin: 5%;
+    color: aliceblue;
+}
+#join_the_club h2 {
+  font-size: 3rem;
+    color: whitesmoke;
+    font-family: 'Chalkduster';
+}
+main section:nth-of-type(3) img{
+  display: inline-block;
+  width: 30%;
+  vertical-align: bottom;
+    
+}
+
+
+
