@@ -11,11 +11,9 @@
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 
-header h2 {
-  color: red;
-  float: left;
-}
 
+/********HEADER********/
+/********HEADER********/
 header {
   position: fixed;
   top: 0;
@@ -25,14 +23,60 @@ header {
   z-index: 100;
 }
 
-nav{
+header h2 {
+  position: relative;
+  left: 10%;
+  color: red;
+  float: left;
+}
+
+header a {
+  text-decoration: none;
+}
+
+nav {
+  top:10%;
   float: right;
   width: 30%;
+  vertical-align: middle;
 }
 
 nav li {
   display: inline-block;
+  vertical-align: middle;
 }
+
+/********BANNER IMG********/
+/********BANNER IMG********/
+div #hero {
+  position: relative;
+}
+#hero h1 {
+  font-size: 5em;
+  color: white;
+  text-align:center;
+  width: 100%;
+  top: 170px;
+  position: absolute;
+  vertical-align: middle;
+}
+
+#hero {
+  height: 500px;
+  margin-top: 65px;
+  width: 100%;
+  right:0;
+  background-size: cover;
+  /*background-size: 25%;*/
+  background-image: url("https://thegiftforlife.com/wp-content/uploads/2015/09/aboutcat.jpg");
+  background-position: 50% 50%;
+  /*background-image: url('https://i.pinimg.com/originals/26/07/c7/2607c70ce4f8e76eca556fb49ba347a3.jpg');*/
+}
+
+
+/********POPULAR POSTS********/
+/********POPULAR POSTS********/
+
 
 article {
   border: thin dashed blue;
