@@ -1,0 +1,205 @@
+/* ---------- FONTS ---------- */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Open+Sans:400,700');
+
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+html, body { height: 100%; }
+body {
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+h1, h2, h3, h4 { font-family: 'Josefin Sans', sans-serif; }
+h1 { font-size: 8em; }
+h2 { font-size: 3em; }
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover { cursor: pointer; }
+ul, ol { list-style: none; }
+
+/* ---------- HEADER ---------- */
+header {
+  position: fixed;
+  background: #f29c57;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header h2 {
+  margin: 1.5% 0;
+  width: 50%;
+  text-align: center;
+  animation: fade-in 4s;
+}
+@keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+header nav { width: 50%; }
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li { margin-right: 5%; }
+header nav ul li a {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+header nav ul li a:hover { border-bottom: 2px solid #fefefe; }
+
+/* ---------- HERO IMAGE ---------- */
+section.hero {
+  margin-top: 84px;
+  width: 100%;
+  height: 700px;
+  background: url('../assets/hero.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.hero h1 { color: #fefefe; }
+
+/* ---------- POPULAR POSTS ---------- */
+section.posts {
+  width: 70%;
+  margin: 5% auto 0;
+  text-align: center;
+}
+section.posts article {
+  width: 25%;
+  margin: 0 3% 3%;
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow:
+    0 1px 3px rgba(0,0,0,0.12),
+    0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.4s ease-in-out;
+  background: #ef7e21;
+}
+section.posts article:hover {
+  box-shadow:
+    0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+}
+section.posts article h3 {
+  height: 60px;
+  margin: 10% 0 0 0;
+  padding: 2% 8%;
+}
+section.posts article p:first-of-type {
+  margin: 0;
+  padding: 6% 6% 0 8%;
+  line-height: 1.4;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  background: #fefefe;
+}
+section.posts article p:nth-of-type(2) {
+  margin: 0;
+  padding: 16% 0 20%;
+  background: #fefefe;
+}
+section.posts article p:nth-of-type(2) a {
+  padding: 4% 10%;
+  border: 2px solid #333;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #fefefe;
+}
+section.posts article p:nth-of-type(2) a:hover {
+  border-color: #f29c57;
+  color: #fefefe;
+  background: #f29c57;
+  text-decoration: none;
+}
+
+/* ---------- JOIN CLUB ---------- */
+section.join {
+  width: 100%;
+  margin-top: 5%;
+  padding: 5% 15%;
+  border-top: 1px solid #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+div.join-text {
+  width: 40%;
+  margin-right: 10%;
+}
+div.join-text h2 { margin: 2% 0;}
+div.join-text p { line-height: 1.6; }
+div.join-image { width: 50%; }
+div.join-image img {
+  max-width: 400px;
+}
+
+/* ---------- CLOSING IMAGE ---------- */
+section.closing {
+  margin-top: 5%;
+  width: 100%;
+  height: 350px;
+  background: url('../assets/everybody.jpg') no-repeat center center;
+  background-size: cover;
+}
+section.closing h2 {
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+  text-align: center;
+  font-size: 5em;
+  color: #333;
+  background: rgba(255,255,255,0.5);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background: #777;
+  padding: 3% 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+footer div.footer-text { width: 30%; }
+footer div.footer-text h4 { display: inline; }
+footer div.footer-text p#disclaimer {
+  display: inline;
+  font-size: 0.7em;
+  color: #333;
+}
+footer nav { width: 30%; }
+footer nav ul { margin-top: 0; }
+footer nav ul li a {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+footer nav ul li:hover a::before {
+  content: ' 🐾 ';
+}
+footer nav ul li:hover a::after {
+  content: ' 🐾 ';
+}
+footer nav ul li:hover a {
+  color: #fefefe;
+  text-decoration: none;
+}
+footer nav ul:first-child li { margin-bottom: 3%; }
