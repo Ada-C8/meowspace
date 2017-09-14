@@ -15,6 +15,7 @@ a:hover {
 h1 {
   animation: fadein 2s;
 }
+
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
@@ -80,13 +81,14 @@ main {
 
 .posts {
   padding: 2rem 10%;
-  background-color: #918f90;
+  background: -webkit-linear-gradient(white, #b7b7b7);
 }
 
 .posts h2 {
   text-align: center;
   font-size: 2.5rem;
   color: white;
+  letter-spacing: 2px;
   text-shadow:
   3px 3px 0 #40313d,
   -1px -1px 0 #40313d,
@@ -98,7 +100,7 @@ main {
 .post {
   position: relative;
   width: 30%;
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 5%;
   display: inline-block;
   margin: 1%;
@@ -117,7 +119,8 @@ main {
   padding: 0 1rem 0.5rem 1rem;
   text-align: center;
   border-bottom: 1px solid;
-
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 a.learn-more {
@@ -156,7 +159,7 @@ a.learn-more:hover {
 .left h2 {
   text-align: center;
   font-size: 2rem;
-  line-height: 0.5;
+  /*line-height: 0.5;*/
 }
 
 #club {
@@ -206,4 +209,19 @@ footer a {
 
 #disclaimer {
   font-size: .5em;
+}
+
+
+@media (max-width: 800px) {
+  .posts {
+    text-align: center;
+  }
+
+  .post {
+    width: 70%;
+  }
+
+  .left, .right {
+    width: 70%;
+  }
 }
