@@ -1,0 +1,213 @@
+/*general settings*/
+body {
+  font-family: Rubik;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*create fixed header with login and signup*/
+
+.fixed-header {
+  background-color: #6AE470;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-bottom: 2em;
+}
+
+.fixed-header a[href="index.html"]{
+  font-size: 2.5em;
+  color: black;
+  float: left;
+  font-weight: bold;
+  font-family: Bungee Shade;
+  }
+
+.nav {
+  float: right;
+}
+
+li {
+  font-size: 1.75em;
+  color: black;
+  list-style: none;
+  float: left;
+  margin-left: 35px;
+  padding-right: 1em;
+
+}
+/*create a margin so header doesn't overlap page*/
+.container {
+  width: 100%;
+}
+
+/*create an image with meowcats overlaid*/
+
+.top-logo {
+  width: 100%;
+  margin-top: 5%;
+  /*padding-bottom: 10em;*/
+  display: inline-block;
+  background-color: black;
+}
+
+p.logo-text {
+  font-family: Monoton;
+  font-style: normal;
+  color: white;
+  font-size: 10em;
+  position: absolute;
+  bottom: 2px;
+}
+
+/*popular posts*/
+.content {
+  margin-top: 0;
+  padding-top: 0;
+  background-color: #6AE470;
+}
+
+.pop-posts-heading {
+  font-family: Monoton;
+  font-style: normal;
+  color: black;
+  text-align: center;
+  font-size: 8em;
+  margin: 0;
+  padding-top: 1em;
+}
+
+/*.popular-posts h2 {
+  margin-top: 0;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}*/
+
+.popular-posts {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.blog-post{
+  flex-grow: 1;
+  height: 18em;
+  width: 25%;
+  display: inline-block;
+  border-style: solid;
+  margin: 5px;
+  background-color: #FA05EA;
+  text-align: left;
+  /*border-radius: 25px;*/
+  border-radius: 15px 50px;
+  font-size: 1.5em;
+
+}
+
+.blog-post h3 {
+  font-weight: bold;
+}
+
+.blog-post a {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+  /*join the club text and picture*/
+
+  .join-the-club {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 3em;
+  }
+  .join-the-club-text {
+    width: 20%;
+    float: left;
+    margin-left: 3em;
+  }
+
+.join-the-club-image{
+  width: 65%;
+  /*display: inline-block;*/
+  float: right;
+  margin-right: 3em;
+}
+
+.everyone {
+  height: 14em;
+  width: 100%;
+  background-image: url(https://1366x768wallpaper.com/2015/07/24/space-cat.jpg);
+  font-size: 2.5em;
+  color: magenta;
+  text-align: center;
+ font-family: Bungee Shade;
+ display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/*footer and disclaimer */
+
+/*#footer-container {
+  background-color: #6AE470;
+  width: 100%;
+  top: 0;
+  display: inline-block;
+}*/
+
+.footer-container {
+  background-color: #6AE470;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  display: inline-block;
+
+}
+
+.footer-container .disclaimer {
+  background-color: #6AE470;
+  font-size: .75em;
+  color: black;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  float: left;
+  width: 45%;
+  margin-left: 3em;
+
+  }
+
+
+/*div .disclaimer {
+  font-size: .75em;
+  color: black;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  width: 40%;
+  }*/
+  .contact {
+    background-color: #6AE470;
+    margin-top: 3em;
+    float: right;
+
+  }
+.contact li {
+  font-size: 1.75em;
+  color: black;
+  list-style: none;
+  float: left;
+  margin-left: 35px;
+  padding-right: 3em;
+
+}
