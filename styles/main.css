@@ -44,41 +44,70 @@ header nav{
 
 main section:first-child {
     background: url(../photos/lotsodogs.jpg) no-repeat center center;
+    height: 500px;
+    width: 100%;
     margin-top:100px;
     padding: auto;
     border:1px solid black;
 }
 
 
-h1 {
+main section h1 {
     text-align: center;
     padding: 50px 20px 50px 20px;
     font-family: Zilla Slab Highlight;
-    border:1px solid black;
+    font-size: 120px;
+    margin-top: 140px;
 
 }
 
 /*--------Popular Posts---------*/
+body main section:nth-child(2){
+    margin-left: 13%;
+    margin-right: 13%
+    
+}
+
+body main section:nth-child(2) h2 {
+    text-align: center;
+}
+
 section article {
     display: inline-block;
     vertical-align: top;
     width: 30%;
-    margin: 1px; 
     border:1px solid black;
     border-radius: 10px;
+    margin: .5%;
+    height: 350px;
+    min-width: 250px;
+    
+}
+
+section article p:first-of-type {
+    color: black;
+    margin-bottom: 135px;
+    margin-right: 10px;
+    margin-left:10px ;
+    margin-top: 10;
+    height: 95px;
+/*    */
+    font-size: 20px;
+
 }
 
 
 section article p:last-child {
     text-align: center;
+    margin-bottom: 10px; 
 }
-
 
 section article p:last-child a {
     color: black;
     border:1px solid black;
-    border-radius: 10px;
-    padding: 2px 20px 2px 20px;
+    padding: 6px 33px 6px 33px;
+    border-radius: 15px;
+
 }
 
 
@@ -86,6 +115,7 @@ section h3 {
     text-align: center;
     padding: 0px 0px 17px 0px;
     border-bottom: 1px solid #000;
+    
 }
 /*-------------------------------*/
 
@@ -93,17 +123,39 @@ body main section:nth-child(3){
     border:1px solid black;
 }
 
-body main section h2{
+body main section:nth-child(3) h2{
+    
     
 }
 
-body main section p {
+body main section:nth-child(3) p {
     
 }
 
 body main section img {
-   border:1px solid black; 
+    border:1px solid black; 
+    height: 500px;
+    width: 450px;
+    float: right;
 }
+
+
+body main section:nth-child(4) {
+    clear: both;    
+    border:1px solid black; 
+
+}
+
+
+footer{
+    display: block;
+    clear: both;
+    border:1px solid black; 
+
+}
+
+
+
 
 
 
