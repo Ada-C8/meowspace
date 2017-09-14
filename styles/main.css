@@ -67,6 +67,16 @@ footer {
 
 	footer h4, footer p {display: inline;}
 
+  footer ul {
+    font-family: 'Raleway', sans-serif;
+    /*list-style: none;*/
+  }
+
+  footer a {
+    color: #30BCED;
+    text-decoration: none;
+  }
+
 .textpic {
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -201,7 +211,6 @@ footer {
 	height: 30rem;
 	text-align: center;
  }
-
 
 /*Colors:*/
 /*light blue: #30BCED
