@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
 body {
   margin: 10%;
 }
@@ -5,7 +7,6 @@ body {
 a {
   text-decoration: none;
   color: pink;
-  background-color: black;
 }
 
 a:hover {
@@ -39,13 +40,14 @@ header h2 {
   left: 12%;
   top: 0%;
   font-size: 2em;
+  font-family: 'Courgette', cursive;
+  border: pink;
 }
 
 
 header nav {
-  width: 15%;
   position: fixed;
-  right: 12%;
+  right: 17%;
   top: 0%;
 }
 
@@ -53,9 +55,11 @@ header ul {
   list-style: none;
   text-decoration: none;
   display: flex;
+  font-family: 'Courgette', cursive;
+  font-size: 1.3em;
 }
 
-nav li {
+header nav li {
   margin-top: 10%;
   margin-left: 20%;
 }
@@ -68,69 +72,82 @@ main {
   margin-left: 10%;
 }
 
-.title {
+.banner{
+  position: relative;
+  top: auto;
   background-image: url('../assets/hero.jpg');
-  background-size: 100% auto;
-  background-repeat: none;
-  height: 700px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 30em;
+  margin: 10%;
+  border-bottom: black 10px solid;
 }
 
-
-.title h1 {
+.title {
+  position: absolute;
+  top: 80%;
+  right: 0%;
   text-align: center;
-  position: relative;
-  top: 0;
+  margin: 0;
+  padding: 0;
   z-index: 2;
-  font-size: 8em;
-}
-
-.title img {
-  position: relative;
-  top: 10%;
-  z-index: 1;
-  width: 100%;
-}
-
-.popular_posts h2 {
-  text-align: center;
-  margin: 8%;
-  font-size: 5em;
+  font-size: 700%;
+  font-family: Courgette, sans-serif;
 }
 
 .popular_posts {
   display: inline-block;
   border-bottom-width: 100%;
-  border-bottom: black 1px solid;
-  padding-left: 10%;
+  border-bottom: black 10px solid;
   padding-bottom: 10%;
 }
 
-.popular_posts article{
-  border: black 1px solid;
-  border-radius: 10px;
-  /*position: relative;*/
-  display: inline-block;
-  /*top: 30px;*/
-  height: 350px;
-  width: 300px;
+.popular_posts h2 {
   text-align: left;
-  margin: 1%;
+  font-size: 3em;
+  padding-left: 0%;
+  font-family: 'Courgette', cursive;
+  border: black 10px solid;
+  padding: 2%;
+
 }
 
-.popular_posts p:nth-child(2) {
+.popular_posts article {
+  position: relative;
+  border: black 1px solid;
+  border-radius: 10px;
+  display: inline-block;
+  height: 20%;
+  width: 28%;
+  text-align: left;
+  margin: 2%;
+}
+
+.popular_posts h3 {
+  background: black;
+  color: pink;
+  font-style: italic;
+  margin-top: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.popular_posts article p {
   height: 100px;
   text-align: left;
 }
 
-.popular_posts p:nth-child(3){
-  /*position: relative;*/
+.popular_posts a {
+  background: darkgray;
   text-align: center;
   padding: 5%;
   display: inline-block;
-  margin-left: 27%;
+  margin-left: 25%;
+  margin-bottom: 0;
   border: black 1px solid;
   border-radius: 10px;
   z-index: -100;
+  width: 40%;
 }
 
 
@@ -145,6 +162,7 @@ main {
   width: 50%;
   float: right;
   margin-left: 10%;
+  margin-bottom: 5%;
 }
 
 #join_club #right_side {
@@ -153,44 +171,73 @@ main {
   width: 30%;
 }
 
-main :nth-child(4){
+main section:nth-child(4){
   clear: both;
   text-align: center;
-  margin: 10px;
   border: black 1px solid;
+  padding: 10%;
+  background-image: url("../assets/everybody.jpg");
+  background-size: 100% auto;
+  height: 400px;
+
 }
 
-
+main section h2{
+  font-size: 3em%;
+  margin: 5%;
+}
 
 /*footer*/
+
+
 footer {
-  clear: both;
   position: relative;
-  bottom: 5%;
-  height: 5%;
+  bottom: 0;
   border: black 1px solid;
   margin: 10%;
-  padding: 8%;
+  padding-top: 2%;
+  max-height: 10%;
 }
 
 footer nav {
-  position: absolute;
-  bottom: 0px;
   display: inline-block;
+  position: relative;
+  bottom: 10%;
+  left: 10%;
   color: black;
-  right: 10%;
+  /*right: 10%;*/
+  width: 15%;
+  text-align: center;
 }
 
 footer h4 {
+  float: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+footer p{
+  width: 35%;
+  display: inline;
+}
+
+#disclaimer {
   display: inline-block;
+  width: 50%;
+  margin-top: 0;
+  margin-left: 5%;
+  font-size: .8em;
 }
 
-footer ul {
 
-}
+
+
+/*
+
+footer
 
 footer p {
-  float: left;
   display: inline-block;
   width: 30%;
-}
+}*/
