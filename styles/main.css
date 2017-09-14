@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
+
+/* add clearfix to parents of floating elements */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+/****************/
+/*    HEADER    */
+/****************/
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: pink;
+  top: 0;
+  left: 0;
+  font-family: 'Dosis'
+}
+
+nav, li {
+  display: inline-block;
+  /*border-radius: 5%;*/
+}
+
+nav li {
+  margin: 0 5%;
+  display: inline-block;
+}
+
+nav {
+  float: right;
+  position: relative;
+  margin: 2.5% -10% 1% 20%;
+  width: 50%;
+}
+
+header h2 {
+  float: left;
+  font-size: 250%;
+}
+
+header nav a {
+  font-size: 150%;
+}
+
+header a {
+  position: relative;
+  left: 50%;
+  text-decoration: none;
+
+}
+
+h1 {
+  margin-top: 10%;
+}
