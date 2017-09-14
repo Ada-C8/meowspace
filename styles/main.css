@@ -2,23 +2,35 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-/*    background-color: black;*/
+    background-color: black;
 }
 
 
 body header h2 {
     display: inline-block;
     float: left;
-    border:1px solid black;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+body header h2 a{
+    text-decoration: none;
+    color: white;
 }
 
 
 header nav ul li {
     display: inline; 
     list-style-type: none;
-    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
 }
 
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
 
 header nav{
     position: relative;
@@ -31,8 +43,8 @@ header nav{
 
 
 main section:first-child {
-/*    background: url(../photos/lotsodogs.jpg) no-repeat center center;*/
-    margin-top:75px;
+    background: url(../photos/lotsodogs.jpg) no-repeat center center;
+    margin-top:100px;
     padding: auto;
     border:1px solid black;
 }
@@ -76,6 +88,23 @@ section h3 {
     border-bottom: 1px solid #000;
 }
 /*-------------------------------*/
+
+body main section:nth-child(3){
+    border:1px solid black;
+}
+
+body main section h2{
+    
+}
+
+body main section p {
+    
+}
+
+body main section img {
+   border:1px solid black; 
+}
+
 
 
 
