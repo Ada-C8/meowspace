@@ -68,6 +68,15 @@ main section h2{
   text-align: center;
 }
 footer{
+    font-size: 10px;
   display: grid;
+}
+
+footer h4{
+  width: 10%;
   font-size: 10px;
+}
+
+footer p{
+  display:float;
 }
