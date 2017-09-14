@@ -22,25 +22,25 @@ This drawing is called a wireframe. Wireframes are like a blueprint for your sit
 
 ## Primary Requirements
 
-- [ ] Add normalize.css
+- [X] Add normalize.css
   - Normalize is a popular collection of CSS rulesets used to render elements more consistently across browsers.
   - Go to [https://necolas.github.io/normalize.css/](https://necolas.github.io/normalize.css/), click the red download button, copy and paste the code into a new file called 'normalize.css' and link to it as you would with main.css. The link to normalize.css should come before your main.css.
 - [ ] Use CSS to rearrange the layout to match the drawing as much as possible (it doesn't need to be perfect). You should utilize the following layout techniques at least once:
   - [ ] Inline Block display
-  - [ ] Floats
+  - [X] Floats
   - [ ] Fixed Positioning (With the top header)
 - [ ] Add custom styling
   - [ ] At least one google font
   - [ ] At least one pseudo selector (like hover)
-  - [ ] Background color on one section
+  - [X] Background color on one section
 -  [ ] Identify repeated styles and use CSS selectors and class/id names to organize and DRY your code.
 
 
 
 ### Optional Enhancements
 
-- [ ] Add [parallax scrolling](https://www.w3schools.com/howto/howto_css_parallax.asp) to the hero banner
-- [ ] Animate the h1 element to fade in on page load
+- [X] Add [parallax scrolling](https://www.w3schools.com/howto/howto_css_parallax.asp) to the hero banner
+- [X] Animate the h1 element to fade in on page load
 - [ ] Create a new page for one of the articles
   - [ ] Create a wireframe for the layout design
   - [ ] Create the content and structure with HTML, in new HTML page
