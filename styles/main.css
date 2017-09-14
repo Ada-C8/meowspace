@@ -1,0 +1,173 @@
+
+/******************/
+/*    Generic     */
+/*****************/
+
+body {
+  font-family: helvetica;
+}
+
+a {
+  color: rgb(245, 35, 211);
+}
+
+a:visited {
+  color: rgb(170, 35, 51);
+}
+
+a:hover {
+  color: rgba(237, 235, 53, 0.92);
+}
+
+a:visited:hover {
+  color: rgb(197, 78, 215);
+}
+
+main {
+  background-color: rgb(167, 164, 164);
+}
+/******************/
+/*    Header     */
+/*****************/
+
+header {
+  background-color: rgb(65, 71, 74);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+header h2 {
+  float: left;
+  margin: 2%;
+}
+
+nav li {
+  display: inline-block;
+  float: right;
+  margin: 1%;
+}
+
+/******************/
+/*      h1        */
+/*****************/
+
+main section h1 {
+  background-image: url("../bear_hello.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 20%;
+  color: rgb(21, 23, 26);
+}
+
+/******************/
+/* Popular Posts  */
+/*****************/
+
+#posts h2 {
+  text-align: center;
+  color: rgb(19, 22, 21);
+}
+
+#posts article {
+  border: solid;
+  border-radius: 5%;
+  border-color: rgb(108, 108, 113);
+  background-color: rgb(213, 223, 227);
+  width: 30%;
+  margin: 1%;
+  float: left;
+}
+
+#posts div {
+  padding: 3%;
+}
+
+
+/******************/
+/*    Join       */
+/*****************/
+
+#join {
+  background-color: rgb(147, 154, 152);
+}
+
+#join div {
+  width: 40%;
+  margin: 2%;
+  float: left;
+}
+
+#join img {
+  width: 50%;
+  margin: 0 0 0 6%;
+  vertical-align: bottom;
+  vertical-align: top;
+}
+
+#join div {
+
+}
+
+/******************/
+/*Bottom big photo*/
+/*****************/
+
+#bottom-big-photo {
+  background-image: url("../bear_hello2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10%;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/******************/
+/*    Footer     */
+/*****************/
+footer {
+  background-color: rgb(197, 200, 205);
+  margin: 0;
+}
+
+footer div {
+  padding: 1%;
+  display: inline-block;
+  width: 50%;
+}
+
+footer h4 {
+  float: left;
+  margin: 0 0.5% 0 0;
+  font-size: 0.8em;
+}
+
+#disclaimer {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+#bottom-nav {
+  display: inline-block;
+  width: 40%;
+}
+
+
+/******************/
+/*    Clearfix     */
+/*****************/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
