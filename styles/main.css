@@ -28,7 +28,10 @@ a {
   float: left;
   font-weight: bold;
   font-family: Bungee Shade;
+  /*transition: linear .5s;*/
   }
+
+
 
 .nav {
   float: right;
@@ -72,7 +75,13 @@ li {
   bottom: 2px;
   text-align: right;
   width: 95%;
+  animation: fadein 5s;
 }
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
 
 /*popular posts*/
 .content {
@@ -126,7 +135,7 @@ li {
 }
 
 .blog-post:active {
-background-image: url(../lasercat.gif);
+background-image: url(../assets/lasercat.gif);
 color: white;
 }
 
