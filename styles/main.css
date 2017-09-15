@@ -1,0 +1,157 @@
+#link1 {
+  padding-top: 5%;
+  padding-left: 3%;
+  font-size: 2em;
+}
+
+#link2 {
+  padding-right: 7%;
+  padding-left: 3%;
+  padding-bottom: 0%;
+}
+
+header {
+  background-color: #9CAFB7;
+  border-bottom: solid;
+  font-family: 'Princess Sofia', cursive;
+  font-size: 2em;
+  padding-bottom: 3%;
+  position: fixed;
+  margin: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+/*main section {
+  clear: both;
+}*/
+
+header nav li {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: blue;
+  padding-bottom: 10%;
+  margin-bottom: 20%;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header nav li {
+  display: inline-block;
+  float: right;
+  margin: 3px;
+  margin-top: 0;
+}
+
+header h2 {
+  margin: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 0;
+}
+
+h1 {
+  background-image: url('../assets/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-bottom: solid;
+  border-color: black;
+  height: 100px;
+  font-size: 6em;
+  font-family: 'Princess Sofia', cursive;
+  color: white;
+  text-align: center;
+  margin-top: 12%;
+  padding: 22%;
+}
+
+article {
+  display: inline-block;
+  padding: 2% 2% 2% 2%;
+  height: 60%;
+  width: 25%;
+  margin: 2%;
+  border: solid;
+  border-radius: 1.2em;
+  background-color: #E6b89C;
+  font-family: 'Princess Sofia', cursive;
+}
+
+.posts h2 {
+  text-align: center;
+  font-family: 'Princess Sofia', cursive;
+  font-size: 2.5em;
+}
+
+.posts a {
+  border: solid;
+  padding: 3%;
+  padding-bottom: 1%;
+  border-radius: 1.2em;
+  margin-left: 33%;
+}
+
+.posts a:hover {
+  color: pink;
+}
+
+.posts h3 {
+  border-bottom: solid;
+}
+
+
+#club h2 {
+  font-family: 'Princess Sofia', cursive;
+  margin-left: 17%;
+  font-size: 3em;
+}
+
+#club p {
+  display: inline-block;
+  clear: right;
+  width: 30%;
+  margin-left: 17%;
+  font-family: 'Princess Sofia', cursive;
+  font-size: 1.5em;
+}
+
+#club img {
+  display: inline-block;
+  float: right;
+  width: 400px;
+  margin-right: 20%;
+  margin-left: 10%;
+  border: solid;
+}
+
+section.everybody {
+  background-image: url("../assets/everybody.jpg");
+  clear: both;
+  color: white;
+  font-family: 'Princess Sofia', cursive;
+  text-align: center;
+  font-size: 3em;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-bottom: solid;
+  border-color: black;
+  height: 80px;
+  padding: 18%;
+}
+
+#disclaimer {
+  font-family: 'Princess Sofia', cursive;
+}
