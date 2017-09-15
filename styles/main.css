@@ -3,6 +3,7 @@
 }
 body {background-color: #FFFAFF;}
 
+
 p {
 	color: #303036;
 	font-family: 'Raleway', sans-serif;
@@ -11,8 +12,9 @@ p {
 
 header {
 	background-color: #303036;
-	/*display: inline-block;*/
+	display: inline-block;
 	height: 4rem;
+	min-width: 27rem;
 	position: fixed;
 	width: 100%;
 	z-index: 999;
@@ -29,13 +31,14 @@ header {
 		display: inline-block;
 		font-family: 'Baloo Tammudu', cursive;
 		font-size: 2rem;
-		margin: auto 0 auto 3rem;
+		margin: auto 0 auto 5%;
 		position: relative;
 		top: 1.2rem;
 		width: 30%;
 	 }
 
 	header li {
+		display: inline-block;
 		font-family: 'Josefin sans', sans-serif;
 		font-weight: normal;
 		margin: .5rem;
@@ -54,28 +57,35 @@ header {
 	}
 
 	header ul {
-		display: flex;
+		display: inline-block;
 		float: right;
+		margin: 1rem 10%;
+		min-width: 12rem;
 		list-style: none;
-		/*padding: 0 2rem;*/
 	 }
 
 footer {
-	display: flex;
+	display: inline-block;
 	margin: 1rem auto;
-	width: 70%;
+	width: 90%;
  }
 
 	footer div {
+		display: inline-block;
 		font-size: .75rem;
 		width: 50%;
 	 }
 
 	footer h4, footer p {display: inline;}
 
+	footer nav {
+		display: inline-block;
+		margin: 0 5rem;
+	}
+
   footer ul {
+		display: inline-block;
     font-family: 'Raleway', sans-serif;
-    /*list-style: none;*/
   }
 
   footer a {
@@ -110,6 +120,7 @@ footer {
  }
 
 #posts {
+	/*display: inline-block;*/
 	display: flex;
 	flex-flow: row wrap;
 	margin: 5rem auto;
@@ -206,6 +217,7 @@ footer {
 	 }
 
 	#join img {
+		float: right;
 		height: 50%;
 		margin: auto 1rem;
 		min-width: 24rem;
