@@ -96,7 +96,7 @@ div #hero {
 }*/
 
 article {
-  border: thin dashed blue;
+  /*border: thin dashed blue;*/
   display: inline-block;
   width: 28%;
   vertical-align: top;
@@ -119,13 +119,27 @@ article {
   display: -webkit-box;
   max-width: 400px;
   /*height: 109.2px;*/
-  margin: 1% 3%;
+  margin: 3% 3%;
   /*font-size: 2;*/
   line-height: 1.4;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.posts article p:nth-of-type(2) {
+  font-style: italic;
+  /*width: 100%;*/
+  border-radius: 1.3em;
+  background-color: pink;
+}
+
+.multiline-ellipsis h3{
+  border-bottom: medium dashed green;
+  margin: 0;
+  padding: 6% 2%;
+  font-size: 1.3em;
 }
 
 
@@ -153,6 +167,7 @@ article {
   height: 360px;
   /*margin-top: 0px;*/
 }
+
 div #be-a-cat {
   position: relative;
   width: 100%;
