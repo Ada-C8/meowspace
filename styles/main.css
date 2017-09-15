@@ -18,6 +18,12 @@
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 
+/* add a wrapper class */
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /****************/
 /*    HEADER    */
 /****************/
@@ -29,7 +35,7 @@ header {
   background-color: pink;
   top: 0;
   left: 0;
-  font-family: 'Dosis'
+  font-family: 'Dosis';
 }
 
 nav, li {
@@ -68,19 +74,103 @@ header a {
 /****************/
 /* H1 MEOWSPACE  */
 /****************/
-
+section.meowspace{
+  height: 400px;
+}
 h1 {
-  margin-top: 11.5%;
+  margin-top: 8%;
   padding: 20% 40%;
   font-family: 'Dosis';
   font-weight: bold;
-  font-size:450%;
+  font-size:500%;
   position: relative;
   right: 7%;
 }
 
 .meowspace {
-  background-color: #20DAE1;
+  /*background-color: #20DAE1;*/
   /*background-image: url('https://i.pinimg.com/originals/26/07/c7/2607c70ce4f8e76eca556fb49ba347a3.jpg');*/
-  /*background-size: cover;*/
+  background-size: cover;
+  background-image: url('../images/meow.jpg');
 }
+
+/****************/
+/* POPULAR POSTS */
+/****************/
+
+.popular-posts .wrapper {
+  text-align: center;
+}
+.popular-posts article {
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  margin-top: 10%;
+  vertical-align: top;
+}
+
+.popular-posts h3 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: -18%;
+}
+
+.popular-posts article:nth-of-type(1n) {
+  margin-right: 2.5%;
+}
+
+.popular-posts article:nth-of-type(2n) {
+  margin-right: 2.5%;
+}
+
+.popular-posts article:nth-of-type(3n) {
+  margin-right: 2.5%;
+}
+
+.popular-posts p:first-of-type {
+  border-top: solid;
+  text-align: justify;
+  padding: 5% 15% 2% 15%;
+}
+
+/*
+.popular-posts h2 {
+  text-align: center;
+  font-family:'Dosis';
+  font-size: 300%;
+}*/
+
+/*.popular-posts h3 {
+  padding: 2% 2%;
+  width: 100%;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.popular-posts article {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  border-style: solid;
+  margin: 2.5% 1.5% 1% 1.5%;
+  height: 320px;
+}
+
+.popular-posts article:first-of-type {
+}
+
+.popular-posts p:first-of-type {
+  border-top: solid;
+  text-align: justify;
+  padding: 5% 15% 2% 15%;
+}
+
+.popular-posts article:nth-of-type(4n) {
+}
+
+.popular-posts a {
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+}*/
