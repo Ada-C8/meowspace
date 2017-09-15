@@ -79,11 +79,21 @@ footer nav ul {
   margin: 0;
 }
 
+.join-the-club div {
+  float: left;
+  width: 40%;
+}
+
+.join-the-club img {
+  float: right;
+  width: 275px;
+}
+
 /***********/
 /* CLEARFIX */
 /***********/
 
-/*.clearfix:after {
+.clearfix:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -94,4 +104,4 @@ footer nav ul {
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
-.clearfix { display: block; }*/
+.clearfix { display: block; }
