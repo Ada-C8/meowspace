@@ -1,0 +1,156 @@
+.center-text {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+body {
+  font-family:  'Dosis', sans-serif;;
+  color: #333435;
+}
+
+header  {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #379392;
+}
+
+header li {
+  margin-top: 20px;
+  margin-right: 25px;
+  font-size: 1.2em;
+}
+
+header h2 {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FBFFB9;
+}
+
+header nav {
+  float: right;
+  height: 100px;
+}
+
+header nav li a {
+  color: white;
+}
+
+.home-link {
+  font-size: 1.75em;
+  color: white;
+  margin-left: 50px;
+}
+
+.banner1 {
+  margin-top: 100px;
+  height: 300px;
+  width: 100%;
+}
+
+section h1 {
+  font-size: 3em;
+  margin-top: -175px;
+  color: white;
+}
+
+article {
+  border: 1px solid black;
+  border-radius: 10%;
+  width: 30%;
+  height: 250px;
+  margin: 10px;
+  vertical-align: top;
+}
+
+a[href*="post"] {
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 45%;
+  color: black;
+  font-weight: bold;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.popular-posts h2 {
+  font-size: 2em;
+  margin-top: 170px;
+}
+
+.call-to-action {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  height: 295px;
+}
+
+section.call-to-action h2 {
+  font-size: 2em;
+}
+
+section.call-to-action h2,
+section.call-to-action p {
+  width: 50%;
+}
+
+.wrapper h2 {
+  clear: both;
+  padding-top: 40px;
+}
+
+section.call-to-action img {
+  width: 43%;
+  float: right;
+  margin-top: -85px;
+  border-radius: 25%;
+}
+
+.banner2 {
+  width: 100%;
+}
+
+.tagline {
+  font-size: 3em;
+  margin-top: -200px;
+  color: white;
+}
+
+footer {
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 70%;
+}
+
+footer nav {
+  float: right;
+  height: 100px;
+}
+
+footer nav li {
+  margin-top: -70px;
+}
+
+footer nav li a {
+  color: black;
+  margin: 50%;
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 1.3em;
+}
+
+footer h4,
+footer p {
+  width: 50%;
+}
