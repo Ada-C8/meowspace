@@ -8,8 +8,7 @@ body {
 
 header {
   position: fixed;
-  left: 0;
-  width: 100%;
+  width: 94%;
   z-index: 100;
   background-color: #FDEED0;
   height: 70px;
@@ -18,17 +17,20 @@ header {
 header h2 {
   float: left;
   font-size: 50px;
+  margin-left: 4%;
 }
 
 header nav {
   float: right;
+  margin-right: 8%
 }
 
 header li {
   display: inline-block;
   postition: relative;
   background-color: yellow;
-  height: 2em;
+  font-size: 20px;
+  height: 24px;
   width: 6em;
   border-radius: 5%;
   text-align: center;
@@ -49,8 +51,9 @@ header li {
   position: absolute;
   height: 100%;
   width: 100%;
-  top: 50%;
+  top: 30%;
   text-align: center;
+  font-size: 100px;
 }
 
 #banner img {
@@ -62,6 +65,7 @@ header li {
 /******************/
 section:nth-of-type(2) h2 {
   text-align: center;
+  font-size: 40px;
 }
 
 article {
@@ -86,7 +90,8 @@ article h3 {
 
 article p:first-of-type {
   font-size: 18px;
-  height: 50%;
+  height: 60%;
+  margin: 0 2%;
 }
 
 article p:last-of-type {
@@ -100,19 +105,74 @@ article p:last-of-type {
 /******************/
 /*** JOIN CLUB ****/
 /******************/
-
 #join-club {
+  position: relative;
   display: inline-block;
+  width: inherit;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  margin: 2% 0 4%;
+  padding: 4% 0 2%;
 }
 
-#join-club h2{
+#join-club h2 {
   text-align: center;
   font-size: 24px;
 }
 
 #join-club img {
   float: right;
-  width: 50%;
+  width: 40%;
+  margin-right: 8%;
+}
+
+#club-wrapper {
+  float:left;
+  width: 40%;
+  margin-left: 8%;
+}
+
+/******************/
+/***** ENDING *****/
+/******************/
+
+#end {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+#end h2 {
+  color: white;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -15%;
+  font-size: 100px;
+}
+
+#end img {
+  width: 100%;
+}
+
+/******************/
+/***** FOOTER *****/
+/******************/
+
+footer {
+  width: inherit;
+}
+
+footer p {
+  float: left;
+  margin-left: 10%;
+  width: 40%;
+}
+
+footer ul {
+  float: right;
+  margin-right: 30%;
+  font-size: 24px;
 }
 /******************/
 /*** CLEAR FIX ****/
