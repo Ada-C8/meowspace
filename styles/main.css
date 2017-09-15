@@ -1,0 +1,268 @@
+/* reset default fonts and margins */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+/* set fonts */
+h1, h2, h3, h4, h5, h6, header {
+  font-family: 'Catamaran', 'Arial', sans-serif;
+}
+
+p, footer {
+  font-family: 'Yanone Kaffeesatz', 'Arial', sans-serif;
+  font-size: 1.25rem;
+}
+
+/* remove underlines from link elements */
+a {
+  text-decoration: none;
+}
+
+/* set color for links in navbar */
+a:link, a:visited {
+  color: #EB5E28;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #183059;
+  z-index: 5;
+}
+
+/* position site name left */
+.name-container {
+  display: inline-block;
+  width: 49%;
+  font-size: 3rem;
+  padding: 1rem 0 1rem 4rem;
+  position: relative;
+}
+
+/* position nav bar right */
+header nav {
+  display: inline-block;
+  position: relative;
+  width: 49%;
+  text-align: right;
+}
+
+/* style list elements in nav bar */
+header nav li {
+  list-style: none;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0 3rem;
+}
+
+main {
+  position: relative;
+  top: 5.4rem;
+}
+
+/* set background images for hero banner & bottom image */
+.hero-banner {
+  background-image: url('../assets/hero.jpg');
+  height: 39rem;
+
+  /* parallax scrolling
+  DOESN'T SCALE WELL */
+  /*background-attachment: fixed;*/
+}
+
+.bottom-image {
+  background-image: url('../assets/everybody.jpg');
+  height: 26rem;
+}
+
+.hero-banner, .bottom-image {
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+  /* style background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* vertically center text in hero banner & bottom image */
+.hero-banner h1, .bottom-image h2 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* style hero banner text */
+.hero-banner h1 {
+  margin: 0;
+  display: inline-block;
+  font-size: 6.5rem;
+  color: white;
+}
+
+/* style bottom image text */
+.bottom-image h2 {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 4rem;
+  width: 29rem;
+  color: #183059;
+}
+
+.posts {
+  position: relative;
+  padding: 4rem 5% 2rem 6%;
+  color: #183059;
+  /*text-align: center;*/
+}
+
+/* put articles in border boxes */
+main article {
+  display: inline-block;
+  /*width: 25%;*/
+  width: 15rem;
+  height: 20rem;
+  border: solid 2px #183059;
+  border-radius: .75em;
+  vertical-align: top;
+  position: relative;
+  left: 1rem;
+  margin: 1rem 1.5rem;
+}
+
+/* style individual article posts */
+.posts h2, .posts h3 {
+  text-align: center;
+  font-weight: bold;
+  padding: 0 0 3rem 0;
+}
+
+/* set size of section title */
+.posts h2 {
+  font-size: 4rem;
+}
+
+/* set size of individual post titles */
+.posts h3 {
+  height: 4.5rem;
+  font-size: 1.5rem;
+  border-bottom: solid 1px black;
+  margin: 0 1rem;
+  padding: .5rem .5rem;
+}
+
+/* style post text */
+.posts p {
+  padding: .5rem .75rem 0 .75rem;
+  text-align: justify;
+}
+
+/* position "learn more" at bottom of each block */
+main article p:last-child {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 1.25rem;
+  font-weight: bold;
+}
+
+/* put "learn more" in a rounded border */
+.posts a[href*="post"] {
+  border: solid 2px #EB5E28;
+  border-radius: 2em;
+  padding: .5rem 1.5rem;
+  text-transform: uppercase;
+}
+
+/* change color of "learn more" on hover */
+.posts a[href*="post"]:hover {
+  background-color: #EB5E28;
+  color: white;
+}
+
+.join {
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 2rem 3rem;
+    position: relative;
+}
+
+/* position join text and image */
+.join-text {
+  display: inline-block;
+  width: 49%;
+  padding: 0 0 0 5%;
+}
+
+.join-text h2, .join-text p {
+  display: inline-block;
+  text-align: justify;
+  max-width: 25rem;
+  width: 20rem;
+  vertical-align: middle;
+}
+
+.join-image {
+  display: inline-block;
+  text-align: center;
+  width: 49%;
+  min-width: 25rem;
+  vertical-align: middle;
+}
+
+.join-text h2 {
+  /*text-align: justify;*/
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: .75rem;
+  /*margin: 0 0 .5rem 0;*/
+}
+
+.join-text h2::after {
+  content: "!"
+}
+
+.join-image img {
+  display: inline-block;
+  width: 75%;
+  height: auto;
+}
+
+/*layer partially opaque background over image */
+.opacity {
+  position: absolute;
+  width: 100%;
+  height: 26rem;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-text {
+  width: 42%;
+  float: left;
+  text-align: justify;
+  padding-bottom: 1.5rem;
+  padding-left: 7%;
+}
+
+footer {
+  position: relative;
+  top: 7rem;
+}
+
+/* combine copyright w/disclaimer */
+footer h4, #disclaimer {
+  display: inline;
+  font-size: .8em;
+}
+
+footer nav {
+  float: right;
+  width: 42%;
+  font-weight: bold;
+  font-size: 1.25em;
+}
