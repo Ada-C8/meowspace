@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  list-style-type: none;
+  font-family: 'Nunito', sans-serif;
+  color: #5B5FAC;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  list-style-type: none;
+  padding-left: 2%;
+  overflow: hidden;
+  background-color: #6F73D2;
+  top: 0;
+  z-index: 5;
+  display: inline-block;
+}
+
+header h2 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+header li a {
+  postion: relative;
+  margin-right: 50px;
+  float: right;
+  letter-spacing: .1em;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #A3A5E2;
+}
+
+header h2 a:link {
+  color: white;
+  text-decoration: none;
+}
+
+header h2 a:visited {
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  color: #6F73D2;
+  background-image: url("../assets/hero.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 90px;
+  font-size: 4em;
+  text-align: center;
+  font-style: italic;
+}
+
+main {
+  background: #B0D0D3;
+}
+
+.posts {
+  width: 100vw;
+  height: 100vh;
+}
+
+/*start posts*/
+/*posts header {*/
+.posts h2 {
+  text-align: center;
+  margin: 50px;
+  font-size: 2.5em;
+  color: #5B5FAC;
+}
+
+/* posts */
+.posts article {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-left: 3%;
+  margin-bottom: 4%;
+  height: auto;
+  width: 27%;
+  text-align: justify;
+  position: relative;
+  border-radius: 10%;
+  border: 3px solid #6F73D2;
+  left: 2%;
+  background: white;
+  min-height: 275px;
+}
+
+/*post headers*/
+.posts h3 {
+  color: #5B5FAC;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 9% 5% 5% 5%;
+  position: relative;
+  left: -.2px;
+  border-bottom: 2px solid #6F73D2;
+  border-radius: 5% 5% 0 0;
+}
+
+/*posts paragraph*/
+.posts p {
+  padding: 3% 8%;
+  color: #5B5FAC;
+}
+
+/* posts link {*/
+.posts a:link {
+  position: absolute;
+  display: inline-block;
+  left: 25%;
+  bottom: 4%;
+  padding: 3% 5%;
+  min-width: 10%;
+  background: #6F73D2;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.posts a:hover{
+  background: #A3A5E2;
+}
+
+.posts a:visited {
+  color: #A3A5E2;
+}
+
+/*  J O I N  U S  */
+.join {
+  width: 100vw;
+  height: auto;
+  padding: 3%;
+  padding-top: 0;
+}
+
+.join-column {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  text-align: justify;
+  padding-top: 5%;
+}
+
+.join-column h2 {
+  top: 10%;
+  text-align: center;
+  font-size: 3.25em;
+}
+
+.join p {
+  padding: 7% 5%;
+  font-size: 1.25em;
+}
+
+.join-image {
+  height: auto;
+  width: 55%;
+  padding: 3%;
+  float: right;
+}
+
+.join img {
+  height: auto;
+  width: 100%;
+  border: 5px solid #5B5FAC;
+}
+
+.clearfix {
+  clear: both;
+  padding-bottom: 2%;
+}
+
+.everybody {
+  height: auto;
+  width: 100vw;
+  color: #6F73D2;
+  background-image: url("../assets/everybody.jpg");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 8% 10%;
+  font-size: 5em;
+  text-align: center;
+  text-shadow: 2px 3px 2px white;
+}
+
+/*footer*/
+.combine-disclaimer {
+  display: inline;
+  height: auto;
+  width: 50%;
+  padding: 3%;
+  float: left;
+}
+
+.combine-disclaimer h4 {
+  display: inline;
+  height: auto;
+  float: left;
+}
+
+.combine-disclaimer p {
+  width: 100%;
+}
+
+footer nav ul {
+  display: inline;
+  height: auto;
+  width: 40%;
+  float: right;
+  position: relative;
+  padding: 3%;
+}
+
+footer li {
+  list-style-type: disc;
+  font-size: 1.5em;
+}
+footer a:link {
+  color: #6F73D2;
+}
+
+footer a:visited {
+  color: #A3A5E2;
+}
