@@ -1,3 +1,5 @@
+/*MEOWSPACE*/
+
 html {
   overflow-x:hidden;
 }
@@ -5,15 +7,6 @@ html {
 body {
   width: 100%;
   margin: 0;
-  /*vertical-align: baseline;*/
-}
-
-.header-container {
-  width: 100%;
-  margin: 0;
-  display: block;
-  position: relative;
-  vertical-align: baseline;
 }
 
 /*h2, h3 {
@@ -21,11 +14,10 @@ body {
 }*/
 
 .header {
-  /*vertical-align: baseline;*/
-  /*width: 100%;
-  top: 0;*/
-  position:fixed;
-  z-index: 5;
+  vertical-align: baseline;
+  width: 100%;
+  top: 0;
+  /*z-index: 5;*/
   top: 25px;
 }
 
@@ -146,7 +138,7 @@ p {
   line-height: 1.4em;
 }
 
-#first-row {
+/*#first-row {
   position: relative;
   float:left;
   border: 12px dashed purple;
@@ -157,4 +149,12 @@ p {
   float:left;
   border: 12px dashed purple;
   left: 15%;
+}*/
+
+.everyone-wants-to-be img {
+  position: relative;
+  width: 80%;
+  heigh: 500px;
+
+
 }
