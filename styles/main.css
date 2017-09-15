@@ -1,5 +1,12 @@
 /*MEOWSPACE*/
 
+/*font-family: 'Bowlby One SC', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Ribeye Marrow', cursive;
+font-family: 'Miltonian', cursive;*/
+
 html {
   overflow-x:hidden;
 }
@@ -26,7 +33,7 @@ body {
 
 .logo {
   float: left;
-  font-family: "helvetica";
+  font-family: 'Bowlby One SC', cursive;
   font-size: 30px;
   margin: 0;
 }
@@ -52,7 +59,7 @@ nav ul {
 
 nav li {
   display: inline;
-  font-family:helvetica;
+  font-family:'Bowlby One SC', cursive;
 }
 
 .hero-container {
@@ -69,12 +76,10 @@ p.hero-text {
   left: 40%;
   top: 600px;
   text-shadow: 2px 2px #ff0000;
-  font-size: 48px;
-  font-family:helvetica;
-  color: blue;
+  font-size: 3em;
+  font-family:'Faster One', cursive;
+  color: white;
   margin: 0;
-  /*transform: translateY(-50%);*/
-  /*vertical-align: baseline;*/
 }
 
 .main-container {
@@ -111,42 +116,57 @@ article {
   float: left;
 }
 
+article h3 {
+  text-align: center
+}
+
 #first-row article {
-  margin-left:100px;
+  margin-left:110px;
   margin-bottom: 25px;
 }
 
 #second-row article {
-  margin-left:100px;
+  margin-left:110px;
   margin-bottom: 25px;
-}
-
-/*div.blogposts {
-  display: block;
-  position: relative;
-  border: 12px dotted black;
-  float: left;*/
-  /*width: 275px;*/
-  /*height: 400px;*/
-/*}*/
-
-.join-the-club-container > section {
-  display: block;
 }
 
 .join-the-club-container {
   display: block;
   border: 12px dotted blue;
+  margin: 50px;
+}
+
+.join-the-club-text {
+  display: inline-block;
+  width: 400px;
+  border: 12px solid orange;
+  padding: 20px;
+  margin: 0px;
+  vertical-align: middle;
+  position: relative;
+  left: 109px;
+}
+
+.join-the-club-header {
+  position: relative;
+  display: inline;
+  left: 120px;
 }
 
 .join-club-image {
   display: inline-block;
-  max-width: 400px;
+  max-width: 390px;
   max-height: auto;
+  margin:0;
+  vertical-align: middle;
+  position: relative;
+  left: 250px;
 }
 
 p {
   line-height: 1.4em;
+  margin-left: 9px;
+  margin-right: 9px;
 }
 
 #first-row {
@@ -165,9 +185,14 @@ p {
 .everyone-wants-to-be h2 {
   position: absolute;
   margin: 0;
-  font-size: 5em;
+  font-size: 10em;
   color:white;
-  left: 100px;
+  text-align: center;
+  /*padding-left: 70px;
+  padding-top: 600px;*/
+  padding-left: 8%;
+  padding-top: 40%;
+  text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
 }
 
 .clear-floats {
