@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+html{
+  background: #f7d4e5;
+  overflow: auto;
+}
+
+body {
+  margin: 10%;
+  box-sizing: content-box;
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+}
+
+html a:hover {
+  color: lightblue;
+}
+
+p {
+  padding: 5%;
+  overflow: hidden;
+  font-size: 1vw;
+}
+
+h3 {
+  text-align: center;
+  padding: 5%;
+  border-bottom: black solid 1px;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5vw;
+  background: black;
+  border: black 1px solid;
+  /*padding: 25px;*/
+  z-index: 1000;
+}
+
+header h2 {
+  position: fixed;
+  left: 12%;
+  top: 0%;
+  font-size: 2vw;
+  font-family: 'Courgette', cursive;
+  border: pink;
+}
+
+
+header nav {
+  position: fixed;
+  right: 17%;
+  top: 0%;
+}
+
+header ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  font-family: 'Courgette', cursive;
+  font-size: 1.3vw;
+}
+
+header nav li {
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+/*Start Main Section */
+main {
+  position: relative;
+  padding-top: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+  background: white;
+  overflow: hidden;
+}
+
+.banner{
+  position: relative;
+  /*top: auto;*/
+  background-image: url('../assets/hero.jpg');
+  background-size: 100%;
+  background-repeat: repeat;
+  height: 38vw;
+  margin: 10%;
+  border-bottom: black 10px solid;
+  padding: 0;
+}
+
+.title {
+  position: absolute;
+  bottom: -2vw;
+  right: 0%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  font-size-adjust: auto;
+  font-size: 9vw;
+  font-family: Courgette, sans-serif;
+  text-shadow: white;
+}
+
+.popular_posts {
+  display: inline-block;
+  border-bottom-width: 100%;
+  border-bottom: black 10px solid;
+  padding-bottom: 10%;
+}
+
+.popular_posts h2 {
+  text-align: left;
+  font-size: 4vw;
+  padding-left: 0%;
+  font-family: 'Courgette', cursive;
+  border-top: black 10px solid;
+  border-bottom: black 10px solid;
+  padding: 2%;
+
+}
+.popular_articles {
+  margin-left: 3%;
+
+}
+
+
+.popular_posts article {
+  position: relative;
+  border: black 1px solid;
+  border-radius: 10px;
+  display: inline-block;
+  height: 20%;
+  width: 28%;
+  text-align: left;
+  margin: 2%;
+}
+
+.popular_posts h3 {
+  background: black;
+  color: pink;
+  font-style: italic;
+  margin-top: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.popular_posts article p {
+  height: 100px;
+  text-align: left;
+  font-size: 1.2vw;
+}
+
+.popular_posts a {
+  background: #fff4f9;
+  text-align: center;
+  padding: 5%;
+  display: inline-block;
+  margin-left: 25%;
+  margin-bottom: 0;
+  border: black 1px solid;
+  border-radius: 10px;
+  z-index: -100;
+  width: 40%;
+  color: #d68dae;
+}
+
+
+
+
+/*Start JOIN THE CLUB Section*/
+#join_club {
+  margin: 10%;
+  padding-bottom: 10%;
+  margin-bottom: 20;
+  display: flex;
+  max-height: 30vw;
+  border-bottom: solid 10px black;
+}
+
+#join_club img {
+  max-width: 35vw;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  display:flex;
+}
+
+#join_club #right_side {
+  text-align: center;
+  width: 25vw;
+}
+
+.everybody_wants{
+  clear: both;
+  position:relative;
+  padding: 5%;
+  border: black 5px solid;
+  /*border-bottom: black 5px solid;*/
+  background-image: url("../assets/everybody.jpg");
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20em;
+}
+
+.be_a_cat {
+  position: absolute;
+  bottom: 0;
+  right: 12%;
+  text-align: center;
+  font-size: 2vw%;
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+
+/*footer*/
+footer {
+  position: absolute;
+  width: 80%;
+  min-height: 12%;
+  border: black 5px solid;
+  margin: 0 10%;
+  padding-top: 2%;
+  max-width: 79.2%;
+  background: black;
+  color: pink;
+  overflow: hidden;
+}
+
+
+footer h4 {
+  float: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+footer p{
+  width: 35%;
+  display: inline;
+}
+
+#disclaimer {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  display: inline-block;
+  width: 50%;
+  margin-top: 0;
+  font-size: .8vw;
+  border-right: solid;
+  padding-right: 8%;
+}
+
+footer ul {
+  padding-top: 0;
+  margin-top: 0;
+
+}
+footer nav {
+  display: inline-block;
+  position: absolute;
+  top: 35%;
+  right: 10%;
+  color: black;
+  /*right: 10%;*/
+  width: 15%;
+  text-align: center;
+}
