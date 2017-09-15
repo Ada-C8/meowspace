@@ -10,9 +10,8 @@ header{
   text-align: left;
   font-size: 16px;
   background-color: white;
-  /*text-shadow: 2px 2px 7px lightskyblue;*/
-
 }
+
 header h2 a{
   font-size: 30;
   width: 20%;
@@ -83,11 +82,11 @@ main section:first-child{
   padding: 10px;
 }
 .cat-talk p:first-of-type{
-    overflow: scroll;
+  overflow: scroll;
   height: 120px;
 }
 /*main section{
-  margin:10px auto 10px auto;
+margin:10px auto 10px auto;
 }*/
 .cat-talk h3, main section h2{
   width: 100%;
@@ -98,6 +97,7 @@ main section:first-child{
   border-style: double;
   border-color: gray;
   border-width: thick;
+
   width: 100%;
   color:gray;
   text-shadow: 2px 2px 7px lightskyblue;
@@ -106,16 +106,30 @@ main section:first-child{
   margin: 20px, 10px;
 }
 .cat-cult p{
-  position:relative;
-  width: 50%
+  display:inline-block;
+  /*position:relative;*/
+  width: 40%
+  /*padding: 5px;*/
+  /*margin: 10px;*/
 }
 .cat-cult p, section img{
   display:inline-block;
+  /*position:relative;*/
+  padding: 5px;
 }
 section img{
-  width: 40%;
-  position:relative;
-  float: right;
+  width: 50%;
+}
+
+.cat-people {
+  width: 100%;
+  height: 250px;
+  background-image: url("../assets/everybody.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-clip: padding-box;
+  text-shadow: 2px 2px 7px gray;
+  color:white;
 }
 /*footer************************************************** things*/
 footer{
@@ -128,6 +142,7 @@ footer h4{
   width: 10%;
   font-size: 10px;
   float: left;
+  overflow: auto;
 }
 
 footer p, footer nav ul{
@@ -138,5 +153,6 @@ footer p, footer nav ul{
 
 footer nav{
   float: right;
+  overflow: auto;
   width: 30%;
 }
