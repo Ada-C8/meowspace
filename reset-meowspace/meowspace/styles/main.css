@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+	position: fixed;
+	z-index: 5;
+	width: 100%;
+  background-color: silver;
+  padding: 2vw;
+	border: solid;
+}
+
+main, footer {
+	position: relative;
+	top: 7vw;
+}
+
+#title {
+  font-family: monospace;
+  color: teal;
+  font-size: 3em;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 10vw;
+}
+
+header h2, nav, ul, li {
+  display: inline-block;
+}
+
+#login, #signup {
+  font-family: monospace;
+  color: teal;
+  font-size: 2em;
+  text-decoration: none;
+  position: relative;
+  left: 40vw;
+  padding-right: 4vw;
+}
+
+.hero-image {
+  background-image: url("../assets/hero.jpg");
+	height: 15em;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	position: relative;
+	border-bottom: solid;
+}
+
+.hero-image.bottom {
+	background-image: url("../assets/everybody.jpg");
+}
+
+.hero-text {
+	font-family: sans-serif;
+	font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+  color: white;
+}
+
+.posts {
+	text-align: center;
+	margin: 1em;
+	font-family: monospace;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+article {
+	border: solid;
+	border-radius: 5%;
+	padding: 2%;
+	margin: 2%;
+	display: inline-block;
+	max-width: 16em;
+	min-height: 20em;
+	vertical-align: text-top;
+	transform: translate(30%);
+	justify-content: center;
+
+}
+
+article h3 {
+	text-align: center;
+	font-family: monospace;
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 2%;
+	border-bottom: solid;
+}
+
+article p {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-size: 1em;
+	display: block;
+}
+
+article p a {
+	text-decoration: none;
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border: solid;
+	border-radius: 5%;
+	color: teal;
+	margin: 30%;
+	position: absolute;
+	top: 10em;
+
+}
+
+article p a:hover {
+	color: orange;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.join {
+	border: solid;
+	padding: 5%;
+}
+
+.join-text, .footer-text {
+	max-width: 40%;
+	min-height: 20em;
+	margin-right: 5%;
+	margin-left: 5%;
+	display: inline-block;
+	font-size: 1.25em;
+}
+
+.join-text h2 {
+	font-family: monospace;
+	color: teal;
+	font-size: 3em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.join img {
+	max-width: 48%;
+	height: auto;
+	float: right;
+}
+
+.footer-text {
+	font-size: 1em;
+	color: orange;
+	margin: 5vw;
+	float: left;
+}
+
+.footer-list ul li {
+	color: teal;
+	display: block;
+	list-style-type: lower-latin;
+	margin-left: 10vw;
+	margin-bottom: 1.75vw;
+	font-size: 1.5em;
+}
+
+.footer-list ul li a {
+	color: teal;
+	position: relative;
+	top: 5vw;
+	text-decoration: none;
+
+}
