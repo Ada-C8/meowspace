@@ -3,24 +3,33 @@
 
   <head>
     <meta charset="UTF-8">
+    <link href="styles/normalize.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+    jQuery(window).load(function()
+    {$('body').addClass('showing');
+  });
+    </script>
     <title>Meowspace</title>
   </head>
 
   <body>
     <header>
-      <h2><a href="index.html"> Meowspace </a></h2>
+      <h2 ><a id="site-title" href="index.html" > Meow<span id="s-in-title">s</span>pace </a></h2>
 
       <nav>
         <ul>
-          <li><a href="#login"> Login </a></li>
-          <li><a href="#signup"> Signup </a> </li>
+          <li><a class="header-menu" href="#login"> Login </a></li>
+          <li><a class="header-menu" href="#signup"> Signup </a> </li>
         </ul>
       </nav>
+      <div class="spacer"></div>
     </header>
 
     <main>
       <section>
-        <h1> Meowspace </h1>
+        <h1> Meow<span id="s-in-title">s</span>pace </h1>
       </section>
 
       <section>
@@ -31,16 +40,17 @@
           <p>
             Hide when guests come over if it smells like fish eat as much as you wish. Meow. Scream at teh bath mewl for food at 4am for eat all the power cords and the dog smells bad and steal the warm chair right after you get up.
           </p>
-          <p><a href="#post1"> Learn More </a></p>
+          <p class="button"><a href="#post1"> Learn More </a></p>
         </article>
 
 
         <article>
           <h3> Cat not Kitten Around </h3>
           <p>
-             Curl up and sleep on the freshly laundered towels please stop looking at your phone and pet me cat slap dog in face. Cat not kitten around.
+           Curl up and sleep on the freshly laundered towels please stop looking at your phone and pet me cat slap dog in face. Cat not kitten around.
           </p>
-          <p><a href="#post2"> Learn More </a></p>
+
+          <p class="button"><a href="#post2"> Learn More </a></p>
         </article>
 
         <article>
@@ -48,7 +58,7 @@
           <p>
             Spot something, big eyes, big eyes, crouch, shake butt, prepare to pounce catch mouse and gave it as a present lie on your belly and purr when you are asleep and scamper for thinking longingly about tuna brine.
           </p>
-          <p><a href="#post3"> Learn More </a></p>
+          <p class="button"><a href="#post3"> Learn More </a></p>
         </article>
 
         <article>
@@ -56,7 +66,7 @@
           <p>
             Refuse to drink water except out of someone's glass meow to be let in sweet beast. The dog smells bad howl uncontrollably for no reason or eat and than sleep on your face.
           </p>
-          <p><a href="#post4"> Learn More </a></p>
+          <p class="button"><a href="#post4"> Learn More </a></p>
         </article>
 
         <article>
@@ -64,17 +74,23 @@
           <p>
             Flee in terror at cucumber discovered on floor. Kitty power! destroy couch as revenge but have my breakfast. Spaghetti yarn but meow meow so friends are not food.
           </p>
-          <p><a href="#post5"> Learn More </a></p>
-        </article>
 
+          <p class="button"><a href="#post5"> Learn More </a></p>
+        </article>
+        <div class="spacer2"></div>
       </section>
 
       <section>
-        <h2> Join the Club </h2>
-        <p>
-          Cats go for world domination chase red laser dot. Flop over. Play riveting piece on synthesizer keyboard poop in the plant pot for shove bum in owner's face like camera lens. With tail in the air i could pee on this if i had the energy hola te quiero yet claw drapes mewl for food at 4am.
-        </p>
+        <div class="text-join-club">
+          <h2> Join the Club </h2>
+          <p>
+            Cats go for world domination chase red laser dot. Flop over. Play riveting piece on synthesizer keyboard poop in the plant pot for shove bum in owner's face like camera lens. With tail in the air i could pee on this if i had the energy hola te quiero yet claw drapes mewl for food at 4am.
+          </p>
+        </div>
+
         <img alt="Cat playing with mouse on chair" src="assets/join_club.jpg">
+
+        <div class="spacer"></div>
       </section>
 
       <section>
@@ -82,10 +98,13 @@
       </section>
     </main>
     <footer>
-      <h4> &copy; 2016 </h4>
-      <p id="disclaimer">
-        Meowspace is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date.
-      </p>
+      <div class="footer-paragraph">
+        <h4> &copy; 2016 </h4>
+        <p id="disclaimer">
+          Meowspace is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date.
+        </p>
+      </div>
+
       <nav>
         <ul>
           <li><a href="#about"> About </a></li>
