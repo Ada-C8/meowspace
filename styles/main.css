@@ -2,6 +2,10 @@
 main {
     margin-top: 110px;
 }
+
+h2 {
+    font-family: Anonymous Pro;
+}
 header {
     position: fixed;
     top: 0px;
@@ -22,12 +26,14 @@ header h2 {
     font-size: 2em;
     margin-left: 10px;
     text-decoration: none;
+    text-transform: lowercase;
     
 }
 
 header a {
     color: dimgray;
     text-decoration: none;
+    padding: 5px;
 }
 header a:hover {
     background-color: gray;
@@ -61,12 +67,30 @@ section:first-of-type {
     width: 100%;
     height: 300px;
     background-color:pink;
+    background-image: url("../assets/computers.gif");
+/*    background-repeat: no-repeat;*/
+/*    background-position: left top;*/
+    background-blend-mode:exclusion;
+    background-attachment:fixed;
 }
+
+section:first-of-type :hover {
+    color: white;
+    background-image: url("../assets/computers.gif");
+    background-repeat:repeat-x;
+    background-blend-mode: exclusion;
+    height: 100%;
+}
+
 section:first-of-type h1 {
     text-align: center;
     font-size: 5em;
+    font-family: 'Anonymous Pro';
     display: block;
     padding-top: 100px;
+    text-transform: lowercase;
+    
+    
 }
 
 section:nth-of-type(2) {
@@ -78,6 +102,13 @@ section:nth-of-type(2) h2 {
     text-align: center;
     clear:both;
     font-size: 2em;
+    text-transform: capitalize;
+}
+section:nth-of-type(2) h2::before {
+    content: "✧:.*"
+}
+section:nth-of-type(2) h2::after {
+    content: "*: .✧"
 }
 
 section:nth-of-type(2) h3 {
@@ -102,16 +133,19 @@ section:nth-of-type(2) article {
     border-width: 10px;
 }
 section:nth-of-type(2) article p {
-    clear: both; 
+    clear: both;
+    text-align: center;
+/*    margin: 1em auto;*/
+}
+
+section:nth-of-type(2) article p:first-of-type {
+    text-align: justify;
 }
 section:nth-of-type(2) article a {
     clear: both;
-/*    position: relative;*/
-/*    left: 100px;*/
-/*    top: 20px;*/
     display: inline-block;
     width: 70%;
-    margin: 1em;
+/*    margin: 1em;*/
     border: solid;
     border-color: goldenrod;
     background-color: goldenrod;
@@ -130,6 +164,17 @@ section:nth-of-type(2) article a:hover {
     background-color: pink;
     color: dimgray;
 }
+
+section:nth-of-type(2) article:nth-of-type(odd) a:hover {
+    background-image: url('../assets/great_minds.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    position: relative;
+    top: -7em;
+    left: -1.5em;
+    color: pink;
+}
 section:nth-of-type(3) h2 {
     
     position: relative;
@@ -139,6 +184,7 @@ section:nth-of-type(3) h2 {
     max-width: 35%;
     z-index: -5;
     margin-left: 40px;
+    font-family: 
 }
 
 section:nth-of-type(3) h2::after {
@@ -146,24 +192,25 @@ section:nth-of-type(3) h2::after {
 }
 
 section:nth-of-type(3) p {
-    clear: both;
-    display: inline-block;
-    vertical-align: bottom;
+/*    clear: left;*/
+/*    display: inline-block;*/
+/*    vertical-align: bottom;*/
+    display: inline-flex;
     width: 30%;
 /*    max-height: 200px;*/
-    overflow-y:hidden;
+/*    overflow-y:hidden;*/
     text-overflow: ellipsis;
-    resize: 
     font-size: 1.25em;
     line-height: 3em;
     margin-left: 100px;
+    text-transform: full-width;
 }
 section:nth-of-type(3) img {
     float:right;
     position: relative;
     top: -30px;
     width: 40%;
-    max-height: 20%;
+/*    max-height: 20%;*/
     margin-right: 100px;
     z-index: -5;
     min-height: 300px;
@@ -174,7 +221,17 @@ section:nth-of-type(4) {
     height: 300px;
     text-align: center;
     font-size: 2em;
-    background-color: palegoldenrod
+    background-color: palegoldenrod;
+    background-image: url('../assets/time_is_precious.gif') ;
+    background-blend-mode:exclusion;
+    background-attachment: fixed;
+}
+
+section:nth-of-type(4) :hover {
+    background-image: url('../assets/time_is_precious.gif') ;
+    background-blend-mode: soft-light;
+    padding-bottom: 10%;
+    
 }
 
 section:nth-of-type(4) h2 {
@@ -184,6 +241,10 @@ section:nth-of-type(4) h2 {
 footer {
     margin-left: 100px;
     margin-right: 40px;
+}
+footer h4 {
+    position: relative;
+    top: 30px;
 }
 #disclaimer {
     display: inline-block;
@@ -197,5 +258,21 @@ footer nav {
     width: 30%;
     vertical-align: middle;
     margin-left: 15%;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: goldenrod;
+    padding: 5px;
+    line-height: 1.5em;
+}
+
+footer a:hover {
+    background-color: dimgray;
+    color: white;
+    
+    
 }
 
