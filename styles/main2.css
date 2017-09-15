@@ -31,13 +31,10 @@ a:hover {
   font-size: 3em;
 }
 
-
-
 /******* HEADER ********/
 
 header  {
   background-color: #D7BDE2;
-  border: 2px solid black;
   margin: 0;
 }
 
@@ -204,6 +201,7 @@ nav {
 nav li {
   padding: 3%;
 }
+
 /******* CLEARFIX ********/
 
 .clearfix:after {
