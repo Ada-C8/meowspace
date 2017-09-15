@@ -174,3 +174,45 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }*/
+
+/****************/
+/*  CLUB */
+/****************/
+
+#club .join-the-club {
+  float: left;
+  width: 40%;
+  text-align: justify;
+  position: relative;
+}
+
+#club img {
+  float: right;
+  width: 40%;
+}
+
+.join-the-club p {
+  width: 100%;
+}
+
+/****************/
+/*  Everybody */
+/****************/
+
+.everybody {
+  height: 500px;
+  background-image: url(../images/lounging_cat.jpg);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.everybody h2 {
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    left: 35%;
+    bottom: 50%;
+
+}
