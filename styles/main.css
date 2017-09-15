@@ -24,8 +24,8 @@
 
 
 a:hover {
-  background-color: gold;
-  color: red;
+  background-color: #7acfd6;
+  color: white;
 }
 a:visited {
   color: white;
@@ -112,6 +112,7 @@ div #hero {
   font-size: 3em;
   margin-bottom: 2%;
   margin-top: 4%;
+  color:#b11a21;
 }
 
 article {
@@ -142,14 +143,17 @@ article {
 }
 
 .posts article p:nth-of-type(2) {
-  font-style: italic;
   border-radius: 1.3em;
-  background-color: white;
+  background-color: #e0474c;
   margin-top: 8%;
 }
 
+.posts a {
+  color:white;
+  text-decoration: none;
+}
 .multiline-ellipsis h3{
-  border-bottom: medium solid green;
+  border-bottom: medium solid #e0474c;
   margin: 0;
   padding: 6% 2%;
   font-size: 1.3em;
@@ -158,7 +162,7 @@ article {
 
 /********JOIN THE CLUB********/
 .join-club {
-  border: medium dashed green;
+  /*border: medium dashed #f1f0ee;*/
   padding: 2%;
   text-align: center;
   background-color: #e0474c;
@@ -180,8 +184,6 @@ article {
   text-align: center;
   font-size: 2em;
 }
-
-
 
 /********EVERYONE WANTS TO BE A CAT********/
 #be-a-cat{
@@ -237,6 +239,11 @@ footer ul {
   position: relative;
 }
 
-footer {
-  background-color: #e0474c;
+footer a {
+  color: #b11a21;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color:#b11a21;
 }
