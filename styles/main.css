@@ -9,16 +9,19 @@ body {
   margin: 0;
 }
 
-/*h2, h3 {
-  margin: 0;
-}*/
+.main-container{
+  margin-top: 70px;
+}
 
 .header {
-  vertical-align: baseline;
+  vertical-align: middle;
   width: 100%;
+  position: fixed;
+  background-color: white;
   top: 0;
-  /*z-index: 5;*/
-  top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 5
 }
 
 .logo {
@@ -43,11 +46,17 @@ li {
   padding-right: 3em;
 }
 
-.nav {
+nav ul {
   float: right;
-  margin-left: 700px;
-  font-family:helvetica;
+}
 
+nav li {
+  display: inline;
+  font-family:helvetica;
+}
+
+.hero-container {
+  display: block;
 }
 
 .hero-image {
@@ -55,18 +64,10 @@ li {
   max-height: auto;
 }
 
-.hero-container {
-  display: block;
-  position: absolute;
-  top: 100px;
-}
-
 p.hero-text {
   position: absolute;
-  /*top: 550px;
-  left: 500px;*/
-  left: 35%;
-  top: 60%;
+  left: 40%;
+  top: 600px;
   text-shadow: 2px 2px #ff0000;
   font-size: 48px;
   font-family:helvetica;
@@ -84,33 +85,40 @@ p.hero-text {
   /*vertical-align: baseline;*/
 }
 
-.blogs-container .blogposts {
+.blogposts {
   width: 83%;
   border: 12px solid yellow;
 }
 
-.Posts-section {
+.posts-section, .popular-posts-header{
+  display: block;
   border: 12px solid darkred;
-  position:absolute;
-  top: 1200px;
   /*why does the border change to just be around the Popular Posts header when i change absolute to relative?*/
 }
 
-.Popular-Posts-header {
+.popular-posts-header {
   display: block;
   box-sizing: border-box;
   text-align: center;
   font-family:helvetica;
 }
 
+
 article {
-  display: inline;
-  position: sticky;
   width: 275px;
   height: 250px;
   border: 12px solid green;
   float: left;
+}
 
+#first-row article {
+  margin-left:100px;
+  margin-bottom: 25px;
+}
+
+#second-row article {
+  margin-left:100px;
+  margin-bottom: 25px;
 }
 
 /*div.blogposts {
@@ -122,14 +130,17 @@ article {
   /*height: 400px;*/
 /*}*/
 
+.join-the-club-container > section {
+  display: block;
+}
+
 .join-the-club-container {
   display: block;
-  position: absolute;
   border: 12px dotted blue;
-  top: 1800px;
 }
 
 .join-club-image {
+  display: inline-block;
   max-width: 400px;
   max-height: auto;
 }
@@ -138,23 +149,27 @@ p {
   line-height: 1.4em;
 }
 
-/*#first-row {
-  position: relative;
-  float:left;
+#first-row {
   border: 12px dashed purple;
 }
 
 #second-row {
-  position: relative;
-  float:left;
   border: 12px dashed purple;
-  left: 15%;
-}*/
+}
 
 .everyone-wants-to-be img {
-  position: relative;
-  width: 80%;
-  heigh: 500px;
+  display: block;
+  width: 100%;
+}
 
+.everyone-wants-to-be h2 {
+  position: absolute;
+  margin: 0;
+  font-size: 5em;
+  color:white;
+  left: 100px;
+}
 
+.clear-floats {
+  clear:both;
 }
