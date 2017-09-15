@@ -71,20 +71,24 @@ article {
   border-radius: 5%;
 }
 
-article div {
-  background-color: green;
-  position: relative;
-}
-
 article h3 {
   position: relative;
   text-align: center;
   font-size: 24px;
+  height: 20%;
   /*background-color: gold;*/
 }
 
 article p {
   font-size: 14px;
+}
+
+article p:last-of-type {
+  text-align: center;
+  background-color: yellow;
+  border-radius: 5%;
+  border-style: solid;
+  margin: 0 25%;
 }
 
 /******************/
