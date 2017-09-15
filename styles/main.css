@@ -69,19 +69,22 @@ article {
   border: 3px;
   border-style: solid;
   border-radius: 5%;
-  position: absolute;
+}
+
+article div {
+  background-color: green;
+  position: relative;
 }
 
 article h3 {
-  background-color: green;
   position: relative;
   text-align: center;
   font-size: 24px;
+  /*background-color: gold;*/
 }
 
 article p {
-  font-size: 16px;
-
+  font-size: 14px;
 }
 
 /******************/
