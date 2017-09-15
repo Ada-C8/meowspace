@@ -4,7 +4,6 @@
 
 body {background-color: #FFFAFF;}
 
-
 p {
 	color: #303036;
 	font-family: 'Raleway', sans-serif;
@@ -25,8 +24,6 @@ header {
 		color: #30BCED;
 		text-decoration: none;
 	 }
-
-	header a[href="#signup"] {color: #30BCED;}
 
 	header h2 {
 		display: inline-block;
@@ -50,6 +47,10 @@ header {
 			margin: 0 1rem;
 			text-decoration: none;
 		 }
+
+		 	header li a[href="#signup"] {color: #30BCED;}
+
+		 	header li a:hover {color: #A3E6FF;}
 
 	header nav {
 		float: right;
@@ -180,6 +181,10 @@ footer {
 	text-decoration: none;
  }
 
+ #posts a:hover {
+	 background-color: #0097CE;
+ }
+
 #posts p {
 	height: 10.5rem;
 	margin: 1rem; /*text-align: justify;*/
@@ -232,6 +237,9 @@ footer {
 
 /*Colors:*/
 /*light blue: #30BCED
+darker blue: #0097CE
+lighter blue: #68D6FF
+really light blue: #A3E6FF
 charcoal: #303036
 lighter charcoal: #79797F
 light grey: #BABAC4
