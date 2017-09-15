@@ -21,6 +21,7 @@ a:hover {
 p {
   padding: 5%;
   overflow: hidden;
+  font-size: 1vw;
 }
 
 h3 {
@@ -100,7 +101,8 @@ main {
   margin: 0;
   padding: 0;
   z-index: 2;
-  font-size: 7em;
+  font-size-adjust: auto;
+  font-size: 9vw;
   font-family: Courgette, sans-serif;
 }
 
@@ -113,7 +115,7 @@ main {
 
 .popular_posts h2 {
   text-align: left;
-  font-size: 3em auto;
+  font-size: 4vw;
   padding-left: 0%;
   font-family: 'Courgette', cursive;
   border-top: black 10px solid;
@@ -150,6 +152,7 @@ main {
 .popular_posts article p {
   height: 100px;
   text-align: left;
+  font-size: 1.2vw;
 }
 
 .popular_posts a {
@@ -208,7 +211,7 @@ main {
   bottom: 0;
   right: 12%;
   text-align: center;
-  font-size: 200%;
+  font-size: 2vw%;
   color: white;
   font-family: 'Courgette', cursive;
 }
@@ -247,7 +250,7 @@ footer p{
   display: inline-block;
   width: 50%;
   margin-top: 0;
-  font-size: .8em;
+  font-size: .8vw;
   border-right: solid;
   padding-right: 8%;
 }
