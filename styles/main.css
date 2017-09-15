@@ -45,20 +45,10 @@ main h1 {
   text-align: center;
 }
 
-.top-banner {
-  background-image: url("http://www.africanskyhunting.co.za/img_trophies/hippo-12b.jpg");
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  padding-top: 200px;
-  padding-bottom: 200px;
+article h3 p {
+  display: inline-block;
 }
 
-.wrapper {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-  margin-right: 20px;
-}
 
 
 
@@ -71,6 +61,10 @@ footer h4, footer p {
   display: inline;
 }
 
+footer nav {
+  float: right;
+  width: 275px;
+}
 
 
 
