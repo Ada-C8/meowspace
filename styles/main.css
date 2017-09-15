@@ -38,12 +38,8 @@ header h2 {
 }
 
 header nav {
-  /*display: inline-block;*/
   border: 2px red solid;
-  /*padding: 10px;
-  margin-left: 90%;*/
   float: right;
-  /*text-align: right;*/
   width: 30%;
 }
 
@@ -57,6 +53,10 @@ header li {
  Main Section
 **************/
 
+/**************
+ Banner Image
+**************/
+
 .top-image {
   background: url('../assets/hero.jpg');
   background-repeat: no-repeat;
@@ -68,11 +68,6 @@ header li {
   height: 980px;
 }
 
-/*.top-image section {
-  border: 5px red dashed;
-  width: 100%;
-  height: 40px;*/
-
 .top-image h1 {
   color: green;
   border: 2px blue dotted;
@@ -82,10 +77,111 @@ header li {
   text-align: center;
 }
 
-.blog-posts h2 {
+/*********************
+        posts
+*********************/
+.main-content h2 {
   border: 2px red solid;
   text-align: center;
 }
+
+.blog-posts {
+  position: relative;
+  border: 2px green solid;
+  padding: 40px;
+}
+
+.blog-posts article {
+  display: inline-block;
+  border: 1px silver solid;
+  border-radius: 15px;
+  height: 400px;
+  margin: 10px 10px;
+  padding: 5px;
+  vertical-align: top;
+  width: 30%;
+}
+
+.blog-posts h3 {
+  text-align: center;
+}
+
+/**************
+ Join the Club
+**************/
+
+.club h2 {
+  text-align: center;
+}
+
+.club {
+  border: 1px beige dotted;
+}
+
+.club p {
+  float: left;
+  width: 50%;
+}
+
+.club img {
+  float: right;
+  width: 50%;
+}
+
+/**************
+ Banner Image
+**************/
+
+.bottom-image {
+  background: url('../assets/everybody.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-color: purple;
+  border: 2px green solid;
+  margin-top: 10%;
+  height: 1080px;
+  width: 100%;
+}
+
+.bottom-image h2 {
+  color: green;
+  border: 2px blue dotted;
+  font-size: 3em;
+  height: 80px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/***********/
+/* FOOTER */
+/***********/
+
+header {
+  background-color: grey;
+  top: 0;
+  width: 100%;
+}
+
+header h2 {
+  border: 2px black solid;
+  float: left;
+  text-align: left;
+}
+
+header nav {
+  border: 2px red solid;
+  float: right;
+  width: 30%;
+}
+
+header li {
+  display: inline-block;
+  border: 1px blue solid;
+  margin-right; 10px;
+}
+
+
 
 
 
