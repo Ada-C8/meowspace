@@ -27,9 +27,13 @@ a:hover {
   background-color: gold;
   color: red;
 }
+a:visited {
+  color: white;
+}
 
 body {
   font-family: 'Cabin';
+  background-color: #f1f0ee;
 }
 
 /********HEADER********/
@@ -39,14 +43,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: yellow;
+  background-color: #e0474c;
   z-index: 100;
 }
 
 header h2 {
   position: relative;
   /*left: 10%;*/
-  color: red;
+  color: white;
   float: left;
   bottom: 30%;
   left: 17%;
@@ -55,6 +59,7 @@ header h2 {
 
 header a {
   text-decoration: none;
+  color: white;
 }
 
 nav {
@@ -71,6 +76,7 @@ nav li {
   margin: 5% 8%;
   right: 24%;
   font-size: 1.3em;
+  /*color: white;*/
 }
 
 /********BANNER IMG********/
@@ -114,8 +120,8 @@ article {
   vertical-align: top;
   margin: 2% 2%;
   /*padding: 0 1.5%;*/
-  background-color: grey;
-  border-radius: 2%;
+  background-color: #7acfd6;
+  border-radius: 2em;
   text-align: center;
   height: 200px;
 }
@@ -132,12 +138,13 @@ article {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: white;
 }
 
 .posts article p:nth-of-type(2) {
   font-style: italic;
   border-radius: 1.3em;
-  background-color: pink;
+  background-color: white;
   margin-top: 8%;
 }
 
@@ -154,6 +161,7 @@ article {
   border: medium dashed green;
   padding: 2%;
   text-align: center;
+  background-color: #e0474c;
 }
 
 .join-club img {
@@ -165,6 +173,7 @@ article {
   width: 45%;
   text-align: justify;
   font-size: 1.2em;
+  color: white;
 }
 
 .club-text h2 {
@@ -226,4 +235,8 @@ footer nav li {
 footer ul {
   margin-right: 5%;
   position: relative;
+}
+
+footer {
+  background-color: #e0474c;
 }
