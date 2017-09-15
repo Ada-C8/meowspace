@@ -85,17 +85,47 @@ div #hero {
 /********POPULAR POSTS********/
 /********POPULAR POSTS********/
 
+.posts h2 {
+  text-align: center;
+  font-size: 3em;
+}
+
+/*.posts {
+  text-align: center;
+  width: 100%;
+}*/
 
 article {
   border: thin dashed blue;
   display: inline-block;
-  width: 25%;
+  width: 28%;
   vertical-align: top;
-  margin: 1% 1%;
-  padding: 0 1.5%;
+  margin: 2% 2%;
+  /*padding: 0 1.5%;*/
   background-color: grey;
   border-radius: 2%;
   text-align: center;
+  height: 200px;
+}
+
+/*.posts article p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}*/
+
+.multiline-ellipsis p{
+  display: block;
+  display: -webkit-box;
+  max-width: 400px;
+  /*height: 109.2px;*/
+  margin: 1% 3%;
+  /*font-size: 2;*/
+  line-height: 1.4;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 
