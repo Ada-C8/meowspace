@@ -1,0 +1,148 @@
+
+/***********/
+/* HEADER */
+/***********/
+
+header li {
+  display: inline-block;
+}
+
+header h2 a {
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+}
+
+header div {
+  width: 80%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/***********/
+/* MAIN */
+/***********/
+
+.top-banner h1 {
+  text-align: center;
+  /*font-family: arial;*/
+  color: white;
+}
+
+main {
+  margin-top: 70px;
+  background-color: #DCDCDC;
+}
+
+.top-banner {
+  background-image: url("http://www.africanskyhunting.co.za/img_trophies/hippo-12b.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.content {
+  padding-left: 10%;
+  padding-right: 10%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* POPULAR POSTS */
+
+section h2 {
+  text-align: center;
+}
+
+article {
+  display: inline-block;
+  width: 25%;               /*@30% aligned perfectly*/
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.join-the-club div {
+  float: left;
+  width: 40%;
+}
+
+.join-the-club img {
+  float: right;
+  width: 275px;
+}
+
+.bottom-banner h2 {
+  color:  white;
+}
+
+.bottom-banner {
+  background-image: url("https://wallpapercave.com/wp/A1h3WRa.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size: 900px;
+  margin-bottom: 20px;
+}
+
+/***********/
+/* FOOTER */
+/***********/
+
+footer {
+  margin-bottom: 20px;
+}
+
+footer div {
+  float: left;
+  width: 40%;
+}
+
+footer h4, footer p {
+  display: inline;
+}
+
+footer nav {
+  float: right;
+  width: 275px;
+}
+
+footer nav ul {
+  margin: 0;
+}
+
+
+/***********/
+/* CLEARFIX */
+/***********/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
