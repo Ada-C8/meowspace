@@ -1,4 +1,165 @@
+/* Colour Scheme - Yellow-Green, White, Black, Cyan, Dark Aquaish Blue.
+
+/* See all the things! */
+
+/** {
+border: 1px solid black;
+}*/
+
+/* Fun font - Apply to ALL THE THINGS! */
+
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
 * {
-    background-color: lightseagreen
+  font-family: 'Love Ya Like A Sister', cursive;
 }
 
+
+/* Header - FIXED */
+
+.navbar {
+  position: fixed;
+  background-color: yellowgreen;
+  border-bottom: 2px solid cyan;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+}
+
+.hsheaderleft {
+  float: left;
+  margin-left: 3%;
+  width: 30%;
+}
+
+.toolsright ul {
+  float: right;
+  text-align: right;
+  margin-right: 3%;
+  width: 20%;
+  list-style-type: none;
+}
+
+
+/* Hedwig Banner */
+section:first-child {
+  background: url(../assets/adorbswig.jpg) no-repeat center center;
+  background-size: cover;
+  height: auto;
+}
+
+/* Figure out how to adjust photos other than this... */
+.topbanner {
+  line-height: 750px;
+}
+
+
+/* Popular Posts */
+
+.posts h2 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.article {
+  background-color: yellowgreen;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  border: 3px solid cyan;
+  border-radius: 5px;
+  height: 250px;
+  width: 300px;
+  margin: 55px;
+  float: left;
+}
+
+.article h3 {
+  border-bottom: 4px solid black;
+  padding-bottom: 5px;
+}
+
+.article a {
+  border: 2px solid darkcyan;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  padding: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.article a:hover {
+  color: cyan;
+}
+
+
+/* Join Club - Image won't work, internet went out, too frustrated to keep trying. */
+
+.jointheclub {
+  background-color: darkcyan;
+  text-align: center;
+  font-size: 2.5em;
+  border: 3px solid yellowgreen;
+  padding: 90px;
+  max-width: auto;
+  margin: 0px auto;
+  width: 90%;
+}
+
+/* Closing Hedwig */
+
+section:last-child {
+  height: 700px;
+  background: url(../assets/badasswig.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.banner {
+  font-size: 6em;
+  color: white;
+  text-align: center;
+}
+
+.bottombanner {
+  padding-top: 350px;
+}
+
+/* You've reached the end! */
+
+footer {
+  background-color: yellowgreen;
+  border-top: 2px solid cyan;
+  color: black;
+  position: bottom;
+  display: inline-block;
+}
+
+.footer {
+  background-color: yellowgreen;
+  float: left;
+  margin-left: 60px;
+  font-size: .8em;
+  display: inline;
+}
+
+.footerlinks {
+  background-color: yellowgreen;
+  float: right;
+  margin-right: 60px;
+  font-size: .8em
+}
+
+
+/* Things to figure out with more time and consistent internet;
+
+1. Why the image for join the club would not constrain or float/stay right properly.
+
+2. Issues with footer not properly separating out.
+
+3. Perhaps looking at using columns as a way to style elements more easily.
+
+4. Really need to learn to work with images better in general.
+
+/* Goal - Play with this site more over the next two weeks to finish properly fleshing it out the way you wanted to and finish trying the other implementation ideas.  Add the missing image, make the post links, as well as, the about and contact links work and connect to another page.
+
+/* Note to self - Work on building your coding skills (this is why you are here).  This is fun, however, do not spend so much time coming up with design ideas, colour schemes, trying to make weird art you have NO TIME for vs. coding.  Why?  When you do that, your shit ends up kinda shitty, basic, and doesn't work properly.  You already know how to do the fun things and have a metric fuckton of ideas no matter.  Focus on coding, the ideas will still be there and with practice you can get better and faster to utilize all of the ideas in a variety of ways such as this (but better).  Be better, practice more, get better, work on efficiency. Also, your butt won't go numb if you quit fucking around researching implementation ideas and get your work done so you can get up and move around.  Just sayin'. */
