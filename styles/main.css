@@ -1,0 +1,252 @@
+body {
+  background-color: #FFFAFA;
+}
+
+a {
+  text-decoration: none;
+  color: midnightblue;
+}
+
+p {
+  font-family: 'Poppins';
+  font-weight: lighter;
+  text-align: justify;
+}
+
+h2, h3, h4 {
+  font-family: "Nunito";
+  font-weight: bolder;
+  color: midnightblue;
+}
+
+li {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+}
+
+header a:visited {
+  color: midnightblue;
+}
+
+header a:hover {
+  color: #FFFAFA;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: salmon;
+  padding: .5em;
+  z-index: 10;
+}
+
+header h2 {
+  display: inline-block;
+  position: relative;
+  width: 55%;
+  margin: 1rem 2rem;
+  font-family: 'Rubik', cursive;
+  font-size: 2em;
+  text-shadow: #FFFAFA 1px 0 2px;
+}
+
+header nav {
+  display:inline-block;
+  position: relative;
+  width: 35%;
+  margin-right: 0;
+}
+
+header ul {
+  position: relative;
+  margin-right: 0;
+  text-align: right;
+}
+
+header li {
+  display: inline;
+  margin: 1em .5em;
+  text-align: right;
+  font-size: 1.2em;
+}
+
+section#title, section#aristocat {
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+section#title {
+  margin-top: 3.5em;
+  height: 25em;
+  background-image: url("../assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 10em;
+}
+
+#title h1 {
+  position: relative;
+  font-size: 7em;
+  color: white;
+  text-shadow: midnightblue 6px 3px;
+  font-family: 'Rubik', cursive;
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+section#popular_posts, article.post, section#join_club {
+  text-align: center;
+  overflow: hidden;
+}
+
+section#popular_posts {
+  padding: 2em 4em;
+  margin-top: 1em;
+}
+
+#popular_posts h2{
+  font-size: 4em;
+  margin: .5em;
+  font-weight: 600;
+}
+
+article.post, #join_club h2, #join_club p {
+  float: left;
+}
+
+article.post {
+  display: inline-block;
+  position: relative;
+  left: 5em;
+  width: 16em;
+  height: 18em;
+  margin: 1em;
+  border: 4px solid midnightblue;
+  border-radius: 5%;
+}
+
+.post h3 {
+  background-color: #cfe2e2;
+  border-bottom: 2px solid midnightblue;
+  font-size: 1.5em;
+  height: 2em;
+  padding: .5em;
+  margin-top: 0em;
+  margin-bottom: .5em;
+}
+
+.post p {
+  text-align: left;
+  padding: .5em 1em;
+  height: 5em;
+  margin-bottom: 1em;
+  overflow: hidden;
+  text-overflow: "...";
+}
+
+.post p:nth-of-type(2), #join_club h2 {
+  display: inline-block;
+  position: relative;
+  padding: .5em;
+  text-align: center;
+}
+
+.post p:nth-of-type(2) {
+  top: .5em;
+  width: 9em;
+  height: 1em;
+  border: 2px solid midnightblue;
+  border-radius: 1em;
+  margin-bottom: .5em;
+  background-color: salmon;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+}
+
+section#join_club {
+  border-bottom: 2px solid midnightblue;
+  border-top: 2px solid midnightblue;
+  padding: 2em;
+  height: 16em;
+}
+
+#join_club h2 {
+  top: -1em;
+  left: 1em;
+  width: 40%;
+  margin: .5em;
+  font-size: 3em;
+  font-family: 'Poppins';
+}
+
+#join_club p {
+  display: inline-block;
+  position: relative;
+  top: 1em;
+  left: -26em;
+  width: 30%;
+  padding: 2em;
+}
+
+#join_club img, footer ul {
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+
+#join_club img {
+  top: -15em;
+  right: 8em;
+  height: 16em;
+  width: 24em;
+}
+
+section#aristocat {
+  background-image: url('../assets/everybody.jpg');
+}
+
+#aristocat h2 {
+  margin: 0;
+  font-size: 6em;
+  color: white;
+  text-shadow: 1px 1px 2px midnightblue;
+}
+
+#aristocat h2, footer, p#disclaimer {
+  padding: 1em;
+}
+
+footer h4{
+  display: inline;
+  position: relative;
+  top: 0;
+  left: 6em;
+  float: left;
+  width: 3.7em;
+  margin-bottom: 0;
+  margin-right: 1.25em;
+  font-size: .8em;
+}
+
+p#disclaimer {
+  position: relative;
+  top: -.7em;
+  left: 5em;
+  width: 32em;
+  font-size: .8em;
+}
+
+footer ul {
+  top: -7.8em;
+  width: 45%;
+}
+
+footer li {
+  padding: 0 .5em;
+}
