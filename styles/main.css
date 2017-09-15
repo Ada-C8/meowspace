@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
+
+/* add clearfix to parents of floating elements */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+body {
+  font-family: "Dosis";
+}
+
+/* add a wrapper class */
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover{
+  color: pink;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.relative {
+  position: relative;
+}
+/****************/
+/*    HEADER    */
+/****************/
+
+header {
+  position: fixed;
+  z-index: 100;
+  background-color: pink;
+  top: 0;
+  left: 0;
+  font-family: 'Dosis';
+  height: 75px;
+}
+
+nav, li {
+  margin: 0 5%;
+}
+
+nav li {
+  margin: 0 5%;
+}
+
+nav {
+  float: right;
+  margin: 2.5% -10% 1% 20%;
+  width: 50%;
+  bottom: 30%;
+}
+
+header h2 {
+  float: left;
+  font-size: 250%;
+  bottom: 30%;
+  left: 5%;
+
+}
+
+header nav a {
+  font-size: 150%;
+}
+
+header a:hover {
+  color: #1BC3E5;
+}
+
+header a {
+  left: 50%;
+  text-decoration: none;
+
+}
+
+/****************/
+/* H1 MEOWSPACE  */
+/****************/
+section.meowspace{
+  height: 400px;
+}
+h1 {
+  margin-top: 5.5%;
+  padding: 20% 40%;
+  font-family: 'Dosis';
+  font-weight: bold;
+  font-size:600%;
+  position: relative;
+  right: 7%;
+  bottom: 18%;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+}
+
+.meowspace {
+  /*background-color: #20DAE1;*/
+  /*background-image: url('https://i.pinimg.com/originals/26/07/c7/2607c70ce4f8e76eca556fb49ba347a3.jpg');*/
+  background-size: cover;
+  background-image: url('../images/meow.jpg');
+}
+
+/****************/
+/* POPULAR POSTS */
+/****************/
+/*
+.popular-posts .wrapper {
+  text-align: center;
+}
+.popular-posts article {
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  margin-top: 10%;
+  vertical-align: top;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+}
+
+.popular-posts h3 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: -18%;
+  left: -1.4%;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+}
+
+
+
+.popular-posts article:nth-of-type(1n) {
+  margin-right: 2.5%;
+}
+
+.popular-posts article:nth-of-type(2n) {
+  margin-right: 2.5%;
+}
+
+.popular-posts article:nth-of-type(3n) {
+  margin-right: 2.5%;
+}
+
+.popular-posts p:first-of-type {
+  border-top: solid;
+  text-align: justify;
+  padding: 5% 15% 2% 15%;
+}
+.popular-posts h2 {
+  text-align: center;
+  font-family:'Dosis';
+  font-size: 300%;
+  margin: 5% 0% 0% 0%
+}*/
+
+
+.popular-posts h2 {
+  text-align: center;
+  font-family:'Dosis';
+  font-size: 300%;
+}
+
+.popular-posts h3 {
+  padding: 2% 2%;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.popular-posts article {
+  width: 25%;
+  vertical-align: top;
+  border-style: solid;
+  border-radius: 5%;
+  margin: 2.5% 1.5% 1% 1.5%;
+  height: 340px;
+}
+
+.popular-posts article:first-of-type {
+}
+
+.popular-posts p:first-of-type {
+  border-top: solid;
+  text-align: justify;
+  padding: 5% 15% 2% 15%;
+}
+
+.popular-posts article:nth-of-type(4n) {
+}
+
+.popular-posts a {
+  border: solid;
+  border-radius: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2% 2%;
+  /*margin-bottom: 2%; */
+}
+
+/****************/
+/*  CLUB */
+/****************/
+
+#club  {
+  margin-top: 5%;
+  vertical-align: middle;
+  background-color:  #EDEDED;
+}
+
+#club .join-the-club {
+  float: left;
+  width: 40%;
+  text-align: justify;
+  position: relative;
+}
+
+.join-the-club h2 {
+  font-size: 200%;
+}
+
+#club img {
+  float: right;
+  width: 40%;
+  margin-top: 0.5%;
+}
+
+/****************/
+/*  Everybody */
+/****************/
+
+.everybody {
+  height: 500px;
+  background-image: url(../images/lounging_cat.jpg);
+  background-size: cover;
+  position: relative;
+  margin-top: 5%;
+}
+
+.everybody h2 {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    left: 35%;
+    bottom: -3%;
+    font-size: 600%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+}
+
+/****************/
+/*  FOOTER */
+/****************/
+
+.copy-disclaimer {
+  float: left;
+  width: 30%;
+  margin-left: 15%;
+}
+
+footer nav {
+  float: right;
+  width: 10%;
+  margin-right: 25%;
+  position: relative;
+}
+
+footer nav li {
+  list-style-type: circle;
+  display: block;
+  padding: 5%;
+}
+
+footer ul {
+  margin-right: 5%;
+  position: relative;
+}
