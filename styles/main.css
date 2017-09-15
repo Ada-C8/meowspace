@@ -1,0 +1,150 @@
+/* in-line-block takes all elements in the selector and puts them on the same level.*/
+header h2, nav {
+  display: inline-block;
+  padding-left: 3%;
+}
+
+/* float right moved both login and signup buttons to the right side of the page*/
+header nav {
+  float: right;
+  padding-right: 2%
+}
+
+/* inline-block move login and signup onto the same level*/
+header li {
+  display: inline-block;
+  padding-left: 20px;
+
+}
+
+/* Removed all the underline from the inline a links */
+header a {
+  text-decoration: none;
+
+}
+
+
+main h1 {
+  background-image: url("../dsc00182-copy.jpg");
+  /* takes the center 1/3 of the image*/
+  background-position: center;
+  /* reduces the image protionally to fit your screen*/
+  background-size: cover;
+  font-size: 250%;
+  color: white;
+  text-align: center;
+  height: 200px;
+  /*vertical-align: bottom;*/
+}
+
+h2 {
+  height: 20%;
+  text-align: center;
+
+}
+
+#popular-posts {
+  align-items: center;
+  width: 70%
+}
+
+
+/* posts to center page */
+#popular-posts article {
+  border-style: groove;
+  display: inline-block;
+  /*float: left;*/
+  height: 230px;
+  width: 30%;
+  vertical-align: top;
+  margin: 15px;
+  margin-right: auto;
+}
+
+#popular-posts h3 {
+  text-align: center;
+}
+article a {
+  /*text-align: center;*/
+  margin: 30%;
+}
+
+article p {
+  text-align: left;
+}
+/*select {
+  display: inline-block;
+}*/
+section h2 {
+  text-align: center;
+
+}
+
+section p {
+
+}
+
+
+#join_the_club {
+
+  align-items: center;
+  width: 70%;
+  margin-top: 20px;
+}
+
+#join_the_club img {
+
+  /*display: inline-block;*/
+  width: 40%;
+  padding-left: 20px
+
+}
+
+
+#join {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.everyone {
+  font-size: 300%;
+  background-color: #00ff00;
+  line-height: 5;
+  text-align: center;
+
+}
+
+.copyrite_info {
+
+  display: inline-block;
+  width: 40%;
+  padding-left: 5%
+}
+
+footer h4 {
+  float: left;
+  margin: 0;
+  padding-right: 5px;
+}
+
+footer p {
+  margin: 0;
+}
+footer nav {
+  display: inline-block;
+  font-size: 150%;
+  padding-left: 10%;
+  vertical-align: top;
+
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
