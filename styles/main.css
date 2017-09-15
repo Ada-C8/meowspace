@@ -1,0 +1,270 @@
+/*
+* {
+  border: solid;
+}*/
+
+@import
+url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+
+.wrapper {
+  margin: 0 10%;
+}
+
+body {
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+.clearfix:after {
+ visibility: hidden;
+ display: block;
+ font-size: 0;
+ content: " ";
+ clear: both;
+ height: 0;
+}
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+header {
+  font-size: 1em;
+  background-color: purple;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+  }
+
+header h2 a{
+/*display: inline-block;*/
+float: left;
+margin: 0 5%;
+text-decoration: none;
+color: white;
+}
+header h2 a:visited {
+color: white;
+}
+
+header nav {
+/*display: inline-block;*/
+float: right;
+/*margin: 0 5%;*/
+width: 30%
+}
+
+header nav li {
+  display: inline-block;
+  margin: 2%;
+  background-color: white;
+  padding: 1%;
+  border-radius: 5%;
+  list-style: none
+}
+
+/*nav ul {
+  list-style: none
+}*/
+
+header h2 {
+  display: inline-block;
+  margin: 2%;
+  width: 60%;
+}
+
+main {
+  margin-top: 20px;
+  position: relative;
+
+}
+
+
+/*.banner:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 1000px;
+  height: 800px;
+  background-image: url('/Users/kzell/documents/ada/Week6/meowspace/meowspace/assets/hero.jpg');
+}*/
+
+/*.banner {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  width: 1000px;
+  height: 300px;
+  padding: 100px;
+}*/
+
+.banner {
+
+  background-image: url('/Users/kzell/documents/ada/Week6/meowspace/meowspace/assets/hero.jpg');
+
+  image-resolution: snap;
+  display: block;
+  max-width: 100%;
+
+  /*max-height:200px;*/
+  width: auto;
+  height: auto;
+  background-position: top;
+
+
+
+  vertical-align: middle;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background position: center center;
+  background-attachment: scroll;
+
+
+  font-size: 3em;
+  font-family: 'IM Fell Great Primer';
+  text-align: center;
+  font-weight: bolder;
+  padding: 100px;
+}
+
+
+
+
+#pop-posts {
+  margin: 0% 0 0 0;
+
+
+}
+#pop-posts h2 {
+  text-align: center;
+  font-weight: bolder;
+  padding: 2%
+}
+
+h2 {
+    font-size: 3em;
+}
+article {
+  vertical-align: top;
+  display: inline-block;
+  width: 25%;
+  margin: 1% 1%;
+  padding: 0 1%;
+  background-color: gray;
+  border-radius: 2%;
+  position: relative;
+}
+
+.pop-post-articles {
+/*min-block-size: 80%;
+max-block-size: 80%;*/
+block-size: 275px;
+
+}
+.join {
+  display: inline-block;
+  text-align: left;
+  float: left;
+  /*max-width: 30%;*/
+  width: 43%;
+  height: 325px;
+  margin: 2% 0;
+  clear: left;
+  background-color: teal;
+  padding: 1%;
+
+}
+
+.join h2 {
+  text-align: center;
+}
+.join p {
+  line-height: 1.2em;
+  font-size: 24px;
+  text-align: justify;
+}
+aside img {
+  display: inline-block;
+  width: 40%;
+  height: 350px;
+  margin: 2% 1%;
+  float: right;
+  top: 0px;
+  vertical-align: middle;
+
+}
+
+.be-cat {
+  background-image: url('/Users/kzell/documents/ada/Week6/meowspace/meowspace/assets/everybody.jpg');
+
+  /*width: 100%;*/
+  /*position: absolute;*/
+  max-width: 100%;
+  display: block;
+  /*max-height:200px;*/
+  width: auto;
+  height: auto;
+  /*background-position: top;*/
+  /*background-size: contain;*/
+ 
+
+
+  vertical-align: middle;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background position: center center;
+  background-attachment: scroll;
+
+
+
+  padding: 100px;
+}
+
+.be-cat h2 {
+  font-size: 6em;
+  font-family: 'IM Fell Great Primer';
+  text-align: center;
+  font-weight: bolder;
+  margin: auto 10%
+}
+
+footer {
+  display: inline-block;
+  background-color: lightgrey;
+  padding-top: 1%
+}
+
+footer h4 {
+  width: auto;
+  margin-right: 1%;
+  margin-bottom: 0em;
+  float: left;
+  clear: right;
+  font-size: 16px;
+  padding-left: 10%
+}
+
+footer p {
+  width: 30%;
+  clear: right;
+  line-height: 1.5em;
+  text-align: justify;
+  display: inline-block;
+}
+
+footer nav {
+  display: inline-block;
+  float: right;
+  width: 30%;
+  margin-right: : 40%;
+  float: right;
+  top: 0px;
+  text-align: left;
+  padding: 1% 15% 0% 10%
+}
+footer li {
+  display: block;
+  padding: 1%;
+  margin: 2%;
+}
