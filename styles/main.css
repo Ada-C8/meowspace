@@ -112,9 +112,12 @@ div #hero {
   font-size: 3em;
   margin-bottom: 2%;
   margin-top: 4%;
-  color:#b11a21;
+  color: #b11a21;
 }
 
+.posts h3 {
+  color: #b11a21;
+}
 article {
   display: inline-block;
   width: 28%;
