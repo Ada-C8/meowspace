@@ -33,6 +33,19 @@ font-family: 'Shrikhand', cursive;*/
 .title-o-s {
   font-family: 'Open Sans', sans-serif
 }
+
+a:hover {
+  text-decoration: underline;
+  color:#de3d83;
+}
+
+a:visited {
+  color: #00b8b8;
+}
+
+a {
+  text-decoration: none;
+}
 /******************/
 /***** HEADER *****/
 /******************/
@@ -55,7 +68,7 @@ header nav {
 }
 
 header li {
-  background-color: yellow;
+  background-color: #f67944;
   font-size: 20px;
   height: 24px;
   width: 6em;
@@ -94,6 +107,7 @@ article {
   border-style: solid;
   border-radius: 5%;
   margin: 2%;
+  background-color: #e0e5db;
 }
 
 article h3 {
@@ -110,7 +124,7 @@ article p:first-of-type {
 }
 
 article p:last-of-type {
-  background-color: yellow;
+  background-color: #f67944;
   border-radius: 15%;
   border-style: solid;
   margin: 0 25%;
