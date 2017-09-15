@@ -20,6 +20,10 @@
   margin: 0 auto;
 }
 
+a:hover {
+  background-color: gold;
+  color: red;
+}
 /********HEADER********/
 /********HEADER********/
 header {
@@ -37,7 +41,8 @@ header h2 {
   color: red;
   float: left;
   bottom: 30%;
-  left: 5%;
+  left: 17%;
+  font-size: 2em;
 }
 
 header a {
@@ -55,7 +60,9 @@ nav li {
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  margin: 3% 10%;
+  margin: 5% 8%;
+  right: 24%;
+  font-size: 1.3em;
 }
 
 /********BANNER IMG********/
@@ -122,6 +129,7 @@ article {
   font-style: italic;
   border-radius: 1.3em;
   background-color: pink;
+  margin-top: 8%;
 }
 
 .multiline-ellipsis h3{
