@@ -1,0 +1,102 @@
+body {
+  padding: 0 3%;
+}
+
+/******************/
+/***** HEADER *****/
+/******************/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: light-blue;
+}
+
+header h2 {
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header li {
+  display: inline-block;
+  postition: relative;
+  background-color: yellow;
+  border-radius: 5%;
+}
+
+/******************/
+/****** MAIN ******/
+/******************/
+
+#banner {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+#banner h1 {
+  color: white;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+}
+
+#banner img {
+  width: 100%;
+}
+
+/******************/
+/***** POSTS ******/
+/******************/
+
+section:nth-of-type(2) h2 {
+  text-align: center;
+}
+
+article {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  height: 250px;
+  border: 3px;
+  border-style: solid;
+  border-radius: 5%;
+  position: absolute;
+}
+
+article h3 {
+  background-color: green;
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+}
+
+article p {
+  font-size: 16px;
+
+}
+
+/******************/
+/*** CLEAR FIX ****/
+/******************/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
