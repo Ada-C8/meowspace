@@ -1,0 +1,254 @@
+/* GENERAL STYLING */
+body {
+  box-sizing: content-box;
+  font-family: helvetica;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+#s-in-title {
+  text-transform: uppercase;
+}
+.spacer {
+  /*Keeps boxes from collapsing when all content is floating*/
+  clear: both;
+}
+
+/* HEADER STYLING */
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 4.5rem;
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgrey;
+  z-index: 5;
+}
+h2 #site-title {
+  color: black;
+  padding-left: 2.5rem;
+  padding-top: 0rem;
+  float: left;
+}
+.header-menu {
+  float: right;
+  padding-top: 0rem;
+  font-weight: 600;
+  color: lightgray;
+  transition: 0.5s;
+}
+.header-menu:hover {
+  float: right;
+  padding-top: 0rem;
+  font-weight: bold;
+  color: #686868;
+  transition: 0.2s;
+}
+a[href="#login"] { padding-right: 2rem; }
+a[href="#signup"] { padding-right: 1rem; }
+
+/* HERO BANNER STYLING */
+section:first-of-type {
+  position: relative;
+  margin-top: 4.5rem;
+  background-image: url("../assets/hero.jpg");
+  height: 30vw;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1:first-of-type {
+  margin: 0px;
+  text-align: center;
+  padding-top: 0rem;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0px 0px 3px #999999;
+  line-height: 30vw;
+  opacity: 0;
+}
+body.showing h1 {
+  opacity: 1;
+  transition: 1.2s;
+}
+
+/* POPULAR POST STYLING */
+section:nth-of-type(2) {
+  margin: auto auto 4vw auto;
+  width: 80%;
+  text-align: center;
+}
+section:nth-of-type(2) h2 {
+  position: sticky;
+  background-color: white;
+  top: 4rem;
+  height: 6vw;
+  min-height: 70px;
+  padding-top: 2rem;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #757575;
+  z-index: 4;
+}
+article {
+  position: relative;
+  display: inline-block;
+  width: 19vw;
+  height: 23vw;
+  min-width: 193.92px;
+  min-height: 234.28px;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  border: 0.07rem solid #757575;
+  text-align: center;
+}
+article h3 {
+  /*next four declarations vertically centers the element*/
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:3.3rem;
+  margin-top: 0rem;
+  height: 3.3rem;
+  padding: 0.2rem 0.1rem 0.2rem 0.1rem;
+  background-color: #FFF9F2;
+  border-radius: 1rem 1rem 0rem 0rem;
+  border-bottom: 0.05rem solid #757575;
+  text-align: center;
+  color: #757575;
+  overflow: hidden;
+}
+article p:first-of-type {
+  margin-top: -1.5rem;
+  margin-bottom: 0rem;
+  height: 12vw;
+  min-height: 115px;
+  padding: 1.5rem 1.2rem 0rem 1.2rem;
+  text-align: justify;
+  color: #757575;
+  overflow: hidden;
+  text-overflow: ellipsis; /*not working/showing*/
+  line-height: 1.3;
+  color: #757575;
+}
+.button {
+  position: relative;
+  background-color: #FFF9F2;
+  height: 1.5rem;
+  width: 10vw;
+  min-width: 93px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.8vw;
+  border: 0.05rem solid #757575;
+  border-radius: 0.8rem;
+  text-align: center;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+.button:hover {
+  background-color: #848484;
+  color: white;
+}
+[href^="#post"] {
+  color: #848484;
+}
+.button:hover [href^="#post"] {
+  color: white;
+}
+
+/* JOIN THE CLUB STYLING */
+section:nth-of-type(3) {
+  background-color: #FFF1E8;
+  min-height: 235px;
+  padding: 3vw 3vw;
+  text-align: center;
+  z-index: 4;
+}
+.text-join-club {
+  display: inline-block;
+  width: 40vw;
+  padding: 0vw 2vw;
+  text-align: left;
+  vertical-align: middle;
+  color: #757575;
+}
+.text-join-club p {
+  margin: 0;
+}
+.text-join-club h2 {
+  margin-top: 0;
+}
+[src="assets/join_club.jpg"] {
+  display: inline-block;
+  width:30vw;
+  min-height: 180.484;
+  min-width: 270.594px;
+  padding: 3vw 5vw;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* EVERYBODY STYLING */
+section:nth-of-type(4) {
+  background-image: url("../assets/everybody.jpg");
+  background-size: 100%;
+  height: 35vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 2rem;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 2px grey;
+}
+section:nth-of-type(4) h2 {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:35vw;
+  margin-top: 0px;
+}
+
+/* FOOTER STYLING */
+footer {
+  padding: 4rem 4rem;
+  min-width: 870px;
+}
+.footer-paragraph {
+  float: left;
+  width: 50%;
+}
+footer h4 {
+  float: left;
+  margin: 0px;
+  margin-right: 4px;
+}
+#disclaimer {
+  width: 100%;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: justify;
+  color: #757575;
+}
+footer nav  {
+  width: 10%;
+  display: inline-block;
+  padding-left: 5vw;
+}
+footer a {
+  color: black;
+}
+footer a:hover {
+  color: #757575;
+}
