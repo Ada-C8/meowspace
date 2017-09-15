@@ -2,11 +2,6 @@ body {
   padding: 0 3%;
 }
 
-.wrapper {
-  width: 70%;
-  margin: 0 auto;
-}
-
 /******************/
 /***** HEADER *****/
 /******************/
@@ -100,7 +95,6 @@ article p:last-of-type {
   border-radius: 5%;
   border-style: solid;
   margin: 0 25%;
-  bottom: 0;
 }
 
 /******************/
