@@ -1,17 +1,19 @@
 /******************/
 /*    GENERAL     */
 /*****************/
-
-
 body {
-  /*font-size: 24px;*/
   font-family: helvetica;
 }
+
 .wrapper {
   width: 80%;
   margin: 0 auto;
 }
 
+.float-left { float: left; }
+.float-right { float: right; }
+/*.center-text {text-align: center; }
+.full-width {width: 100%;}*/
 /******************/
 /*    HEADER     */
 /*****************/
@@ -23,16 +25,24 @@ header{
   background-color: PALEGOLDENROD;
 }
 
+header a{
+  text-decoration: none;
+}
+
 header h2 {
   float: left;
   margin-left: 25px;
+
 }
 
 header ul {
   float: right;
-  text-decoration: none;
   margin-right: 25px;
   margin-top: 27px;
+}
+
+header nav a:hover{
+  color: red;
 }
 
 header li {
@@ -50,12 +60,12 @@ section h1, section h2{
 
 .banner{
   padding-top: 0%;
-  margin-top: auto;
-  padding: 15%;
+  padding: 10%;
 }
 
 .top-banner{
   margin-top: 67px;
+  margin-bottom: 60px;
   background-image: url("../assets/hero.jpg");
 }
 
@@ -63,32 +73,19 @@ section h1, section h2{
   background-image: url("../assets/hero.jpg");
 }
 
-.join h2, .join p{
-  float: left;
-  width: 50%;
-  margin-right: 40px;
-}
-
-.join img {
-  width: 40%;
-  float: right;
-  margin-bottom: 30px;
-}
-
-.articles {
-  padding: 0;
+#popular {
+  margin-bottom: 60px;
+  color: maroon;
 }
 
 .articles li p{
   overflow: hidden;
   width: 200px;
-  /*white-space:nowrap;
-  text-overflow: ellipsis;*/
 }
 
 .articles li a {
-    padding-bottom: 10px;
-    align-content: center;
+  padding-bottom: 10px;
+  align-content: center;
 }
 
 .articles li {
@@ -102,7 +99,8 @@ section h1, section h2{
   border-radius: 10px;
   position: relative;
   margin-bottom: 30px;
-  /*overflow: hidden;*/
+  background-color: lightblue;
+
 }
 
 .articles h3 {
@@ -111,17 +109,20 @@ section h1, section h2{
   padding: 0;
 }
 
-/*.articles p {
-  display: inline-block;
-  height: 50px;
-}*/
 
+.join h2, .join p{
+  float: left;
+  width: 50%;
+  margin-right: 40px;
+  margin-top: 50px;
+  padding 40px;
+}
 
-/******************/
-/* PHOTO GALLERY */
-/*****************/
-
-
+.join img {
+  width: 40%;
+  float: right;
+  margin-bottom: 30px;
+}
 
 /***********/
 /* Footer */
@@ -132,11 +133,6 @@ footer{
   z-index: 1;
   border: 2 solid;
 }
-
-/*#copyright{
-  float: left;
-  width: 80%;
-}*/
 
 #copyright p{
   float: left;
@@ -158,7 +154,7 @@ footer nav {
   width: 40%;
 }
  footer nav a:hover{
-   color: navy;
+   color: red;
  }
 
 
