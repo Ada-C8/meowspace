@@ -61,6 +61,7 @@ header nav a {
   font-family: Trebuchet;
   text-align:center;
   background-size: cover;
+    /*background-attachment: fixed;*/
 }
 .big-text h1 {
   margin-top: 100px;
@@ -122,8 +123,19 @@ article h3 {
   border-style: solid;
   border-width: 1px;
   padding: 10px;
-  border-radius: 30%;
+  border-radius: 10rem;
+  background-color: white;
+  color: teal;
 }
+[href*="post"]:hover {
+  background-color: rgb(242, 121, 190);
+  color: lightpink;
+}
+/*article p {
+  max-height: 100px;
+  margin: 0;
+  overflow: scroll;
+}*/
 
 /* EVERYTHING FOR BOTTOM CONTENT  */
 .bottom-content {
