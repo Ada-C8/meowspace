@@ -2,21 +2,27 @@ body {
   padding: 0 3%;
 }
 
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /******************/
 /***** HEADER *****/
 /******************/
 
 header {
   position: fixed;
-  top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
-  background-color: light-blue;
+  background-color: #FDEED0;
+  height: 70px;
 }
 
 header h2 {
   float: left;
+  font-size: 50px;
 }
 
 header nav {
@@ -27,7 +33,10 @@ header li {
   display: inline-block;
   postition: relative;
   background-color: yellow;
+  height: 2em;
+  width: 6em;
   border-radius: 5%;
+  text-align: center;
 }
 
 /******************/
@@ -105,14 +114,17 @@ article p:last-of-type {
 
 #join-club {
   display: inline-block;
-  float:left;
 }
 
-#join-club h2 {
+#join-club h2{
   text-align: center;
   font-size: 24px;
 }
 
+#join-club img {
+  float: right;
+  width: 50%;
+}
 /******************/
 /*** CLEAR FIX ****/
 /******************/
