@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.float-left {
+  float: left;
+}
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+
+a:hover {
+  background-color: #7acfd6;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+body {
+  font-family: 'Cabin';
+  background-color: #f1f0ee;
+}
+
+/********HEADER********/
+/********HEADER********/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #e0474c;
+  z-index: 100;
+}
+
+header h2 {
+  position: relative;
+  /*left: 10%;*/
+  color: white;
+  float: left;
+  bottom: 30%;
+  left: 17%;
+  font-size: 2em;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  top:10%;
+  float: right;
+  width: 30%;
+  vertical-align: middle;
+}
+
+nav li {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin: 5% 8%;
+  right: 24%;
+  font-size: 1.3em;
+  /*color: white;*/
+}
+
+/********BANNER IMG********/
+/********BANNER IMG********/
+div #hero {
+  position: relative;
+}
+#hero h1 {
+  font-size: 5em;
+  color: white;
+  text-align:center;
+  width: 100%;
+  top: 170px;
+  position: absolute;
+  vertical-align: middle;
+}
+
+#hero {
+  height: 400px;
+  margin-top: 65px;
+  width: 100%;
+  right:0;
+  background-size: cover;
+  background-image: url("https://thegiftforlife.com/wp-content/uploads/2015/09/aboutcat.jpg");
+  background-position: 50% 50%;
+}
+
+/********POPULAR POSTS********/
+/********POPULAR POSTS********/
+
+.posts h2 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 2%;
+  margin-top: 4%;
+  color: #b11a21;
+}
+
+.posts h3 {
+  color: #b11a21;
+}
+article {
+  display: inline-block;
+  width: 28%;
+  vertical-align: top;
+  margin: 2% 2%;
+  /*padding: 0 1.5%;*/
+  background-color: #7acfd6;
+  border-radius: 2em;
+  text-align: center;
+  height: 200px;
+}
+
+.multiline-ellipsis p{
+  display: block;
+  display: -webkit-box;
+  max-width: 400px;
+  /*height: 109.2px;*/
+  margin: 3% 3%;
+  /*font-size: 2;*/
+  line-height: 1.4;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: white;
+}
+
+.posts article p:nth-of-type(2) {
+  border-radius: 1.3em;
+  background-color: #e0474c;
+  margin-top: 8%;
+}
+
+.posts a {
+  color:white;
+  text-decoration: none;
+}
+.multiline-ellipsis h3{
+  border-bottom: medium solid #e0474c;
+  margin: 0;
+  padding: 6% 2%;
+  font-size: 1.3em;
+}
+
+
+/********JOIN THE CLUB********/
+.join-club {
+  /*border: medium dashed #f1f0ee;*/
+  padding: 2%;
+  text-align: center;
+  background-color: #e0474c;
+}
+
+.join-club img {
+  width: 45%;
+  float: right;
+}
+
+.club-text {
+  width: 45%;
+  text-align: justify;
+  font-size: 1.2em;
+  color: white;
+}
+
+.club-text h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+/********EVERYONE WANTS TO BE A CAT********/
+#be-a-cat{
+  background-size: cover;
+  background-image: url("https://iheartdogs.com/wp-content/uploads/2017/04/andrew-branch-126769.jpg");
+  background-position: 50% 50%;
+  height: 360px;
+  /*margin-top: 0px;*/
+}
+
+div #be-a-cat {
+  position: relative;
+  width: 100%;
+}
+
+#be-a-cat h2 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-size: 5em;
+  margin-top:6% ;
+}
+
+#be-a-cat span{
+  display: block;
+}
+
+/********EVERYONE WANTS TO BE A CAT********/
+
+.copy-disclaimer {
+  float: left;
+  width: 30%;
+  margin-left: 15%;
+  font-size: .8em;
+}
+
+footer nav {
+  float: right;
+  width: 10%;
+  margin-right: 25%;
+  position: relative;
+}
+
+footer nav li {
+  list-style-type: circle;
+  display: block;
+  padding: 5%;
+}
+
+footer ul {
+  margin-right: 5%;
+  position: relative;
+}
+
+footer a {
+  color: #b11a21;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color:#b11a21;
+}
