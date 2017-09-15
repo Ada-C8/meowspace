@@ -174,3 +174,30 @@ div #be-a-cat {
 #be-a-cat span{
   display: block;
 }
+
+/********EVERYONE WANTS TO BE A CAT********/
+
+.copy-disclaimer {
+  float: left;
+  width: 30%;
+  margin-left: 15%;
+  font-size: .8em;
+}
+
+footer nav {
+  float: right;
+  width: 10%;
+  margin-right: 25%;
+  position: relative;
+}
+
+footer nav li {
+  list-style-type: circle;
+  display: block;
+  padding: 5%;
+}
+
+footer ul {
+  margin-right: 5%;
+  position: relative;
+}
