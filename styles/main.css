@@ -162,8 +162,17 @@ article {
 }
 
 .club-text {
-  width: 45%
+  width: 45%;
+  text-align: justify;
+  font-size: 1.2em;
 }
+
+.club-text h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+
 
 /********EVERYONE WANTS TO BE A CAT********/
 #be-a-cat{
