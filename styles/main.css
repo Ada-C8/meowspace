@@ -18,10 +18,21 @@ fixed: won't scroll out of view - is removed from the flow of the html document,
 /*background: no-repeat center/80% url("../img/image.png");*/
 
 /*margin collapse -- with vertical margins, the element with the bigger margin sets the distance between the two elements. */
+body {
+  font-family: futura;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
 /**************
  Header Text
 **************/
-
 
 header {
   background-color: grey;
@@ -32,21 +43,25 @@ header {
 }
 
 header h2 {
-  border: 2px black solid;
   float: left;
+  margin-left: 20px;
+  margin-top: 40px;
   text-align: left;
 }
 
 header nav {
-  border: 2px red solid;
   float: right;
+  margin-top: 40px;
+  padding: 0px;
   width: 30%;
 }
 
 header li {
   display: inline-block;
-  border: 1px blue solid;
-  margin-right; 10px;
+  margin-right: 10px;
+  position: relative;
+  left: 150px;
+  top: -16px;
 }
 
 /**************
@@ -64,16 +79,14 @@ header li {
   background-size: contain;
   background-color: purple;
   border: 2px green solid;
-  margin-top: 10%;
+  margin-top: 1%;
   height: 980px;
 }
 
 .top-image h1 {
-  color: green;
-  border: 2px blue dotted;
-  font-size: 3em;
-  height: 80px;
-  margin-top: 450px;
+  color: purple;
+  font-size: 4em;
+  margin-top: 750px;
   text-align: center;
 }
 
@@ -86,15 +99,14 @@ header li {
 }
 
 .blog-posts {
-  position: relative;
   border: 2px green solid;
   padding: 40px;
 }
 
 .blog-posts article {
-  display: inline-block;
   border: 1px silver solid;
   border-radius: 15px;
+  display: inline-block;
   height: 400px;
   margin: 10px 10px;
   padding: 5px;
@@ -111,6 +123,7 @@ header li {
 **************/
 
 .club h2 {
+  border: 1px red solid;
   text-align: center;
 }
 
@@ -119,13 +132,19 @@ header li {
 }
 
 .club p {
+  border: 1px green solid;
   float: left;
-  width: 50%;
+  margin-left: 200px;
+  margin-top: 80px;
+  width: 30%;
 }
 
 .club img {
+  border: 1px blue solid;
+  border-radius: 100%;
   float: right;
-  width: 50%;
+  margin-right: 150px;
+  width: 40%;
 }
 
 /**************
@@ -146,7 +165,6 @@ header li {
 
 .bottom-image h2 {
   color: green;
-  border: 2px blue dotted;
   font-size: 3em;
   height: 80px;
   margin-top: 30px;
@@ -157,25 +175,31 @@ header li {
 /* FOOTER */
 /***********/
 
-header {
+footer {
   background-color: grey;
-  top: 0;
+
   width: 100%;
 }
 
-header h2 {
+footer h4 {
+  padding-top: 40px;
+  text-align: center;
+}
+
+#disclaimer {
   border: 2px black solid;
   float: left;
   text-align: left;
+  width: 50%;
 }
 
-header nav {
+footer nav {
   border: 2px red solid;
   float: right;
   width: 30%;
 }
 
-header li {
+footer li {
   display: inline-block;
   border: 1px blue solid;
   margin-right; 10px;
