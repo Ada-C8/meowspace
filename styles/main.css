@@ -29,6 +29,7 @@ header h2 {
   margin-left: 3%;
   margin-right: 67%;
   font-size: 2em;
+  font-weight: 400;
 }
 
 .head-menu ul {
@@ -82,9 +83,12 @@ header h2 {
 /*Popular Posts Header*/
 .main-posts h2 {
   font-size: 5em;
+  font-weight: 600;
+  /*font-weight: bold;*/
   text-align: center;
   color: #4D3C46;
-  padding-top: 1.7%;
+  padding-top: 1%;
+  margin-bottom: 1%;
 }
 
 .posts-box {
@@ -150,17 +154,20 @@ header h2 {
 }
 
 .join-club h2 {
-  font-size: 2.8em;
+  font-size: 4em;
   color: #4D3C46;
+  margin-bottom: 1%;
 }
 
 .join-club p {
   float: left;
-  width: 350px;
+  width: 600px;
+  text-align: justify;
 }
 
 #join {
   display: inline-block;
+  margin-right: 1%;
 }
 
 .join-club img {
@@ -168,6 +175,7 @@ header h2 {
   height: 30%;
   width: 50%;
   display: inline-block;
+  margin-top: 4%;
 }
 
 .clearfix:after {
