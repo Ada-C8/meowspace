@@ -1,0 +1,224 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack
+
+/*COLORS*/
+/*#FEEDF5 - light pink*/
+/*#F7A3CA - pink*/
+/*#A01355 - bright pink*/
+/*#474647 - dark gray*/
+
+
+/*GENERAL*/
+
+* {
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Asap', sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #FEEDF5;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/*HEADER*/
+
+header {
+  width: 100%;
+  height: 83px;
+  position: fixed;
+  top: 0;
+  background-color: #BCB9B8;
+  z-index: 100;
+}
+
+header h2, header nav, nav li {
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav {
+  position: relative;
+  left: 50%;
+  width: 30%;
+  top: 0;
+}
+
+header nav li {
+  width: 40%;
+}
+
+
+/*MAIN*/
+main {
+  margin-top: 79px;
+}
+
+/*SPOTLIGHTS*/
+h1, #everybody {
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 3rem;
+  color: #A01355;
+}
+
+/*FIRST*/
+h1 {
+  padding: 23%;
+  background-image: url("../assets/cats.jpg");
+}
+
+/*EVERYBODY*/
+#everybody {
+  padding: 9.2%;
+  background-image: url("../assets/cat-breeds.jpg");
+}
+
+/*POPULAR POSTS*/
+#posts {
+  font-size: 2rem;
+  text-align: center;
+  margin: 4% auto;
+  color: #A01355;
+}
+
+main article {
+  display: inline-block;
+  width: 30.5%;
+  background-color: #F7A3CA;
+  margin: 1.1%;
+  vertical-align: top;
+  height: 270px;
+  border-radius: 7%;
+  color: #474647;
+  box-shadow: 5px 5px 5px purple;
+}
+
+main article > div {
+  height: 25%;
+  text-align: center;
+  border-bottom: 3px solid #FEEDF5;
+}
+
+main article h3 {
+  font-size: 1.2rem;
+  position: relative;
+  top: 25%;
+}
+
+/*post text*/
+main article p:first-of-type {
+  height: 55%;
+  padding: 5%;
+  text-align: justify;
+  overflow: scroll;
+}
+
+/*post p with link*/
+main article p:last-of-type {
+  height: 20%;
+  text-align: center;
+}
+
+ /*post link*/
+main article p:last-of-type a {
+  padding: 3%;
+  border: 2px solid #FFF;
+  border-radius: 1rem;
+  text-decoration: none;
+  position: relative;
+  top: 1rem;
+}
+
+/*JOIN THE CLUB section*/
+
+.club div {
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+  vertical-align: middle;
+  margin: 0 2%;
+}
+
+.club h2 {
+  font-size: 1.5rem;
+  margin: .5rem;
+  text-align: center;
+  color: #A01355;
+}
+
+.club div:first-of-type p {
+  height: 77%;
+  overflow: scroll;
+  text-align: justify;
+  padding: 0 .5rem .5rem .5rem;
+}
+
+.club img {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  padding: .5rem;
+}
+
+.club {
+  height: 200px;
+}
+
+/*FOOTER*/
+
+footer .container div {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  font-size: 0.8rem;
+  padding: .5rem;
+  text-align: justify;
+}
+
+#disclaimer, footer h4 {
+  display: inline;
+}
+
+footer .container div:last-of-type {
+  margin: auto;
+}
+
+footer .container ul a {
+  text-decoration: none;
+  font-size: .8rem;
+}
+
+footer li {
+  display: block;
+  margin-bottom: .5rem;
+}
