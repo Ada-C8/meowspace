@@ -66,6 +66,9 @@ footer nav {
   width: 275px;
 }
 
+footer div {
+  float: left;
+}
 
 
 
