@@ -25,15 +25,15 @@ This drawing is called a wireframe. Wireframes are like a blueprint for your sit
 - [X] Add normalize.css
   - Normalize is a popular collection of CSS rulesets used to render elements more consistently across browsers.
   - Go to [https://necolas.github.io/normalize.css/](https://necolas.github.io/normalize.css/), click the red download button, copy and paste the code into a new file called 'normalize.css' and link to it as you would with main.css. The link to normalize.css should come before your main.css.
-- [ ] Use CSS to rearrange the layout to match the drawing as much as possible (it doesn't need to be perfect). You should utilize the following layout techniques at least once:
-  - [ ] Inline Block display
+- [X] Use CSS to rearrange the layout to match the drawing as much as possible (it doesn't need to be perfect). You should utilize the following layout techniques at least once:
+  - [X] Inline Block display
   - [X] Floats
-  - [ ] Fixed Positioning (With the top header)
-- [ ] Add custom styling
-  - [ ] At least one google font
-  - [ ] At least one pseudo selector (like hover)
+  - [X] Fixed Positioning (With the top header)
+- [X] Add custom styling
+  - [X] At least one google font
+  - [X] At least one pseudo selector (like hover)
   - [X] Background color on one section
--  [ ] Identify repeated styles and use CSS selectors and class/id names to organize and DRY your code.
+-  [X] Identify repeated styles and use CSS selectors and class/id names to organize and DRY your code.
 
 
 
