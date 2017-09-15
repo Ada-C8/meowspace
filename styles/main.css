@@ -1,13 +1,39 @@
+body {
+  background-color: #FFFAFA;
+}
+
 a {
   text-decoration: none;
+  color: midnightblue;
+}
+
+p {
+  font-family: 'Poppins';
+  font-weight: lighter;
+  text-align: justify;
+}
+
+h2, h3, h4 {
+  font-family: "Nunito";
+  font-weight: bolder;
+  color: midnightblue;
+}
+
+header a:visited {
+  color: midnightblue;
+}
+
+header a:hover {
+  color: #FFFAFA;
 }
 
 header {
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: white;
+  background-color: salmon;
   z-index: 10;
+  padding: .5em;
 }
 
 header h2 {
@@ -15,6 +41,9 @@ header h2 {
   position: relative;
   width: 55%;
   margin: 1rem 2rem;
+  font-family: 'Rubik', cursive;
+  font-size: 2em;
+  text-shadow: #FFFAFA 1px 0 1px;
 }
 
 header nav {
@@ -34,23 +63,29 @@ header li {
   display: inline;
   margin: 1em .5em;
   text-align: right;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2em;
 }
 
 section#title {
-  margin-top: 4.5em;
+  margin-top: 3.5em;
   height: 25em;
-  background-image: url('../assets/hero.jpg');
-  background-size: cover;
+  background-image: url("../assets/hero.jpg");
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
   padding-top: 10em;
 }
 
 #title h1 {
   position: relative;
-  font-size: 8em;
+  font-size: 7em;
   color: white;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: midnightblue 6px 3px;
+  font-family: 'Rubik', cursive;
 }
 
 section#popular_posts {
@@ -63,6 +98,7 @@ section#popular_posts {
 #popular_posts h2{
   font-size: 4em;
   margin: .5em;
+  font-weight: 600;
 }
 
 article.post {
@@ -73,16 +109,18 @@ article.post {
   height: 18em;
   float: left;
   margin: 1em;
-  border: 2px solid black;
+  border: 4px solid midnightblue;
   border-radius: 5%;
+  overflow: hidden;
 }
 
 .post h3 {
-  border-bottom: 2px solid black;
+  background-color: #fcbdb6;
+  border-bottom: 2px solid midnightblue;
   font-size: 1.5em;
   height: 2em;
   padding: .5em;
-  margin-top: .5em;
+  margin-top: 0em;
   margin-bottom: .5em;
 }
 
@@ -101,16 +139,19 @@ article.post {
   top: .5em;
   width: 9em;
   height: 1em;
-  border: 2px solid black;
+  border: 2px solid midnightblue;
   border-radius: 1em;
   text-align: center;
   padding: .5em;
   margin-bottom: .5em;
+  background-color: salmon;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
 }
 
 section#join_club {
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
+  border-bottom: 2px solid midnightblue;
+  border-top: 2px solid midnightblue;
   padding: 2em;
   overflow: hidden;
   height: 16em;
@@ -119,33 +160,35 @@ section#join_club {
 #join_club h2 {
   display: inline-block;
   position: relative;
-  top: -2.5em;
-  left: .5em;
-  width: 8em;
+  float: left;
+  top: -1em;
+  left: 1em;
+  width: 40%;
   margin: .5em;
   padding: .5em;
   text-align: center;
   font-size: 3em;
+  font-family: 'Poppins';
 }
 
 #join_club p {
   display: inline-block;
   position: relative;
-  top: 3em;
-  right: 24em;
-  width: 17em;
+  float: left;
+  top: 1em;
+  left: -26em;
+  width: 30%;
   padding: 2em;
-  text-align: justify;
 }
 
 #join_club img {
   display: inline-block;
+  float: right;
   position: relative;
-  bottom: 17em;
-  right: -30em;
+  top: -15em;
+  right: 8em;
   height: 16em;
   width: 24em;
-  margin: 2em;
 }
 
 section#aristocat {
@@ -159,7 +202,7 @@ section#aristocat {
   margin: 0;
   font-size: 6em;
   color: white;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px midnightblue;
 }
 
 footer, p#disclaimer, #aristocat h2 {
@@ -172,7 +215,7 @@ footer h4{
   top: 0;
   left: 6em;
   float: left;
-  width: 3em;
+  width: 3.7em;
   margin-bottom: 0;
   margin-right: 1.25em;
   font-size: .8em;
@@ -185,7 +228,6 @@ p#disclaimer {
   top: -.7em;
   left: 5em;
   font-size: .8em;
-  text-align: justify;
 }
 
 footer ul {
