@@ -1,0 +1,188 @@
+
+@import url('https://fonts.google.com/?category=Sans+Serif&query=lekt&selection.family=Lekton');
+
+body {
+  background-color: lavender;
+  color: purple;
+  font-family: futura;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+/**************
+ Header Text
+**************/
+
+header {
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+header h2 {
+  float: left;
+  margin-left: 20px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 40px;
+  padding: 0px;
+  width: 30%;
+}
+
+header li {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  left: 150px;
+  top: -16px;
+}
+
+/**************
+ Main Section
+**************/
+
+/**************
+ Banner Image
+**************/
+
+.top-image {
+  background: url('../assets/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 980px;
+}
+
+.top-image h1 {
+  font-size: 4em;
+  margin-top: 140px;
+}
+
+/*********************
+        posts
+*********************/
+
+.blog-posts {
+  padding: 40px;
+}
+
+.blog-posts article {
+  border: 1px silver solid;
+  border-radius: 15px;
+  display: inline-block;
+  height: 400px;
+  margin: 10px 10px;
+  padding: 5px;
+  vertical-align: top;
+  width: 30%;
+}
+
+
+/**************
+ Join the Club
+**************/
+
+.club p {
+  float: left;
+  margin-left: 200px;
+  margin-top: 80px;
+  width: 30%;
+}
+
+.club img {
+  border-radius: 100%;
+  float: right;
+  margin-right: 150px;
+  width: 40%;
+}
+
+/**************
+ Banner Image
+**************/
+
+.bottom-image {
+  background: url('../assets/everybody.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-top: 10%;
+  height: 1080px;
+  width: 100%;
+}
+
+.bottom-image h2 {
+  font-size: 3em;
+  opacity: .7;
+  padding-top: 30px;
+}
+
+/***********/
+/* FOOTER */
+/***********/
+
+footer {
+  background-color: grey;
+  width: 100%;
+}
+
+footer h4 {
+  padding-top: 40px;
+}
+
+#disclaimer {
+  float: left;
+  font-family: Lekton;
+  font-style: italic;
+  margin-bottom: 150px;
+  margin-left: 50px;
+  text-align: left;
+  width: 70%;
+}
+
+footer nav {
+  float: right;
+  margin-top: 40px;
+  padding: 0px;
+  width: 20%;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  left: 20px;
+}
+
+
+/***********/
+/* CLEARFIX */
+/***********/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
