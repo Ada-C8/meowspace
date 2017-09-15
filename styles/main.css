@@ -1,34 +1,75 @@
-/* header */
+/***********/
+/* COLORS */
+/***********/
 
-header {
-  position: fixed;
-  top: 0px;
-  width: 100%
+/*Silver #bdc3c7 */
+/*Turquois #1abc9c*/
+/*Red #e74c3c*/
+
+
+/***********/
+/* HEADER */
+/***********/
+
+header li {
+  display: inline-block;
 }
 
 header h2 {
-  line-height: 45px;
-  font-size: 2rem;
-  margin: 0;
-  display:inline;
+  float: left;
 }
 
-
-nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-  float:right;
-  display:inline-block;
-}
-
-
-
-
-
-
-
-/*nav {
+header nav {
   float: right;
-  color: blue;
-}*/
+}
+
+
+
+
+
+/***********/
+/*  */
+/***********/
+
+
+
+
+/***********/
+/*  */
+/***********/
+
+
+
+/***********/
+/* Main */
+/***********/
+
+
+
+
+/***********/
+/* Footer */
+/***********/
+
+
+
+
+
+
+
+/***********/
+/* CLEARFIX */
+/***********/
+
+/*.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }*/
