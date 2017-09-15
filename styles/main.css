@@ -4,6 +4,10 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+h3 {
+  font-size: 1.5em;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -117,7 +121,7 @@ main section:nth-of-type(n+2) {
 }
 
 article p:nth-child(2) {
-    height: 60%;
+    height: 50%;
     overflow: scroll;
   }
 
