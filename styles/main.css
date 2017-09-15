@@ -49,12 +49,13 @@ header h2 {
 }
 
 .banner h1 {
-  font-size: 5.45em;
+  font-size: 7.45em;
+  font-weight: 400;
   color: white;
   z-index: 999;
   position: absolute;
-  top: 35%;
-  left: 35%;
+  top: 25%;
+  left: 30%;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                0px 8px 13px rgba(0,0,0,0.1),
                0px 18px 23px rgba(0,0,0,0.1);
@@ -80,7 +81,7 @@ header h2 {
 
 /*Popular Posts Header*/
 .main-posts h2 {
-  font-size: 3em;
+  font-size: 5em;
   text-align: center;
   color: #4D3C46;
   padding-top: 1.7%;
@@ -89,6 +90,7 @@ header h2 {
 .posts-box {
   margin-left: 15%;
   margin-right: 12%;
+  margin-bottom: 2.5%;
 }
 
 .main-posts article {
@@ -118,8 +120,8 @@ header h2 {
 
 .main-posts p:last-of-type {
   text-align: center;
-  width: 100px;
-  margin-left: 35%;
+  width: 150px;
+  margin-left: 29%;
   border-radius: 20px;
   border: 2px solid #4D3C46;
   padding: 1.5%;
@@ -136,7 +138,50 @@ header h2 {
   color: #AA845F;
 }
 
+.seperator {
+  height: 2px;
+  background: #3C2F37;
+}
 
+.join-club {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+
+.join-club h2 {
+  font-size: 2.8em;
+  color: #4D3C46;
+}
+
+.join-club p {
+  float: left;
+  width: 350px;
+}
+
+#join {
+  display: inline-block;
+}
+
+.join-club img {
+  float: right;
+  height: 30%;
+  width: 50%;
+  display: inline-block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
 
 
 
