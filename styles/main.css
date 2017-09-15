@@ -89,8 +89,9 @@ article h3 {
   margin: 5% 0;
 }
 
-article p {
+article p:first-of-type {
   font-size: 18px;
+  height: 50%;
 }
 
 article p:last-of-type {
@@ -100,12 +101,6 @@ article p:last-of-type {
   border-style: solid;
   margin: 0 25%;
   bottom: 0;
-}
-
-.ellipsis {
-  text-overflow: ellipsis;
-
-  overflow: auto;
 }
 
 /******************/
