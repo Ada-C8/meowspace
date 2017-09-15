@@ -94,6 +94,8 @@ h3 {
   margin-bottom: 15px;
   background-color: white;
   padding: 10px;
+  min-height: 250px;
+  vertical-align: top;
 }
 
 .post_para {
@@ -104,9 +106,7 @@ border-top-color: black;
 
 a[href^="#post"] {
   text-decoration: none;
-  border: 1px;
-  border-style: solid;
-  border-color: black;
+  border: 1px solid black;
   border-radius: 20%;
   background-color: #CBF3D2;
   color: #330C2F;
