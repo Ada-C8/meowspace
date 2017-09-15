@@ -6,6 +6,9 @@ main {
 h2 {
     font-family: Anonymous Pro;
 }
+
+/*header*/
+
 header {
     position: fixed;
     top: 0px;
@@ -14,14 +17,12 @@ header {
     width: 100%;
     height: 110px;
     background-color: palegoldenrod;
-
 }
 
 header h2 {
     position: absolute;
     top: 20;
     text-align: left;
-/*    display: inline-block;*/
     width: 70%;
     font-size: 2em;
     margin-left: 10px;
@@ -41,11 +42,9 @@ header a:hover {
 }
 
 header nav {
-/*    text-decoration: none;*/
     width: 20%;
     display: inline-block;
     font-size: 1.5em;
-/*    margin: 10px;*/
 }
 header li {
     margin: 10px;
@@ -61,6 +60,8 @@ header li:nth-of-type(2) {
     right: 25px
 }
 
+
+
 section:first-of-type {
     display: block;
     clear: both;
@@ -68,8 +69,6 @@ section:first-of-type {
     height: 300px;
     background-color:pink;
     background-image: url("../assets/computers.gif");
-/*    background-repeat: no-repeat;*/
-/*    background-position: left top;*/
     background-blend-mode:exclusion;
     background-attachment:fixed;
 }
@@ -135,7 +134,6 @@ section:nth-of-type(2) article {
 section:nth-of-type(2) article p {
     clear: both;
     text-align: center;
-/*    margin: 1em auto;*/
 }
 
 section:nth-of-type(2) article p:first-of-type {
@@ -145,7 +143,6 @@ section:nth-of-type(2) article a {
     clear: both;
     display: inline-block;
     width: 70%;
-/*    margin: 1em;*/
     border: solid;
     border-color: goldenrod;
     background-color: goldenrod;
@@ -165,26 +162,33 @@ section:nth-of-type(2) article a:hover {
     color: dimgray;
 }
 
-section:nth-of-type(2) article:nth-of-type(odd) a:hover {
+section:nth-of-type(2) article:nth-of-type(3) a:hover {
     background-image: url('../assets/great_minds.gif');
     background-repeat: no-repeat;
     background-position: center;
-    padding: 100px;
+    padding-bottom: 7em;
     position: relative;
     top: -7em;
     left: -1.5em;
     color: pink;
 }
+section:nth-of-type(2) article:nth-of-type(3) a:hover::after{
+    content: "secret link!";
+    color:black;
+    background-blend-mode: exclusion;
+    font-style: oblique;
+    font-size: 2em;
+    position: relative;
+    top: 3em;
+}
 section:nth-of-type(3) h2 {
-    
     position: relative;
     font-size: 4em;
     bottom: -70px;
     left: 40px;
     max-width: 35%;
     z-index: -5;
-    margin-left: 40px;
-    font-family: 
+    margin-left: 40px; 
 }
 
 section:nth-of-type(3) h2::after {
@@ -192,29 +196,37 @@ section:nth-of-type(3) h2::after {
 }
 
 section:nth-of-type(3) p {
-/*    clear: left;*/
-/*    display: inline-block;*/
-/*    vertical-align: bottom;*/
     display: inline-flex;
     width: 30%;
-/*    max-height: 200px;*/
-/*    overflow-y:hidden;*/
     text-overflow: ellipsis;
     font-size: 1.25em;
     line-height: 3em;
     margin-left: 100px;
     text-transform: full-width;
 }
+
+section:nth-of-type(3) p:hover {
+    background-image: url('../assets/on_computer.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 350px;
+    text-indent: -9999px;
+    position: absolute;
+    width: 100%;
+    padding: 100%;
+    z-index: -4;
+}
+
+
 section:nth-of-type(3) img {
     float:right;
     position: relative;
     top: -30px;
     width: 40%;
-/*    max-height: 20%;*/
     margin-right: 100px;
     z-index: -5;
     min-height: 300px;
 }
+
 section:nth-of-type(4) {
     clear: both;
     width: 100%;
