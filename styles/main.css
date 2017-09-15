@@ -5,24 +5,29 @@ html {
 body {
   width: 100%;
   margin: 0;
+  /*vertical-align: baseline;*/
 }
 
 .header-container {
-  /*width: 100%;*/
+  width: 100%;
   margin: 0;
   display: block;
-  position: relative
+  position: relative;
+  vertical-align: baseline;
 }
 
 /*h2, h3 {
   margin: 0;
 }*/
 
-/*.header {
-  background:lightcyan;
-  width: 100%;
-  top: 0;
-}*/
+.header {
+  /*vertical-align: baseline;*/
+  /*width: 100%;
+  top: 0;*/
+  position:fixed;
+  z-index: 5;
+  top: 25px;
+}
 
 .logo {
   float: left;
@@ -36,20 +41,22 @@ a {
   color: green;
 }
 
+a:hover {
+  color: red;
+}
+
 li {
   list-style: none;
   display: inline-block;
   padding-right: 3em;
 }
 
-
 .nav {
   float: right;
-  margin-left: 15px;
+  margin-left: 700px;
   font-family:helvetica;
 
 }
-
 
 .hero-image {
   max-width: 100%;
@@ -58,20 +65,23 @@ li {
 
 .hero-container {
   display: block;
-  position: relative;
+  position: absolute;
+  top: 100px;
 }
 
 p.hero-text {
   position: absolute;
   /*top: 550px;
   left: 500px;*/
-  left: 30%;
+  left: 35%;
   top: 60%;
-  font-size: 4em;
+  text-shadow: 2px 2px #ff0000;
+  font-size: 48px;
   font-family:helvetica;
   color: blue;
   margin: 0;
   /*transform: translateY(-50%);*/
+  /*vertical-align: baseline;*/
 }
 
 .main-container {
@@ -79,16 +89,19 @@ p.hero-text {
   margin: 0;*/
   /*display: block;
   position: relative*/
+  /*vertical-align: baseline;*/
 }
 
-div.blogs-container {
+.blogs-container .blogposts {
   width: 83%;
-
-
+  border: 12px solid yellow;
 }
 
 .Posts-section {
-  border: 12px solid #B22222;
+  border: 12px solid darkred;
+  position:absolute;
+  top: 1200px;
+  /*why does the border change to just be around the Popular Posts header when i change absolute to relative?*/
 }
 
 .Popular-Posts-header {
@@ -99,23 +112,49 @@ div.blogs-container {
 }
 
 article {
-  display: inline-block;
-  position: relative;
+  display: inline;
+  position: sticky;
+  width: 275px;
+  height: 250px;
   border: 12px solid green;
   float: left;
 
 }
 
-div.blogposts {
-  display: inline-block;
+/*div.blogposts {
+  display: block;
   position: relative;
   border: 12px dotted black;
-  float: left;
-  width: 275px;
-  height: 400px;
-}
+  float: left;*/
+  /*width: 275px;*/
+  /*height: 400px;*/
+/*}*/
 
 .join-the-club-container {
   display: block;
+  position: absolute;
+  border: 12px dotted blue;
+  top: 1800px;
+}
+
+.join-club-image {
+  max-width: 400px;
+  max-height: auto;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+#first-row {
   position: relative;
+  float:left;
+  border: 12px dashed purple;
+}
+
+#second-row {
+  position: relative;
+  float:left;
+  border: 12px dashed purple;
+  left: 15%;
 }
