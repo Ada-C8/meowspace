@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+
+}
+
+h1 {
+  color: #FFA0AC;
+
+  text-align: center;
+  padding: 200px 0;
+  position: relative;
+  right: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10em
+}
+#container {
+  margin: 200px;
+  margin-top: 80px;
+  margin-left: 300px;
+  margin-bottom: 100px
+}
+
+main section h1 {
+
+    background-image: url("../assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 300px;
+
+}
+
+section h2 {
+  color: #8B687F;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5em
+
+}
+
+main section article {
+  
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+    width: 250px;
+
+    height: 250px;
+    margin: 20px;
+    margin-top: 60px;
+    border: solid 3px;
+    border-radius: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+main section article h3 {
+  border-bottom: solid black 3px;
+
+  text-align: center;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em
+}
+main section article p a {
+position: relative;
+top: 30px;
+
+  display: inline-block;
+
+  border: solid black 3px;
+  border-radius: 10%;
+  text-align: center;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+
+}
+p a[href="#post2"] {
+  position:relative;
+  top: 66px;
+}
+p a[href="#post4"] {
+  position:relative;
+  top: 66px;
+}
+p a[href="#post5"] {
+  position:relative;
+  top: 22px;
+}
+main section article p {
+
+  text-align: center;
+}
+
+
+#container2 h2 {
+  display: inline-block;
+  float: left;
+  position: relative;
+  left: 100px;
+}
+
+#container2 p {
+  font-size: 1.2em;
+  text-align: justify;
+  display: inline-block;
+
+  float: left;
+  width: 350px;
+  height: 150px;
+  position: relative;
+  top: 100px;
+  right: 300px;
+}
+
+#container2 img {
+  display: inline-block;
+  float: right;
+  width: 400px;
+  height: auto;
+  position: relative;
+  right: 100px;
+}
+
+#container3 {
+
+  position:relative;
+  top: 100px;
+}
+#container3 h2 {
+  background-image: url("../assets/everybody.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 100%;
+  height: 300px;
+
+  text-align: center;
+  padding: 200px 0;
+  position: relative;
+  right: 0;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 6em
+}
+
+footer {
+  display: inline-block;
+  float: left;
+  width: 1000px;
+  margin: 100px;
+  position: relative;
+  top: 44px;
+}
+#disclaimer {
+  display: inline-block;
+  float: left;
+  width: 400px;
+}
+footer nav ul li a[href="#contact"] {
+  display: list-item;
+  position: relative;
+  width: 400px;
+  text-align: center;
+  padding: 14px 16px;
+  list-style-type: disc;
+  list-style-position: inside;
+  text-decoration: none;
+  color: lightblue;
+  font-size: 1.2em
+}
+footer nav ul li a[href="#about"] {
+  display: list-item;
+  position: relative;
+  width: 400px;
+  text-align: center;
+  padding: 14px 16px;
+  list-style-type: disc;
+  list-style-position: inside;
+  text-decoration: none;
+  color: lightblue;
+  font-size: 1.2em
+}
+
+header {
+  background-color: lightblue;
+  color: white;
+  float: left;
+  padding: 25px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 1;
+  font-family: 'Roboto', sans-serif;
+  z-index: 5;
+
+}
+
+header li{
+
+  float: right;
+
+}
+header h2 a[href="index.html"] {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  display: inline-block;
+  float: left;
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+nav li {
+  float: right;
+}
+
+nav ul li a[href="#login"] {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: snow;
+  font-size: 2em
+}
+nav ul li a[href="#signup"] {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: snow;
+  font-size: 2em
+}
+
+a:hover {
+  color: purple;
+
+}
