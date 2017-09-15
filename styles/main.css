@@ -59,7 +59,9 @@ main h1 {
 /* Footer */
 /***********/
 
-
+footer h4, footer p {
+  display: inline;
+}
 
 
 
