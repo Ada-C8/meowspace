@@ -89,7 +89,7 @@ article p a[href*=post] {
   background-color: #41B383;
   color: black;
   padding: 3%;
-  border-radius: 10%;
+  border-radius: 2rem;
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -142,8 +142,24 @@ article p {
 /******************/
 #bottom-banner {
   font-family: 'Anton';
-  font-size: 6.5rem;
+  font-size: 5rem;
   text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+main section:nth-child(4) {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background-image: url('../assets/everybody.jpg');
+  background-size: 100% 100%;
+
 }
 
 /*************/
@@ -159,7 +175,7 @@ article p {
   width: 40%;
   margin: 3% 6%;
   vertical-align: middle;
-
+  margin-top: 10;
 }
 
 footer nav {
