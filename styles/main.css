@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+
+a {
+  color: black;
+}
+a:hover {
+  color: #F4D08C
+}
+
+/***********/
+/* HEADER */
+/***********/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: grey;
+  border-style: double;
+  border-color: black;
+}
+
+header nav{
+  width: 40%;
+}
+
+header h2, header nav ul li {
+  display: inline-block;
+}
+
+header h2 a{
+  margin: 0 10%;
+  font-size: 1.5em;
+  font-family: 'Philosopher'
+}
+
+header nav li {
+  margin: 4%;
+  padding: 4%;
+}
+
+/***********/
+/* HERO BANNER */
+/***********/
+section h1 {
+  font-size: 5em;
+  height: 300px;
+  margin: 80px 0 0 0;
+  text-align: center;
+  padding: 50px;
+  background-image: url('../assets/hero.jpg');
+  font-family: 'Philosopher';
+}
+
+
+/***********/
+/* POSTS SECTION */
+/***********/
+section h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+#posts {
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  font-family: 'Philosopher';
+}
+
+article {
+  display: inline-block;
+  width: 22%;
+  margin: 20px 0% 50px 8%;
+  vertical-align: top;
+  text-align: center;
+  height: 300px;
+  position: relative;
+}
+
+article p a {
+  position: absolute;
+  border-width: thin;
+  background-color: white;
+  padding: 3%;
+  top: 240px;
+  right: 28%;
+}
+
+article:nth-of-type(even){
+  background-color: lightgrey;
+  z-index: -1
+}
+
+article:nth-of-type(odd){
+  background-color: #F4D08C;
+  z-index: -1
+}
+
+
+/***********/
+/* JOIN CLUB */
+/***********/
+#join-club {
+  display:inline-block;
+  margin: 0 8%;
+  vertical-align: middle;
+  background-color: lightgrey;
+  font-family: 'Philosopher';
+}
+
+#join-club div {
+  display:inline-block;
+  width: 45%;
+}
+
+img {
+  width: 50%;
+  margin: 20px 0 20px 2%;
+}
+
+/***********/
+/* EVERYBODY WANTS TO BE A CAT */
+/***********/
+
+#be-a-cat {
+  background-image: url('../assets/everybody.jpg');
+  height: 200px;
+  position: relative;
+}
+
+#be-a-cat h2 {
+  font-size: 3em;
+  color: #F4D08C;
+  text-shadow: -2px 0 #000000,0 2px #000000,2px 0 #000000,0 -2px #000000;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  font-family: 'Philosopher'
+}
+
+
+/***********/
+/* Footer */
+/***********/
+#footer-section {
+  background-color: grey;
+  border-style: double;
+  border-color: black;
+}
+
+footer div {
+  width: 50%;
+  display:inline-block;
+  margin:10px 0 0 0;
+}
+
+#disclaimer{
+  font-size: .7em;
+  width: 90%;
+  margin: 0
+}
+
+footer div h4 {
+  display:inline-block;
+  font-size: .5em;
+  margin: 0 5px 0 0
+}
+
+
+footer nav ul li{
+  margin: 10px 10%
+}
+
+footer nav {
+  display: inline-block;
+}
+
+
+/***********/
+/***CLASS VARIABLES ***/
+/***********/
+.background {
+  background-size: cover;
+  background-position: center;
+}
+
+.float_right {
+  float: right;
+}
+
+.float_left {
+  float: left;
+}
+
+.wrapper {
+  width: 84%;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: lightgrey;
+}
+
+/*.grey-bar {
+background-color: grey;
+border-style: double;
+border-color: black;
+}*/
+
+.black-curve-outline {
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
