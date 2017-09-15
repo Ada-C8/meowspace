@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 
+html{
+  background: #f7d4e5;
+}
+
 body {
   margin: 10%;
 }
@@ -10,7 +14,7 @@ a {
 }
 
 a:hover {
-  color: orange;
+  color: lightblue;
 }
 
 p {
@@ -70,17 +74,19 @@ main {
   padding-top: 2%;
   margin-right: 10%;
   margin-left: 10%;
+  background: white;
 }
 
 .banner{
   position: relative;
-  top: auto;
+  /*top: auto;*/
   background-image: url('../assets/hero.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   height: 30em;
   margin: 10%;
   border-bottom: black 10px solid;
+  padding: 0;
 }
 
 .title {
@@ -104,13 +110,19 @@ main {
 
 .popular_posts h2 {
   text-align: left;
-  font-size: 3em;
+  font-size: 3em auto;
   padding-left: 0%;
   font-family: 'Courgette', cursive;
-  border: black 10px solid;
+  border-top: black 10px solid;
+  border-bottom: black 10px solid;
   padding: 2%;
 
 }
+.popular_articles {
+  margin-left: 3%;
+
+}
+
 
 .popular_posts article {
   position: relative;
@@ -138,7 +150,7 @@ main {
 }
 
 .popular_posts a {
-  background: darkgray;
+  background: #fff4f9;
   text-align: center;
   padding: 5%;
   display: inline-block;
@@ -148,6 +160,7 @@ main {
   border-radius: 10px;
   z-index: -100;
   width: 40%;
+  color: #d68dae;
 }
 
 
@@ -156,6 +169,8 @@ main {
 /*Start JOIN THE CLUB Section*/
 #join_club {
   margin: 10%;
+  padding-bottom: 10%;
+  margin-bottom: 20;
 }
 
 #join_club img {
@@ -163,6 +178,7 @@ main {
   float: right;
   margin-left: 10%;
   margin-bottom: 5%;
+
 }
 
 #join_club #right_side {
@@ -171,44 +187,44 @@ main {
   width: 30%;
 }
 
-main section:nth-child(4){
+.everybody_wants{
   clear: both;
-  text-align: center;
-  border: black 1px solid;
-  padding: 10%;
+  position:relative;
+  padding: 5%;
+  border: black 5px solid;
+  /*border-bottom: black 5px solid;*/
   background-image: url("../assets/everybody.jpg");
-  background-size: 100% auto;
-  height: 400px;
-
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20em;
 }
 
-main section h2{
-  font-size: 3em%;
-  margin: 5%;
+.be_a_cat {
+  position: absolute;
+  bottom: 0;
+  right: 12%;
+  text-align: center;
+  font-size: 200%;
+  color: white;
+  font-family: 'Courgette', cursive;
 }
 
 /*footer*/
-
-
 footer {
-  position: relative;
-  bottom: 0;
-  border: black 1px solid;
+  position: absolute;
+  width: 80%;
+  min-height: 12%;
+  border: black 5px solid;
   margin: 10%;
+  margin-top: 0%;
   padding-top: 2%;
   max-height: 10%;
+  max-width: 79.2%;
+  background: black;
+  color: pink;
 }
 
-footer nav {
-  display: inline-block;
-  position: relative;
-  bottom: 10%;
-  left: 10%;
-  color: black;
-  /*right: 10%;*/
-  width: 15%;
-  text-align: center;
-}
 
 footer h4 {
   float: left;
@@ -223,21 +239,29 @@ footer p{
 }
 
 #disclaimer {
+  position: absolute;
+  top: 20%;
+  left: 10%;
   display: inline-block;
   width: 50%;
   margin-top: 0;
-  margin-left: 5%;
   font-size: .8em;
+  border-right: solid;
+  padding-right: 8%;
 }
 
+footer ul {
+  padding-top: 0;
+  margin-top: 0;
 
-
-
-/*
-
-footer
-
-footer p {
+}
+footer nav {
   display: inline-block;
-  width: 30%;
-}*/
+  position: absolute;
+  top: 35%;
+  right: 10%;
+  color: black;
+  /*right: 10%;*/
+  width: 15%;
+  text-align: center;
+}
