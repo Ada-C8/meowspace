@@ -33,9 +33,11 @@ header {
 
 header h2 {
   position: relative;
-  left: 10%;
+  /*left: 10%;*/
   color: red;
   float: left;
+  bottom: 30%;
+  left: 5%;
 }
 
 header a {
@@ -52,6 +54,8 @@ nav {
 nav li {
   display: inline-block;
   vertical-align: middle;
+  position: relative;
+  margin: 3% 10%;
 }
 
 /********BANNER IMG********/
@@ -75,10 +79,8 @@ div #hero {
   width: 100%;
   right:0;
   background-size: cover;
-  /*background-size: 25%;*/
   background-image: url("https://thegiftforlife.com/wp-content/uploads/2015/09/aboutcat.jpg");
   background-position: 50% 50%;
-  /*background-image: url('https://i.pinimg.com/originals/26/07/c7/2607c70ce4f8e76eca556fb49ba347a3.jpg');*/
 }
 
 
@@ -90,13 +92,7 @@ div #hero {
   font-size: 3em;
 }
 
-/*.posts {
-  text-align: center;
-  width: 100%;
-}*/
-
 article {
-  /*border: thin dashed blue;*/
   display: inline-block;
   width: 28%;
   vertical-align: top;
@@ -107,12 +103,6 @@ article {
   text-align: center;
   height: 200px;
 }
-
-/*.posts article p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}*/
 
 .multiline-ellipsis p{
   display: block;
@@ -130,13 +120,12 @@ article {
 
 .posts article p:nth-of-type(2) {
   font-style: italic;
-  /*width: 100%;*/
   border-radius: 1.3em;
   background-color: pink;
 }
 
 .multiline-ellipsis h3{
-  border-bottom: medium dashed green;
+  border-bottom: medium solid green;
   margin: 0;
   padding: 6% 2%;
   font-size: 1.3em;
