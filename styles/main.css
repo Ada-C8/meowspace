@@ -134,7 +134,7 @@ footer {
 		background-color: #FFFAFF;
 		border: 2px solid #303036;
 		border-radius: 1.5rem;
-		box-shadow: 3px 2px 0 #BABAC4;
+		box-shadow: 0 5px 0 #D2D2DD;
 		display: inline-block;
 		height: 21rem;
 		margin: 1rem 1rem 2rem 1rem;
@@ -193,8 +193,7 @@ footer {
 	#posts p:first-of-type {text-align: justify;}
 
 #join {
-	border-bottom: 2px solid #BABAC4;
-	border-top: 2px solid #BABAC4;
+	background-color: #FC5130;
 	margin: 0;
 	padding: 2rem;
  }
@@ -206,23 +205,26 @@ footer {
 
 	#join div {
 		margin: auto;
-		text-align: center;
+		text-align: justify;
 		width: 40%;
 	 }
 
 	#join h2 {
-		color: #FC5130;
+		/*color: #FC5130;*/
+		color: white;
 		font-family: 'Baloo Tammudu', cursive;
 		font-size: 4rem;
 		margin: 0;
+		text-align: center;
 	 }
 
 	#join p {
-		color: #79797F;
+		color: #FFFAFF;
 		font-size: 1.25rem;
 	 }
 
 	#join img {
+		border-radius: 2rem;
 		height: 50%;
 		margin: auto 1rem;
 		min-width: 24rem;
@@ -242,7 +244,7 @@ lighter blue: #68D6FF
 really light blue: #A3E6FF
 charcoal: #303036
 lighter charcoal: #79797F
-light grey: #BABAC4
+light grey: #D2D2DD
 white: #FFFAFF
 orange: #FC5130
 black: #050401*/
