@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body { font-family: Helvetica; background-color: #E8A87C;}
+
+
+.float-left { float: left; }
+.float-right { float: right; }
+.center-text {text-align: center; }
+.full-width {width: 100%;}
+.no_underline{text-decoration: none;}
+
+a[href]:hover { background-color: gold; }
+
+/***********/
+/* HEADER */
+/***********/
+
+header li {
+  display: inline-block;
+  margin: 2% 5%;
+  font-weight: 600;
+  padding: 2%;
+  border-radius: 15%;
+}
+
+header nav {
+  width: 30%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: #C38D9E;
+  z-index: 100;
+}
+
+/* Start main after fixed header */
+main {
+  margin: 70px 0 0 0;
+}
+
+/***********/
+/* HERO */
+/***********/
+
+#hero {
+  height: 600px;
+  position: relative;
+  background-image: url('../assets/hero.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+#hero h1{
+  font-size: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/***********/
+/* POPULAR POSTS */
+/***********/
+#posts article {
+  display: inline-block;
+  width: 28%;
+  vertical-align: top;
+  border-style: solid;
+  border-radius: 5%;
+  margin: 2%;
+  background-color: #E27D60;
+}
+
+#posts h2 {
+  font-size: 4rem;
+  margin: 5% 0 2% 0;
+}
+
+article p a[href*=post] {
+  border-style: solid;
+  background-color: #41B383;
+  color: black;
+  padding: 3%;
+  border-radius: 2rem;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+article {
+  height: 250px;
+  position: relative;
+}
+
+article p {
+  margin: 0;
+  max-height: 100px;
+  overflow: scroll;
+}
+
+/*******************/
+/* JOIN THE CLUB */
+/******************/
+#join-message {
+  height: 350px;
+}
+
+#join-text {
+  display: inline-block;
+  width: 40%;
+  margin: 5%;
+  vertical-align: middle;
+}
+
+#join-text h2 {
+  font-size: 3rem;
+  margin: 0 0 12% 0;
+}
+
+#join-text p {
+  font-size: 1.1rem;
+}
+
+#join-message img{
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+  border-radius: 15%;
+}
+
+/*******************/
+/* BOTTOM BANNER */
+/******************/
+#bottom-banner {
+  font-family: 'Anton';
+  font-size: 5rem;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+main section:nth-child(4) {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background-image: url('../assets/everybody.jpg');
+  background-size: 100% 100%;
+
+}
+
+/*************/
+/*  FOOTER */
+/************/
+
+#copyright h4, #copyright p {
+  display: inline;
+}
+
+#copyright {
+  display: inline-block;
+  width: 40%;
+  margin: 3% 6%;
+  vertical-align: middle;
+  margin-top: 10;
+}
+
+footer nav {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+
+
+/***********/
+/* CLEARFIX */
+/***********/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
