@@ -38,22 +38,16 @@ section h1 {
   text-align: center;
 }
 
+main {
+  margin-top: 70px;
+}
+
 .top-banner {
   background-image: url("http://www.africanskyhunting.co.za/img_trophies/hippo-12b.jpg");
   background-position: bottom center;
   background-repeat: no-repeat;
   padding-top: 200px;
   padding-bottom: 200px;
-}
-
-.bottom-banner {
-  background-image: url("https://wallpapercave.com/wp/A1h3WRa.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-size: 900px;
-  margin-bottom: 20px;
 }
 
 .content {
@@ -67,10 +61,6 @@ section h1 {
 .wrapper {
   width: 70%;
   margin: 0 auto;
-}
-
-main {
-  margin-top: 70px;
 }
 
 /* POPULAR POSTS */
@@ -120,6 +110,16 @@ footer nav {
 
 footer nav ul {
   margin: 0;
+}
+
+.bottom-banner {
+  background-image: url("https://wallpapercave.com/wp/A1h3WRa.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size: 900px;
+  margin-bottom: 20px;
 }
 
 /***********/
