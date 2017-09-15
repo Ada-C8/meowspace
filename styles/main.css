@@ -81,7 +81,7 @@ main section:not(:last-child, :first-child) {
   text-align: center;
   padding: 50px;
   height: 2em;
-  background-image: url("/Users/tanjastroble/Desktop/Week6/meowspace/assets/cogitilt.jpg") ;
+  background-image: url("../assets/cogitilt.jpg") ;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
@@ -187,7 +187,7 @@ img#join-club-pic {
   width: 100%;
   height: 300px;
   color: transparent;
-  background-image: url("/Users/tanjastroble/Desktop/Week6/meowspace/assets/cogitilt.jpg");
+  background-image: url("../assets/cogitilt.jpg");
   background-repeat: repeat;
   background-position: center center;
   background-attachment: fixed;
