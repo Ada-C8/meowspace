@@ -1,24 +1,9 @@
-/*div {
-  margin: 0 auto;*/
-  /*Centers div in containing element. 0 sets the top and bottom margins to 0 pixels. Then the auto value tells the browser to adjust the left and right margins until it's centered.*/
-  /*also need to set a width*/
-/*}
 
-/*position - default is static with block set to the left
-Relative is relative to its default position (use top, bottome, left, right to move it)
-Absolute -- all the other items on the page will ignore it? stuck where it is and will scroll out of view
-fixed: won't scroll out of view - is removed from the flow of the html document, so the thing above it needs to move down*/
+@import url('https://fonts.google.com/?category=Sans+Serif&query=lekt&selection.family=Lekton');
 
-/*z-index -- which elements should layer on top of which other elements*/
-
-/*display: can set it to inline and make an a block element act like an inline one*/
-
-/*float will move things as far to the right or left as possible they need a width specified, otherwise they'll just take up the whole area of their containing element*/
-/*clear*/
-/*background: no-repeat center/80% url("../img/image.png");*/
-
-/*margin collapse -- with vertical margins, the element with the bigger margin sets the distance between the two elements. */
 body {
+  background-color: lavender;
+  color: purple;
   font-family: futura;
 }
 
@@ -28,6 +13,10 @@ a:link {
 
 a:hover {
   color: red;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
 }
 
 /**************
@@ -77,29 +66,19 @@ header li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  background-color: purple;
-  border: 2px green solid;
-  margin-top: 1%;
   height: 980px;
 }
 
 .top-image h1 {
-  color: purple;
   font-size: 4em;
-  margin-top: 750px;
-  text-align: center;
+  margin-top: 140px;
 }
 
 /*********************
         posts
 *********************/
-.main-content h2 {
-  border: 2px red solid;
-  text-align: center;
-}
 
 .blog-posts {
-  border: 2px green solid;
   padding: 40px;
 }
 
@@ -114,25 +93,12 @@ header li {
   width: 30%;
 }
 
-.blog-posts h3 {
-  text-align: center;
-}
 
 /**************
  Join the Club
 **************/
 
-.club h2 {
-  border: 1px red solid;
-  text-align: center;
-}
-
-.club {
-  border: 1px beige dotted;
-}
-
 .club p {
-  border: 1px green solid;
   float: left;
   margin-left: 200px;
   margin-top: 80px;
@@ -140,7 +106,6 @@ header li {
 }
 
 .club img {
-  border: 1px blue solid;
   border-radius: 100%;
   float: right;
   margin-right: 150px;
@@ -156,19 +121,15 @@ header li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  background-color: purple;
-  border: 2px green solid;
   margin-top: 10%;
   height: 1080px;
   width: 100%;
 }
 
 .bottom-image h2 {
-  color: green;
   font-size: 3em;
-  height: 80px;
-  margin-top: 30px;
-  text-align: center;
+  opacity: .7;
+  padding-top: 30px;
 }
 
 /***********/
@@ -177,36 +138,36 @@ header li {
 
 footer {
   background-color: grey;
-
   width: 100%;
 }
 
 footer h4 {
   padding-top: 40px;
-  text-align: center;
 }
 
 #disclaimer {
-  border: 2px black solid;
   float: left;
+  font-family: Lekton;
+  font-style: italic;
+  margin-bottom: 150px;
+  margin-left: 50px;
   text-align: left;
-  width: 50%;
+  width: 70%;
 }
 
 footer nav {
-  border: 2px red solid;
   float: right;
-  width: 30%;
+  margin-top: 40px;
+  padding: 0px;
+  width: 20%;
 }
 
 footer li {
   display: inline-block;
-  border: 1px blue solid;
-  margin-right; 10px;
+  margin-right: 10px;
+  position: relative;
+  left: 20px;
 }
-
-
-
 
 
 /***********/
