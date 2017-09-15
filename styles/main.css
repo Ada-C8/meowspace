@@ -86,6 +86,12 @@ section#title {
   color: white;
   text-shadow: midnightblue 6px 3px;
   font-family: 'Rubik', cursive;
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {opacity: 0}
+  to {opacity: 1}
 }
 
 section#popular_posts {
@@ -115,7 +121,7 @@ article.post {
 }
 
 .post h3 {
-  background-color: #fcbdb6;
+  background-color: #cfe2e2;
   border-bottom: 2px solid midnightblue;
   font-size: 1.5em;
   height: 2em;
@@ -236,4 +242,11 @@ footer ul {
   top: -7.8em;
   float: right;
   width: 45%;
+}
+
+footer li {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  text-decoration-color: midnightblue;
+  padding: 0 .5em;
 }
