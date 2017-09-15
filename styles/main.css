@@ -151,3 +151,33 @@ main section:last-of-type {
   right: 7%;
 
 }
+
+
+/*FOOTER*/
+
+/*#copyright {
+  display: inline;
+}*/
+
+footer h4, footer p {
+  display: inline;
+}
+
+#disclaimer {
+  display: inline-block;
+  width: 40%;
+  margin: 3% 6%;
+  vertical-align: middle;
+  color: floralwhite;
+  font-family: 'Helvetica';
+
+}
+
+footer nav {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+footer p {
+  width 40%
+}
