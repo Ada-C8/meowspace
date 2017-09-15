@@ -1,4 +1,5 @@
 /*general settings*/
+
 body {
   font-family: Rubik;
   width: 100%;
@@ -28,10 +29,9 @@ a {
   float: left;
   font-weight: bold;
   font-family: Bungee Shade;
-  /*transition: linear .5s;*/
-  }
+}
 
-
+/*settings for both fixed header nav and bottom contact nav*/
 
 .nav {
   float: right;
@@ -46,24 +46,22 @@ li {
   padding-right: 1em;
   text-transform: uppercase;
   font-weight: bold;
-
-
 }
-/*create a margin so header doesn't overlap page*/
+
+/*container for body after header*/
+
 .container {
   width: 100%;
   background-color: #6AE470;
 }
 
-/*create an image with meowcats overlaid*/
+/*create an image with meowcats text overlaid to fade in on load*/
 
 .top-logo {
   width: 100%;
   margin-top: 10%;
-  /*padding-bottom: 10em;*/
   display: inline-block;
   background-color: black;
-  /*z-index: -1;*/
 }
 
 .logo-text {
@@ -77,18 +75,13 @@ li {
   width: 95%;
   animation: fadein 5s;
 }
+
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-  }
-
-
-/*popular posts*/
-.content {
-  margin-top: 0;
-  padding-top: 0;
-  background-color: #6AE470;
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
+
+/*blog posts content and links*/
 
 .pop-posts-heading {
   font-family: Bungee Shade;
@@ -99,13 +92,6 @@ li {
   margin: 0;
   padding-top: 1em;
 }
-
-/*.popular-posts h2 {
-  margin-top: 0;
-  font-size: 4em;
-  font-weight: bold;
-  text-align: center;
-}*/
 
 .popular-posts {
   display: flex;
@@ -125,31 +111,27 @@ li {
   border-radius: 15px 50px;
   font-size: 1.5em;
   padding: 1em 1em 1em 1.5em;
-  /*transition: linear .5s;*/
-
 }
 
+/*change background when user hovers over a post*/
 .blog-post:hover {
   background-image: url(https://media.wired.com/photos/59268c5dcfe0d93c474309a2/master/w_2000,c_limit/BSP_054.jpg);
   color: white;
 }
 
+/*change background to gif when user clicks on a post*/
 .blog-post:active {
-background-image: url(../assets/lasercat.gif);
-color: white;
+  background-image: url(../assets/lasercat.gif);
+  color: white;
 }
 
-.blog-post h3 {
-  font-weight: 600;
-}
-
+/*buttons for learning more about a post*/
 
 .blog-post p a {
   font-weight: bold;
   background-color: #FA35EE;
   color: white;
   text-align: center;
-  /*delete this if you want them left */
   display: inline-block;
   text-transform: uppercase;
   width: 40%;
@@ -157,59 +139,39 @@ color: white;
   padding: .5em .5em .5em .5em;
   border-style: solid;
   border-color: #e5e5e5;
-
+  margin-top: 1.5em;
 }
 
-  /*join the club text and picture*/
+/*join the club text and picture*/
 
-  /*.popular-posts {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
+.join-the-club {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-grow: 1;
+  display: inline-block;
+  border-style: solid;
+  margin: 1.75em;
+  text-align: left;
+  border-radius: 15px 50px;
+  font-size: 1.5em;
+  padding: 4em 2em;
+  background-image: url(http://pop.h-cdn.co/assets/17/32/980x490/landscape-1502116330-1500909056.jpg);
+  color: #25f99d;
+}
 
-  .blog-post{
-    flex-grow: 1;
-    height: 18em;
-    width: 25%;
-    display: inline-block;
-    border-style: solid;
-    margin: 15px;
-    background-color: #FA05EA;
-    text-align: left;
-    border-radius: 15px 50px;
-    font-size: 1.5em;
-    padding: 1em 1em 1em 1.5em;
-    /*transition: linear .5s;*/
+.join-the-club:hover {
+  background-image: url(https://cdn.spacetelescope.org/archives/images/screen/heic0809c.jpg);
+  background-color: blue;
+  color: white;
+}
 
-  .join-the-club {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    flex-grow: 1;
-    display: inline-block;
-    border-style: solid;
-    margin: 1.75em;
-    text-align: left;
-    border-radius: 15px 50px;
-    font-size: 1.5em;
-    padding: 4em 2em;
-    background-image: url(http://pop.h-cdn.co/assets/17/32/980x490/landscape-1502116330-1500909056.jpg);
-    color: #25f99d;
-  }
-
-  .join-the-club:hover {
-    background-image: url(https://cdn.spacetelescope.org/archives/images/screen/heic0809c.jpg);
-    background-color: blue;
-    color: white;
-  }
-
-  .join-the-club-text {
-    width: 30%;
-    float: left;
-    margin-left: 3em;
-    font-size: 1em;
-  }
+.join-the-club-text {
+  width: 30%;
+  float: left;
+  margin-left: 3em;
+  font-size: 1em;
+}
 
 .join-the-club-image{
   width: 55%;
@@ -223,10 +185,10 @@ color: white;
   font-size: 2.5em;
   color: magenta;
   text-align: center;
- font-family: Bungee Shade;
- display: flex;
-justify-content: center;
-align-items: center;
+  font-family: Bungee Shade;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*footer and disclaimer */
@@ -237,7 +199,6 @@ align-items: center;
   top: 0;
   margin: 0;
   display: inline-block;
-
 }
 
 .footer-container .disclaimer {
@@ -249,15 +210,14 @@ align-items: center;
   float: left;
   width: 45%;
   margin-left: 3em;
+}
 
-  }
+.contact {
+  background-color: #6AE470;
+  margin-top: 3em;
+  float: right;
+}
 
-  .contact {
-    background-color: #6AE470;
-    margin-top: 3em;
-    float: right;
-
-  }
 .contact li {
   font-size: 1.75em;
   color: black;
@@ -265,5 +225,4 @@ align-items: center;
   float: left;
   margin-left: 35px;
   padding-right: 3em;
-
 }
