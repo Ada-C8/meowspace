@@ -1,0 +1,183 @@
+* {
+  font-family: 'IM Fell Great Primer', serif;
+}
+
+header {
+  background-color: #CBF3D2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+#title, .intro_links {
+  color: #330C2F;
+}
+
+#title:hover, .intro_links:hover {
+  color: #7B287D;
+}
+
+#title {
+  color: #330C2F;
+  font-size: 2em;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.intro_links {
+  font-size: 1em;
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+main {
+  margin-top: 100px;
+  background-color: lightgray;
+}
+
+#hero_banner {
+  background-image: url("../assets/hero.jpg");
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  z-index: 1;
+}
+
+#cover_title {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
+
+#post_title {
+  text-align: center;
+  font-size: 40px;
+}
+
+#post_section {
+  display: inline-block;
+}
+
+#post_container {
+  align-content: center;
+  margin: 30px;
+  padding: 1px 30px 10px 30px;
+}
+
+h3 {
+  margin: 5px;
+}
+.post {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20%;
+  width: 22%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 10px;
+  min-height: 250px;
+  vertical-align: top;
+}
+
+.post_para {
+border-top: 2px;
+border-top-style: solid;
+border-top-color: black;
+}
+
+a[href^="#post"] {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 20%;
+  background-color: #CBF3D2;
+  color: #330C2F;
+  padding: 3px;
+}
+
+#club_div {
+  float: left;
+  width: 45%;
+  padding: 50px;
+  text-align: center;
+}
+
+#club_div p {
+  font-size: 20px;
+}
+
+#club_title, #club_title p {
+  display: inline;
+
+}
+
+#club_image {
+  float: right;
+  width: 40%;
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 15%;
+}
+
+#everybody {
+  clear: both;
+  background-image: url("../assets/everybody.jpg");
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  z-index: 1;
+}
+
+#everybody_title {
+  font-size: 65px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  background-color: #CBF3D2;
+  height: 100%;
+  display: inline-block;
+
+}
+
+#footer_section {
+  float: left;
+  width: 45%;
+  padding: 30px;
+}
+
+h4, #disclaimer {
+  display: inline;
+}
+
+#about, #contact {
+  float: right;
+  width: 45%;
+  padding: 20px;
+}
+
+#about:visited, #contact:visited {
+color: #7B287D;
+}
