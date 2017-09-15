@@ -1,6 +1,7 @@
-* {
+/** {*/
   /*border: 1px solid lawngreen;*/
-}
+/*}*/
+
 body {background-color: #FFFAFF;}
 
 
@@ -51,22 +52,20 @@ header {
 		 }
 
 	header nav {
-		display: inline-block;
 		float: right;
 		width: 45%;
 	}
 
 	header ul {
-		display: inline-block;
 		float: right;
+		list-style: none;
 		margin: 1rem 10%;
 		min-width: 12rem;
-		list-style: none;
 	 }
 
 footer {
 	display: inline-block;
-	margin: 1rem auto;
+	margin: 1rem 5%; /*why won't "margin: 1rem auto;" center this??*/
 	width: 90%;
  }
 
@@ -93,14 +92,7 @@ footer {
     text-decoration: none;
   }
 
-.textpic {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	min-width: 48rem;
- }
-
-	.textpic h1 {
+	h1 {
 		color: #FFFAFF;
 		display: block;
 		font-family: 'Baloo Tammudu', cursive;
@@ -108,7 +100,14 @@ footer {
 		margin: auto;
 		position: relative;
 		top: 40%;
-	 }
+	}
+
+.textpic {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-width: 48rem;
+ }
 
 #hero {
 	background-image: url(../assets/hero.jpg);
@@ -125,18 +124,20 @@ footer {
 	flex-flow: row wrap;
 	margin: 5rem auto;
 	max-width: 50rem;
+	min-width: 16rem;
 	text-align: center;
 	width: 80%;
  }
 
 	#posts article {
 		background-color: #FFFAFF;
-		border-radius: 1.5rem;
 		border: 2px solid #303036;
+		border-radius: 1.5rem;
 		box-shadow: 3px 2px 0 #BABAC4;
 		display: inline-block;
 		height: 21rem;
 		margin: 1rem 1rem 2rem 1rem;
+		min-width: 14rem;
 		width: 14rem;
 	 }
 
@@ -217,7 +218,6 @@ footer {
 	 }
 
 	#join img {
-		float: right;
 		height: 50%;
 		margin: auto 1rem;
 		min-width: 24rem;
