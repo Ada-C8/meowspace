@@ -29,10 +29,10 @@ header nav ul li {
 }
 
 
-header nav ul li a{
+header nav ul li a {
   text-decoration: none;
   color: white;
-        font-size: 35px;
+    font-size: 35px;
 
 }
 
@@ -52,7 +52,18 @@ main section:first-child {
   width: 100%;
   margin-top:-45px;
   padding: auto;
+
 }
+
+main section:first-child:hover {
+ -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+section article:hover {
+ background-color: gainsboro;
+}
+
 
 
 main section h1 {
@@ -61,6 +72,11 @@ main section h1 {
   font-family: Zilla Slab Highlight;
   font-size: 120px;
   margin-top: 140px;
+}
+
+main section:first-child:hover h1 {
+ -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 /*--------Popular Posts---------*/
@@ -72,6 +88,8 @@ body main section:nth-child(2){
 
 body main section:nth-child(2) h2 {
   text-align: center;
+    font-size: 40px;
+
 }
 
 section article {
@@ -83,7 +101,6 @@ section article {
   margin: .5%;
   height: 350px;
   min-width: 250px;
-
 }
 
 section article p:first-of-type {
@@ -94,7 +111,6 @@ section article p:first-of-type {
   margin-top: 10;
   height: 95px;
   font-size: 20px;
-
 }
 
 
@@ -116,16 +132,16 @@ section h3 {
   text-align: center;
   padding: 0px 0px 17px 0px;
   border-bottom: 1px solid #000;
-
 }
-/*-------------------------------*/
+
+
 body main section:nth-of-type(3) {
     border-top: 3px solid black;
     margin-top: 2%;
 }
 
 
-span:first-of-type{
+span:first-of-type {
   width: 40%;
   float: left;
   margin-left: 50px;
@@ -133,14 +149,14 @@ span:first-of-type{
 }
 
 
-span h2{
+span h2 {
     text-align: center;
     font-size: 250%;
-    margin-top: 3%;
+    margin-top: 1%;
     margin-bottom: 3%;
 }
 
-span p{
+span p {
     text-align: center;
     font-size: 150%;
 }
@@ -152,7 +168,7 @@ span:last-child {
 }
 
 
-span img{
+span img {
   display: inline-block;
     width: 50%;
     overflow: hidden;
@@ -160,6 +176,11 @@ span img{
     margin-bottom: 20px;
     height: 550px;
     width: 500px;
+}
+
+span img:hover {
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 
@@ -178,31 +199,50 @@ body main section:nth-of-type(4) {
     text-align: center;
     font-family: Zilla Slab Highlight;
     font-size: 60px;
-    top: 45%;
+    top: 53%;
     position: relative;
 }
 
 /*---------------------------------*/
-body footer {
-  background-color: yellow;
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
 }
 
-footer div:nth-of-type(1) {
-    background-color: lightblue;
-    display: block;
+footer span:nth-of-type(1) {
+    background-color: black;
+    color: white;
+/*    display: block;*/
     float: left;
     height: 10%;
     width: 60%;
-    margin-right: 25%;
     margin-left: 5%;
+    margin-top: 0%;
   }
 
 
-footer div:nth-of-type(2) {
-    background-color: lightblue;
+footer span:nth-of-type(2) {
+    background-color: black;
+    color: white;
     float: right;
     height: 10%;
     width: 20%;
-    margin-right: 5%;
-    margin-left: 25%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+footer span p {
+    font-size: 12px;
+}
+
+footer span h4 {
+    font-size: 12px;
+}
+
+
+footer span li a:link {
+    background-color: black;
+    color: white;
+    font-size: 20px;
 }
