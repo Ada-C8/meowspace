@@ -1,0 +1,250 @@
+/** {*/
+  /*border: 1px solid lawngreen;*/
+/*}*/
+
+body {background-color: #FFFAFF;}
+
+p {
+	color: #303036;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+ }
+
+header {
+	background-color: #303036;
+	display: inline-block;
+	height: 4rem;
+	min-width: 27rem;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+ }
+
+	header a {
+		color: #30BCED;
+		text-decoration: none;
+	 }
+
+	header h2 {
+		display: inline-block;
+		font-family: 'Baloo Tammudu', cursive;
+		font-size: 2rem;
+		margin: auto 0 auto 5%;
+		position: relative;
+		top: 1.2rem;
+		width: 30%;
+	 }
+
+	header li {
+		display: inline-block;
+		font-family: 'Josefin sans', sans-serif;
+		font-weight: normal;
+		margin: .5rem;
+	 }
+
+		header li a {
+			color: #FFFAFF;
+			margin: 0 1rem;
+			text-decoration: none;
+		 }
+
+		 	header li a[href="#signup"] {color: #30BCED;}
+
+		 	header li a:hover {color: #A3E6FF;}
+
+	header nav {
+		float: right;
+		width: 45%;
+	}
+
+	header ul {
+		float: right;
+		list-style: none;
+		margin: 1rem 10%;
+		min-width: 12rem;
+	 }
+
+footer {
+	display: inline-block;
+	margin: 1rem 5%; /*why won't "margin: 1rem auto;" center this??*/
+	width: 90%;
+ }
+
+	footer div {
+		display: inline-block;
+		font-size: .75rem;
+		width: 50%;
+	 }
+
+	footer h4, footer p {display: inline;}
+
+	footer nav {
+		display: inline-block;
+		margin: 0 5rem;
+	}
+
+  footer ul {
+		display: inline-block;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  footer a {
+    color: #30BCED;
+    text-decoration: none;
+  }
+
+	h1 {
+		color: #FFFAFF;
+		display: block;
+		font-family: 'Baloo Tammudu', cursive;
+		font-size: 6rem;
+		margin: auto;
+		position: relative;
+		top: 40%;
+	}
+
+.textpic {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-width: 48rem;
+ }
+
+#hero {
+	background-image: url(../assets/hero.jpg);
+	height: 30rem;
+	margin: 0 0 4rem 0;
+	position: relative;
+	text-align: center;
+	top: 4rem;
+ }
+
+#posts {
+	/*display: inline-block;*/
+	display: flex;
+	flex-flow: row wrap;
+	margin: 5rem auto;
+	max-width: 50rem;
+	min-width: 16rem;
+	text-align: center;
+	width: 80%;
+ }
+
+	#posts article {
+		background-color: #FFFAFF;
+		border: 2px solid #303036;
+		border-radius: 1.5rem;
+		box-shadow: 0 5px 0 #D2D2DD;
+		display: inline-block;
+		height: 21rem;
+		margin: 1rem 1rem 2rem 1rem;
+		min-width: 14rem;
+		width: 14rem;
+	 }
+
+	#posts h2 {
+		color: #30BCED;
+		display: block;
+		font-family: 'Baloo Tammudu', cursive;
+		font-size: 3rem;
+		margin: 2rem auto 1rem auto;
+		padding: 1rem 1rem 0 1rem;
+		width: 100%;
+	 }
+
+.post-title {
+	background-color: #FC5130;
+	border-top-left-radius: 1.38rem;
+	border-top-right-radius: 1.38rem;
+	height: 6rem;
+	margin: 0;
+	padding: 1px;
+ }
+
+	.post-title h3 {
+		color: #FFFAFF;
+		font-family: 'Josefin sans', sans-serif;
+		font-size: 1.5rem;
+		margin: auto;
+		padding: 1rem;
+		position: relative;
+		top: .5rem;
+	 }
+
+#posts a {
+	background-color: #30BCED;
+	border-radius: 1rem;
+	color: #FFFAFF;
+	font-family: sans-serif;
+	padding: .5rem 1rem;
+	position: relative;
+	text-decoration: none;
+ }
+
+ #posts a:hover {
+	 background-color: #0097CE;
+ }
+
+#posts p {
+	height: 10.5rem;
+	margin: 1rem; /*text-align: justify;*/
+ }
+
+	#posts p:first-of-type {text-align: justify;}
+
+#join {
+	background-color: #FC5130;
+	margin: 0;
+	padding: 2rem;
+ }
+
+	#join .container {
+		display: flex;
+		width: 80%;
+	 }
+
+	#join div {
+		margin: auto;
+		text-align: justify;
+		width: 40%;
+	 }
+
+	#join h2 {
+		/*color: #FC5130;*/
+		color: white;
+		font-family: 'Baloo Tammudu', cursive;
+		font-size: 4rem;
+		margin: 0;
+		text-align: center;
+	 }
+
+	#join p {
+		color: #FFFAFF;
+		font-size: 1.25rem;
+	 }
+
+	#join img {
+		border-radius: 2rem;
+		height: 50%;
+		margin: auto 1rem;
+		min-width: 24rem;
+		width: 50%;
+	 }
+
+#tail {
+	background-image: url(../assets/everybody.jpg);
+	height: 30rem;
+	text-align: center;
+ }
+
+/*Colors:*/
+/*light blue: #30BCED
+darker blue: #0097CE
+lighter blue: #68D6FF
+really light blue: #A3E6FF
+charcoal: #303036
+lighter charcoal: #79797F
+light grey: #D2D2DD
+white: #FFFAFF
+orange: #FC5130
+black: #050401*/
