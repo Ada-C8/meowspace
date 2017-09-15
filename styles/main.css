@@ -1,7 +1,38 @@
-body {
-  padding: 0 3%;
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shrikhand', cursive;*/
+
+.float-left {
+  float: left;
 }
 
+.float-right {
+  float: right;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.display-i-b {
+  display: inline-block;
+}
+
+.title-o-s {
+  font-family: 'Open Sans', sans-serif
+}
 /******************/
 /***** HEADER *****/
 /******************/
@@ -10,66 +41,52 @@ header {
   position: fixed;
   width: 94%;
   z-index: 100;
-  background-color: #FDEED0;
-  height: 70px;
+  background-color: #e0e5db;
+  height: 100px;
 }
 
-header h2 {
-  float: left;
+header h2 > a {
   font-size: 50px;
   margin-left: 4%;
+  padding-top: -2%;
 }
-
 header nav {
-  float: right;
   margin-right: 8%
 }
 
 header li {
-  display: inline-block;
-  postition: relative;
   background-color: yellow;
   font-size: 20px;
   height: 24px;
   width: 6em;
   border-radius: 5%;
-  text-align: center;
 }
 
 /******************/
 /****** MAIN ******/
 /******************/
 
-#banner {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-}
-
 #banner h1 {
   color: white;
-  position: absolute;
   height: 100%;
-  width: 100%;
   top: 30%;
-  text-align: center;
   font-size: 100px;
+  font-family: 'Shrikhand', cursive;
+  color: #de3d83;
 }
 
 #banner img {
-  width: 100%;
+  margin-top: 120px;
 }
 
 /******************/
 /***** POSTS ******/
 /******************/
 section:nth-of-type(2) h2 {
-  text-align: center;
   font-size: 40px;
 }
 
 article {
-  display: inline-block;
   vertical-align: top;
   width: 25%;
   height: 300px;
@@ -80,8 +97,6 @@ article {
 }
 
 article h3 {
-  position: relative;
-  text-align: center;
   font-size: 24px;
   height: 20%;
   border-bottom-style: solid;
@@ -95,39 +110,34 @@ article p:first-of-type {
 }
 
 article p:last-of-type {
-  text-align: center;
   background-color: yellow;
-  border-radius: 5%;
+  border-radius: 15%;
   border-style: solid;
   margin: 0 25%;
+  padding: 2px 0;
 }
 
 /******************/
 /*** JOIN CLUB ****/
 /******************/
 #join-club {
-  position: relative;
-  display: inline-block;
   width: inherit;
   border-top-style: solid;
   border-bottom-style: solid;
   margin: 2% 0 4%;
-  padding: 4% 0 2%;
+  padding: 4% 0 ;
 }
 
 #join-club h2 {
-  text-align: center;
   font-size: 24px;
 }
 
 #join-club img {
-  float: right;
   width: 40%;
   margin-right: 8%;
 }
 
 #club-wrapper {
-  float:left;
   width: 40%;
   margin-left: 8%;
 }
@@ -136,23 +146,11 @@ article p:last-of-type {
 /***** ENDING *****/
 /******************/
 
-#end {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-}
-
 #end h2 {
   color: white;
-  position: absolute;
   height: 100%;
-  width: 100%;
   top: -15%;
   font-size: 100px;
-}
-
-#end img {
-  width: 100%;
 }
 
 /******************/
@@ -164,13 +162,15 @@ footer {
 }
 
 footer p {
-  float: left;
   margin-left: 10%;
   width: 40%;
 }
 
+footer h4 {
+  margin-left: 10%;
+}
+
 footer ul {
-  float: right;
   margin-right: 30%;
   font-size: 24px;
 }
