@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -11,7 +13,6 @@
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 
-
 .float-left {
   float: left;
 }
@@ -20,10 +21,17 @@
   margin: 0 auto;
 }
 
+
+
 a:hover {
   background-color: gold;
   color: red;
 }
+
+body {
+  font-family: 'Cabin';
+}
+
 /********HEADER********/
 /********HEADER********/
 header {
@@ -90,13 +98,14 @@ div #hero {
   background-position: 50% 50%;
 }
 
-
 /********POPULAR POSTS********/
 /********POPULAR POSTS********/
 
 .posts h2 {
   text-align: center;
   font-size: 3em;
+  margin-bottom: 2%;
+  margin-top: 4%;
 }
 
 article {
@@ -176,7 +185,7 @@ div #be-a-cat {
   color: white;
   width: 100%;
   font-size: 5em;
-  margin-top:10% ;
+  margin-top:6% ;
 }
 
 #be-a-cat span{
