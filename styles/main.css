@@ -1,0 +1,232 @@
+/*MEOWSPACE*/
+
+/*font-family: 'Bowlby One SC', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Ribeye Marrow', cursive;
+font-family: 'Miltonian', cursive;*/
+
+html {
+  overflow-x:hidden;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.main-container{
+  margin-top: 70px;
+}
+
+.header {
+  vertical-align: middle;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 5
+}
+
+.logo {
+  float: left;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 30px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+.header-links {
+  float: right;
+}
+
+nav li {
+  font-family:'Bowlby One SC', cursive;
+  display: inline-block;
+  padding-right: 3em;
+}
+
+footer {
+  display: block;
+}
+
+.footer-links {
+  list-style: circle;
+  display: inline-block;
+  position:relative;
+  width: 300px;
+  left: 600px;
+  margin-top: 0;
+}
+
+.footer-links ul {
+  float:right;
+  /*border: 12px dotted yellow;*/
+  width: 50px;
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+.copyright-disclaimer-box {
+  display: inline-block;
+  position:absolute;
+  width: 400px;
+  left: 375px;
+  margin-top: 20px;
+  /*border: 12px dotted yellow;*/
+  font-family: Helvetica;
+}
+
+.copyright {
+  display: inline;
+  position:relative;
+  border: 1px solid blue;
+  float: left;
+
+}
+.copyright h4{
+  display: inline;
+  width: 10px;
+  margin: 0;
+  margin-right: 5px;
+}
+
+#disclaimer {
+  margin-top: 0px;
+}
+
+.hero-container {
+  display: block;
+}
+
+.hero-image {
+  max-width: 100%;
+  max-height: auto;
+}
+
+
+p.hero-text {
+  position: absolute;
+  left: 30%;
+  top: 640px;
+  text-shadow: 2px 2px #ff0000;
+  font-size: 80px;
+  font-family:'Faster One', cursive;
+  color: white;
+  margin: 0;
+}
+
+.hero-text > p {
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.posts-section, .popular-posts-header{
+  display: block;
+}
+
+.popular-posts-header {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  font-family:'Bowlby One SC', cursive;
+}
+
+
+article {
+  width: 300px;
+  height: 270px;
+  float: left;
+  border-radius: 20%;
+  border: 4px dotted purple;
+}
+
+article h3 {
+  text-align: center;
+}
+
+article p {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+#first-row article {
+  margin-left:115px;
+  margin-bottom: 25px;
+}
+
+#second-row article {
+  margin-left:115px;
+  margin-bottom: 25px;
+}
+
+.join-the-club-container {
+  display: block;
+  /*border: 12px dotted blue;*/
+  margin: 50px;
+}
+
+.join-the-club-text {
+  display: inline-block;
+  width: 400px;
+  border: 12px solid orange;
+  padding: 20px;
+  margin: 10px;
+  vertical-align: middle;
+  position: relative;
+  left: 109px;
+}
+
+.join-the-club-header {
+  position: relative;
+  display: inline;
+  left: 120px;
+}
+
+.join-club-image {
+  display: inline-block;
+  max-width: 390px;
+  max-height: auto;
+  margin:0;
+  vertical-align: middle;
+  position: relative;
+  left: 250px;
+}
+
+p {
+  line-height: 1.4em;
+  /*margin-left: 9px;
+  margin-right: 9px;*/
+}
+
+.everyone-wants-to-be img {
+  display: block;
+  width: 100%;
+}
+
+.everyone-wants-to-be h2 {
+  position: absolute;
+  margin: 0;
+  font-size: 5em;
+  color:white;
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  padding-left: 15%;
+  padding-top: 40%;
+  text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
+}
+
+.clear-floats {
+  clear:both;
+}
