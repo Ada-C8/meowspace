@@ -12,7 +12,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  animation: fade 2s;
+  animation: fade 3s;
 }
 
 h2 {
@@ -90,12 +90,12 @@ main {
 }
 
 .banner:first-child {
-  background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ),url(../assets/cats-sausage.jpg) no-repeat center center;
+  background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ),url('http://res.cloudinary.com/laurarobertson/image/upload/v1511920621/cats-sausage_oup5sr.jpg') no-repeat center center;
   background-size: cover;
 }
 
 .banner:last-child {
-  background: linear-gradient( rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) ),url(../assets/cat-lick.jpg) no-repeat center center;
+  background: linear-gradient( rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) ),url('http://res.cloudinary.com/laurarobertson/image/upload/v1511920639/cat-lick_thglz0.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -177,7 +177,7 @@ footer article{
   margin: 0 auto;
 }
 
-footer p, footer nav{
+footer p, footer nav {
   width: 49%;
   display: inline-flex;
 }
