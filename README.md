@@ -2,6 +2,9 @@
 
 This is an individual, [stage 2](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md) project.
 
+## Preview
+![Meowspace murog](https://github.com/murog/Static-Site/blob/master/assets/waow_meow.gif)
+
 ## Learning Goals
 - Practice Layout Techniques
 - Have DRY, readable CSS code using CSS selectors with classes and ids
